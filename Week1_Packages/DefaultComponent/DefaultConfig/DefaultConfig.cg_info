@@ -1,0 +1,51 @@
+I-Logix-RPY-Archive version 8.15.0 * 202002261110
+
+- m_fileModifyTime = { IRPYRawContainer 
+	- size = 6;
+	- value = "DefaultComponent\\DefaultConfig\\Car.cpp" 3.26.2024::10:3:1
+	"DefaultComponent\\DefaultConfig\\Car.h" 3.26.2024::10:3:1
+	"DefaultComponent\\DefaultConfig\\Cloud.cpp" 3.26.2024::10:3:1
+	"DefaultComponent\\DefaultConfig\\Cloud.h" 3.26.2024::10:3:1
+	"DefaultComponent\\DefaultConfig\\Engine.cpp" 3.26.2024::10:3:0
+	"DefaultComponent\\DefaultConfig\\Engine.h" 3.26.2024::10:3:0
+	
+}
+- m_saveUnitAndOwnerSaveUnit = { IRPYRawContainer 
+	- size = 2;
+	- value = "GUID 2e52aef9-07c6-47a6-850b-48242b521712" "GUID 4508c7db-066b-4f3c-9bd8-fdddf1920e3c"
+	"GUID c0dca2f9-0819-43ac-a180-f7196283223d" "GUID 4508c7db-066b-4f3c-9bd8-fdddf1920e3c"
+	
+}
+- size = 4;
+- hElement = { IHandle 
+	- _m2Class = "ICodeGenConfigInfo";
+	- _filename = ".\\..\\..\\Week1_Packages_rpy\\DefaultComponent.cmpx";
+	- _name = "DefaultComponent\\DefaultConfig";
+	- _id = GUID 36e2fbfa-db6d-4909-b40e-7f1a86e2d3d5;
+}
+- genTime = 3.26.2024::10:3:1;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Week1_Packages_rpy\\Default.sbsx";
+	- _subsystem = "Default";
+	- _name = "Car";
+	- _id = GUID 171c2492-ccae-4ab7-badb-28052b844132;
+}
+- genTime = 3.26.2024::10:3:1;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Week1_Packages_rpy\\Default.sbsx";
+	- _subsystem = "Default";
+	- _name = "Engine";
+	- _id = GUID 75d4e34d-8fc5-467d-a7e6-df0bd16c6e9f;
+}
+- genTime = 3.26.2024::10:3:1;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Week1_Packages_rpy\\Default.sbsx";
+	- _subsystem = "Default";
+	- _name = "Cloud";
+	- _id = GUID 04b4d276-f491-4d62-9268-c9bdf2d1b4db;
+}
+- genTime = 3.26.2024::10:3:1;
+

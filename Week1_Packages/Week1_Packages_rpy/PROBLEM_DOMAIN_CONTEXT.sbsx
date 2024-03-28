@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0</version>
+	<lang>C++</lang>
+	<BuildNo>202002261110</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 4b6a049c-95ea-4f1b-8c50-c5394ba821c0</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">PROBLEM_DOMAIN_CONTEXT</_name>
+			<_modifiedTimeWeak type="a">3.26.2024::10:32:50</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.26.2024::10:58:53</_modifiedTime>
+			<_lastID type="a">8</_lastID>
+			<weakCGTime type="a">3.26.2024::10:32:50</weakCGTime>
+			<strongCGTime type="a">3.26.2024::10:17:47</strongCGTime>
+			<_defaultComposite type="s">GUID 1880ce2e-68c7-48d6-a801-1fdfee48d004</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">3.26.2024::10:32:50</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 18c0219c-c667-4fd5-b59f-ee3446adbf07</value>
+				<value>GUID 27c2b05a-f692-467d-80e8-bc060b18680d</value>
+				<value>GUID 875aa3a9-7dcd-42e0-bcc8-abc3a3c6b37e</value>
+				<value>GUID bfe110fe-8a2f-4abb-812d-5a30c11873e1</value>
+				<value>GUID dd0ecfb5-b4c5-481d-b46c-6c51507fc2dd</value>
+				<value>GUID 540bd390-5c8a-45ff-ba0f-febf72e27542</value>
+				<value>GUID 6c1de422-dc67-4234-93d1-b2bcd9481761</value>
+				<value>GUID 1880ce2e-68c7-48d6-a801-1fdfee48d004</value>
+			</AggregatesList>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">Thermodynamics</fileName>
+			<_id type="a">GUID 18c0219c-c667-4fd5-b59f-ee3446adbf07</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">HMI</fileName>
+			<_id type="a">GUID 27c2b05a-f692-467d-80e8-bc060b18680d</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">Sensing</fileName>
+			<_id type="a">GUID 875aa3a9-7dcd-42e0-bcc8-abc3a3c6b37e</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">Security</fileName>
+			<_id type="a">GUID bfe110fe-8a2f-4abb-812d-5a30c11873e1</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">Communication</fileName>
+			<_id type="a">GUID dd0ecfb5-b4c5-481d-b46c-6c51507fc2dd</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">Heat_Transfer</fileName>
+			<_id type="a">GUID 540bd390-5c8a-45ff-ba0f-febf72e27542</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">Control</fileName>
+			<_id type="a">GUID 6c1de422-dc67-4234-93d1-b2bcd9481761</_id>
+		</ISubsystem>
+		<IClass type="e">
+			<_id type="a">GUID 1880ce2e-68c7-48d6-a801-1fdfee48d004</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+
