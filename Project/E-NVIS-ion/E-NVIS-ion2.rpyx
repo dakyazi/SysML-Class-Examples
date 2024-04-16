@@ -127,11 +127,84 @@
 							</Metaclasses>
 						</IPropertySubject>
 						
+						<IPropertySubject type="e">
+							<_Name type="a">UseCaseGe</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Association</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">ShowName</_Name>
+													<_Value type="a">Name</_Value>
+													<_Type type="a">Enum</_Type>
+													<_ExtraTypeInfo type="a">Name,Label,None</_ExtraTypeInfo>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">ShowSourceMultiplicity</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">ShowSourceQualifier</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">ShowSourceRole</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">ShowStereotype</_Name>
+													<_Value type="a">None</_Value>
+													<_Type type="a">Enum</_Type>
+													<_ExtraTypeInfo type="a">Label,Bitmap,None</_ExtraTypeInfo>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">ShowTargetMultiplicity</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">ShowTargetQualifier</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">ShowTargetRole</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">line_style</_Name>
+													<_Value type="a">rectilinear_arrows</_Value>
+													<_Type type="a">Enum</_Type>
+													<_ExtraTypeInfo type="a">straight_arrows,rectilinear_arrows,spline_arrows,rounded_rectilinear_arrows</_ExtraTypeInfo>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
 					</IRPYRawContainer>
 				</Subjects>
 			</IPropertyContainer>
 			</_properties>
-			<_name type="a">E-NVIS-ion</_name>
+			<_name type="a">E-NVIS-ion2</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					
@@ -144,15 +217,9 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-<<<<<<< Updated upstream
-			<_modifiedTimeWeak type="a">4.16.2024::14:21:22</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.16.2024::14:21:22</_modifiedTime>
-			<_lastID type="a">5</_lastID>
-=======
-			<_modifiedTimeWeak type="a">4.16.2024::13:54:59</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.16.2024::13:54:59</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.16.2024::14:48:13</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::14:48:13</_modifiedTime>
 			<_lastID type="a">4</_lastID>
->>>>>>> Stashed changes
 			<_UserColors type="w">
 				<IRPYRawContainer type="e">
 					<value>16777215</value>
@@ -226,7 +293,6 @@
 				<value>GUID db23a8b3-a6ef-4a73-a5a6-1940b934a8d1</value>
 				<value>GUID 62bebe2f-0e43-4949-a74a-9285755591da</value>
 				<value>GUID fd447564-b103-46c7-a2f2-b260d040a5b0</value>
-				<value>GUID f9a598db-131c-42aa-9503-547b16a908dd</value>
 				<value>GUID 5fc06699-f5a6-4890-9066-c1bc9fe0ba17</value>
 				<value>GUID 84361d71-235e-405a-90cd-c34d94db83be</value>
 			</AggregatesList>
@@ -271,7 +337,7 @@
 			<_dependent type="r">
 				<INObjectHandle type="e">
 					<_hm2Class type="a">IProject</_hm2Class>
-					<_hname type="a">E-NVIS-ion</_hname>
+					<_hname type="a">E-NVIS-ion2</_hname>
 					<_hid type="a">GUID ef148360-7e59-4f35-bc6d-7ed72796af8f</_hid>
 				</INObjectHandle>
 			</_dependent>
@@ -281,12 +347,8 @@
 			<_id type="a">GUID 62bebe2f-0e43-4949-a74a-9285755591da</_id>
 		</ISubsystem>
 		<ISubsystem type="e">
-			<fileName type="a">SYSTEM_ANALYSIS</fileName>
+			<fileName type="a">System_Analysis</fileName>
 			<_id type="a">GUID fd447564-b103-46c7-a2f2-b260d040a5b0</_id>
-		</ISubsystem>
-		<ISubsystem type="e">
-			<fileName type="a">Use_Cases</fileName>
-			<_id type="a">GUID f9a598db-131c-42aa-9503-547b16a908dd</_id>
 		</ISubsystem>
 		<IDiagram type="e">
 			<_id type="a">GUID 5fc06699-f5a6-4890-9066-c1bc9fe0ba17</_id>
@@ -408,8 +470,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.16.2024::12:54:7</_modifiedTime>
-			<_lastModifiedTime type="a">4.16.2024::12:54:7</_lastModifiedTime>
+			<_modifiedTime type="a">4.16.2024::14:34:7</_modifiedTime>
+			<_lastModifiedTime type="a">4.16.2024::14:34:7</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>

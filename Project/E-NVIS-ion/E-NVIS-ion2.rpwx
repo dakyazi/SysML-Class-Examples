@@ -26,6 +26,38 @@
 								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
 								<m_ptMaxPositionX type="a">-9</m_ptMaxPositionX>
 								<m_ptMaxPositionY type="a">-38</m_ptMaxPositionY>
+								<m_nLeft type="a">0</m_nLeft>
+								<m_nTop type="a">0</m_nTop>
+								<m_nRight type="a">685</m_nRight>
+								<m_nBottom type="a">483</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IPanelDiagram</_hm2Class>
+								<_hfilename type="a">.\..\..\..\..\..\..\..\..\Backup\Course Work\Block II\SysML\Projects\Week1_Day2_Package\Week1_Day2_Package_rpy\USERMODEL.sbsx</_hfilename>
+								<_hsubsystem type="a">System_Analysis::USERMODEL</_hsubsystem>
+								<_hname type="a">GUI</_hname>
+								<_hid type="a">GUID c0a9f038-b71e-4380-bdd7-783f1f73aa86</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 0 </_UpLeft>
+						<_DownRight type="a">642 411 </_DownRight>
+						<m_nDiagramIndex type="a">4</m_nDiagramIndex>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">0</m_nFlags>
+								<m_showCmd type="a">1</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-9</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-38</m_ptMaxPositionY>
 								<m_nLeft type="a">192</m_nLeft>
 								<m_nTop type="a">192</m_nTop>
 								<m_nRight type="a">1338</m_nRight>
@@ -37,16 +69,12 @@
 							<IHandle type="e">
 								<_hm2Class type="a">IDiagram</_hm2Class>
 								<_hname type="a">Model1</_hname>
-								<_hid type="a">GUID 5fc06699-f5a6-4890-9066-c1bc9fe0ba17</_hid>
+								<_hid type="a">GUID d3acb9da-401a-4fb0-92cd-c3f84be29caa</_hid>
 							</IHandle>
 						</_theDiagram>
 						<_UpLeft type="a">0 0 </_UpLeft>
 						<_DownRight type="a">1103 453 </_DownRight>
-<<<<<<< Updated upstream
-						<m_nDiagramIndex type="a">4</m_nDiagramIndex>
-=======
-						<m_nDiagramIndex type="a">7</m_nDiagramIndex>
->>>>>>> Stashed changes
+						<m_nDiagramIndex type="a">0</m_nDiagramIndex>
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
@@ -56,8 +84,6 @@
 								<m_nLength type="a">44</m_nLength>
 								<m_nFlags type="a">0</m_nFlags>
 								<m_showCmd type="a">1</m_showCmd>
-<<<<<<< Updated upstream
-=======
 								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
 								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
 								<m_ptMaxPositionX type="a">-9</m_ptMaxPositionX>
@@ -72,15 +98,15 @@
 						<_theDiagram type="r">
 							<IHandle type="e">
 								<_hm2Class type="a">IDiagram</_hm2Class>
-								<_hfilename type="a">.\E-NVIS-ion_rpy\NVIS_Operating_Environment.sbsx</_hfilename>
-								<_hsubsystem type="a">SYSTEM_ANALYSIS::NVIS_Operating_Environment</_hsubsystem>
+								<_hfilename type="a">.\E-NVIS-ion2_rpy\NVIS_Operating_Environment.sbsx</_hfilename>
+								<_hsubsystem type="a">System_Analysis::NVIS_Operating_Environment</_hsubsystem>
 								<_hname type="a">NVIS_OE</_hname>
 								<_hid type="a">GUID 944f4916-fe16-4016-9fb5-f3b22b6d03fe</_hid>
 							</IHandle>
 						</_theDiagram>
 						<_UpLeft type="a">0 0 </_UpLeft>
 						<_DownRight type="a">1652 648 </_DownRight>
-						<m_nDiagramIndex type="a">2</m_nDiagramIndex>
+						<m_nDiagramIndex type="a">3</m_nDiagramIndex>
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
@@ -90,7 +116,6 @@
 								<m_nLength type="a">44</m_nLength>
 								<m_nFlags type="a">0</m_nFlags>
 								<m_showCmd type="a">1</m_showCmd>
->>>>>>> Stashed changes
 								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
 								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
 								<m_ptMaxPositionX type="a">-9</m_ptMaxPositionX>
@@ -105,19 +130,15 @@
 						<_theDiagram type="r">
 							<IHandle type="e">
 								<_hm2Class type="a">IDiagram</_hm2Class>
-								<_hfilename type="a">.\E-NVIS-ion_rpy\Project_Context.sbsx</_hfilename>
-								<_hsubsystem type="a">SYSTEM_ANALYSIS::Project_Context</_hsubsystem>
+								<_hfilename type="a">.\E-NVIS-ion2_rpy\Project_Context.sbsx</_hfilename>
+								<_hsubsystem type="a">System_Analysis::Project_Context</_hsubsystem>
 								<_hname type="a">Project_Context</_hname>
 								<_hid type="a">GUID 422a00f2-5d82-445c-ab3a-af648c8007d3</_hid>
 							</IHandle>
 						</_theDiagram>
-<<<<<<< Updated upstream
-						<_UpLeft type="a">-51 0 </_UpLeft>
-						<_DownRight type="a">1833 739 </_DownRight>
-=======
 						<_UpLeft type="a">-51 -100 </_UpLeft>
 						<_DownRight type="a">1056 334 </_DownRight>
-						<m_nDiagramIndex type="a">6</m_nDiagramIndex>
+						<m_nDiagramIndex type="a">7</m_nDiagramIndex>
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
@@ -141,124 +162,15 @@
 						<_theDiagram type="r">
 							<IHandle type="e">
 								<_hm2Class type="a">IDiagram</_hm2Class>
-								<_hfilename type="a">.\E-NVIS-ion_rpy\System_Context.sbsx</_hfilename>
-								<_hsubsystem type="a">SYSTEM_ANALYSIS::System_Context</_hsubsystem>
+								<_hfilename type="a">.\E-NVIS-ion2_rpy\System_Context.sbsx</_hfilename>
+								<_hsubsystem type="a">System_Analysis::System_Context</_hsubsystem>
 								<_hname type="a">System_Context</_hname>
 								<_hid type="a">GUID eba12fa9-f292-4b60-8360-982a294ee5a8</_hid>
 							</IHandle>
 						</_theDiagram>
 						<_UpLeft type="a">-34 -20 </_UpLeft>
 						<_DownRight type="a">1073 414 </_DownRight>
-						<m_nDiagramIndex type="a">5</m_nDiagramIndex>
-						<m_bIsActiveView type="a">0</m_bIsActiveView>
-					</CGEMdiDiagramParams>
-					
-					<CGEMdiDiagramParams type="e">
-						<_placement type="p">
-							<CCommon_WINDOWPLACEMENT type="e">
-								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">0</m_nFlags>
-								<m_showCmd type="a">1</m_showCmd>
-								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-9</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-38</m_ptMaxPositionY>
-								<m_nLeft type="a">96</m_nLeft>
-								<m_nTop type="a">96</m_nTop>
-								<m_nRight type="a">1246</m_nRight>
-								<m_nBottom type="a">602</m_nBottom>
-							</CCommon_WINDOWPLACEMENT>
-						</_placement>
-						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
-						<_theDiagram type="r">
-							<IHandle type="e">
-								<_hm2Class type="a">IDiagram</_hm2Class>
-								<_hfilename type="a">.\..\..\..\..\..\..\..\..\Backup\Course Work\Block II\SysML\Projects\Week1_Day2_Package\Week1_Day2_Package_rpy\System_Context.sbsx</_hfilename>
-								<_hsubsystem type="a">System_Analysis::System_Context</_hsubsystem>
-								<_hname type="a">System_Context</_hname>
-								<_hid type="a">GUID 484ab2a3-ec06-4086-8d69-b63b0a7dc4f8</_hid>
-							</IHandle>
-						</_theDiagram>
-						<_UpLeft type="a">0 0 </_UpLeft>
-						<_DownRight type="a">1107 434 </_DownRight>
->>>>>>> Stashed changes
-						<m_nDiagramIndex type="a">3</m_nDiagramIndex>
-						<m_bIsActiveView type="a">0</m_bIsActiveView>
-					</CGEMdiDiagramParams>
-					
-					<CGEMdiDiagramParams type="e">
-						<_placement type="p">
-							<CCommon_WINDOWPLACEMENT type="e">
-								<m_nLength type="a">44</m_nLength>
-<<<<<<< Updated upstream
-								<m_nFlags type="a">2</m_nFlags>
-								<m_showCmd type="a">3</m_showCmd>
-								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-9</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-38</m_ptMaxPositionY>
-								<m_nLeft type="a">96</m_nLeft>
-								<m_nTop type="a">96</m_nTop>
-								<m_nRight type="a">1155</m_nRight>
-								<m_nBottom type="a">668</m_nBottom>
-=======
-								<m_nFlags type="a">0</m_nFlags>
-								<m_showCmd type="a">1</m_showCmd>
-								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-9</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-38</m_ptMaxPositionY>
-								<m_nLeft type="a">64</m_nLeft>
-								<m_nTop type="a">64</m_nTop>
-								<m_nRight type="a">1214</m_nRight>
-								<m_nBottom type="a">570</m_nBottom>
-							</CCommon_WINDOWPLACEMENT>
-						</_placement>
-						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
-						<_theDiagram type="r">
-							<IHandle type="e">
-								<_hm2Class type="a">IDiagram</_hm2Class>
-								<_hfilename type="a">.\..\..\..\..\..\..\..\..\Backup\Course Work\Block II\SysML\Projects\Week1_Day2_Package\Week1_Day2_Package_rpy\TMS_Operating_Environment.sbsx</_hfilename>
-								<_hsubsystem type="a">System_Analysis::TMS_Operating_Environment</_hsubsystem>
-								<_hname type="a">TMS_OE</_hname>
-								<_hid type="a">GUID 3fdac913-8f53-4ec9-b921-88517ca5af3a</_hid>
-							</IHandle>
-						</_theDiagram>
-						<_UpLeft type="a">975 0 </_UpLeft>
-						<_DownRight type="a">2082 434 </_DownRight>
-						<m_nDiagramIndex type="a">4</m_nDiagramIndex>
-						<m_bIsActiveView type="a">0</m_bIsActiveView>
-					</CGEMdiDiagramParams>
-					
-					<CGEMdiDiagramParams type="e">
-						<_placement type="p">
-							<CCommon_WINDOWPLACEMENT type="e">
-								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">0</m_nFlags>
-								<m_showCmd type="a">1</m_showCmd>
-								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-9</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-38</m_ptMaxPositionY>
-								<m_nLeft type="a">160</m_nLeft>
-								<m_nTop type="a">160</m_nTop>
-								<m_nRight type="a">1310</m_nRight>
-								<m_nBottom type="a">666</m_nBottom>
-							</CCommon_WINDOWPLACEMENT>
-						</_placement>
-						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
-						<_theDiagram type="r">
-							<IHandle type="e">
-								<_hm2Class type="a">IUCDiagram</_hm2Class>
-								<_hfilename type="a">.\..\..\..\..\..\..\..\..\Backup\Course Work\Block II\SysML\Projects\Week1_Day2_Package\Week1_Day2_Package_rpy\Temperature_UC.sbsx</_hfilename>
-								<_hsubsystem type="a">System_Analysis::Use_Cases::Temperature_UC</_hsubsystem>
-								<_hname type="a">Temp_UC_Diagram</_hname>
-								<_hid type="a">GUID 56a9d019-c648-4def-b6f5-6ce9d306097a</_hid>
-							</IHandle>
-						</_theDiagram>
-						<_UpLeft type="a">0 20 </_UpLeft>
-						<_DownRight type="a">1107 454 </_DownRight>
-						<m_nDiagramIndex type="a">1</m_nDiagramIndex>
+						<m_nDiagramIndex type="a">6</m_nDiagramIndex>
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
@@ -276,41 +188,157 @@
 								<m_nTop type="a">192</m_nTop>
 								<m_nRight type="a">1322</m_nRight>
 								<m_nBottom type="a">698</m_nBottom>
->>>>>>> Stashed changes
 							</CCommon_WINDOWPLACEMENT>
 						</_placement>
 						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
 						<_theDiagram type="r">
 							<IHandle type="e">
-<<<<<<< Updated upstream
-								<_hm2Class type="a">IDiagram</_hm2Class>
-								<_hfilename type="a">.\E-NVIS-ion_rpy\GeneralRequirements.sbsx</_hfilename>
-								<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::GeneralRequirements</_hsubsystem>
-								<_hname type="a">GeneralRequirements</_hname>
-								<_hid type="a">GUID d79c1690-7b39-46c5-9793-59416a5eadf9</_hid>
-							</IHandle>
-						</_theDiagram>
-						<_UpLeft type="a">-20 0 </_UpLeft>
-						<_DownRight type="a">2466 1784 </_DownRight>
-						<m_nDiagramIndex type="a">2</m_nDiagramIndex>
-=======
 								<_hm2Class type="a">IUCDiagram</_hm2Class>
-								<_hfilename type="a">.\E-NVIS-ion_rpy\NVIS_Use_Case.sbsx</_hfilename>
-								<_hsubsystem type="a">Use_Cases::NVIS_Use_Case</_hsubsystem>
+								<_hfilename type="a">.\E-NVIS-ion2_rpy\NVIS_Use_Case.sbsx</_hfilename>
+								<_hsubsystem type="a">System_Analysis::Use_Cases::NVIS_Use_Case</_hsubsystem>
 								<_hname type="a">NVIS_Use_Case_Diagram</_hname>
 								<_hid type="a">GUID 0019184e-af21-45bd-8f75-448ce5371f0f</_hid>
 							</IHandle>
 						</_theDiagram>
-						<_UpLeft type="a">30 -40 </_UpLeft>
-						<_DownRight type="a">1928 967 </_DownRight>
-						<m_nDiagramIndex type="a">0</m_nDiagramIndex>
->>>>>>> Stashed changes
+						<_UpLeft type="a">0 20 </_UpLeft>
+						<_DownRight type="a">1236 725 </_DownRight>
+						<m_nDiagramIndex type="a">1</m_nDiagramIndex>
 						<m_bIsActiveView type="a">1</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">2</m_nFlags>
+								<m_showCmd type="a">3</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-9</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-38</m_ptMaxPositionY>
+								<m_nLeft type="a">0</m_nLeft>
+								<m_nTop type="a">374</m_nTop>
+								<m_nRight type="a">685</m_nRight>
+								<m_nBottom type="a">748</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">0</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IActivityDiagram</_hm2Class>
+								<_hfilename type="a">.\..\..\..\..\..\..\..\..\Backup\Course Work\Block II\SysML\Projects\Week1_Day2_Package\Week1_Day2_Package_rpy\System_Context.sbsx</_hfilename>
+								<_hsubsystem type="a">System_Analysis::System_Context</_hsubsystem>
+								<_hclass type="a">PowerSource</_hclass>
+								<_hname type="a">ActivityDiagram</_hname>
+								<_hid type="a">GUID be38db43-fb75-4d27-b91c-95de3f2a81eb</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">-14 -52 </_UpLeft>
+						<_DownRight type="a">1111 590 </_DownRight>
+						<m_nDiagramIndex type="a">0</m_nDiagramIndex>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">2</m_nFlags>
+								<m_showCmd type="a">3</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-9</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-38</m_ptMaxPositionY>
+								<m_nLeft type="a">685</m_nLeft>
+								<m_nTop type="a">249</m_nTop>
+								<m_nRight type="a">1370</m_nRight>
+								<m_nBottom type="a">498</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IStateChartDiagram</_hm2Class>
+								<_hfilename type="a">.\..\..\..\..\..\..\..\..\Backup\Course Work\Block II\SysML\Projects\Week1_Day2_Package\Week1_Day2_Package_rpy\System_Context.sbsx</_hfilename>
+								<_hsubsystem type="a">System_Analysis::System_Context</_hsubsystem>
+								<_hclass type="a">PowerSource</_hclass>
+								<_hname type="a">StatechartDiagram</_hname>
+								<_hid type="a">GUID 295e7fd2-1223-415b-b4d1-5ebf58461f40</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 0 </_UpLeft>
+						<_DownRight type="a">1236 705 </_DownRight>
+						<m_nDiagramIndex type="a">2</m_nDiagramIndex>
+						<m_bIsActiveView type="a">1</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">0</m_nFlags>
+								<m_showCmd type="a">1</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-9</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-38</m_ptMaxPositionY>
+								<m_nLeft type="a">685</m_nLeft>
+								<m_nTop type="a">0</m_nTop>
+								<m_nRight type="a">1370</m_nRight>
+								<m_nBottom type="a">249</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IDiagram</_hm2Class>
+								<_hfilename type="a">.\..\..\..\..\..\..\..\..\Backup\Course Work\Block II\SysML\Projects\Week1_Day2_Package\Week1_Day2_Package_rpy\System_Context.sbsx</_hfilename>
+								<_hsubsystem type="a">System_Analysis::System_Context</_hsubsystem>
+								<_hname type="a">System_Context</_hname>
+								<_hid type="a">GUID 484ab2a3-ec06-4086-8d69-b63b0a7dc4f8</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 -159 </_UpLeft>
+						<_DownRight type="a">642 18 </_DownRight>
+						<m_nDiagramIndex type="a">1</m_nDiagramIndex>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">0</m_nFlags>
+								<m_showCmd type="a">1</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-9</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-38</m_ptMaxPositionY>
+								<m_nLeft type="a">0</m_nLeft>
+								<m_nTop type="a">0</m_nTop>
+								<m_nRight type="a">685</m_nRight>
+								<m_nBottom type="a">483</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IPanelDiagram</_hm2Class>
+								<_hfilename type="a">.\..\..\..\..\..\..\..\..\Backup\Course Work\Block II\SysML\Projects\Week1_Day2_Package\Week1_Day2_Package_rpy\USERMODEL.sbsx</_hfilename>
+								<_hsubsystem type="a">System_Analysis::USERMODEL</_hsubsystem>
+								<_hname type="a">GUI</_hname>
+								<_hid type="a">GUID c0a9f038-b71e-4380-bdd7-783f1f73aa86</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 0 </_UpLeft>
+						<_DownRight type="a">642 411 </_DownRight>
+						<m_nDiagramIndex type="a">3</m_nDiagramIndex>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
 				</IRPYRawContainer>
 			</myViewsWithID>
-			<_fullName type="a">C:\Users\20235604\Desktop\TUe Documents\Module 2\SysML\Class Examples\Project\E-NVIS-ion\E-NVIS-ion</_fullName>
+			<_fullName type="a">C:\Users\20235613\OneDrive - TU Eindhoven\Documents\GitHub\SysML-EngD\Project\E-NVIS-ion\E-NVIS-ion2</_fullName>
 			<m_SearchScopeList type="c">
 				<IRPYRawContainer type="e">
 				</IRPYRawContainer>
@@ -331,16 +359,6 @@
 				<idOrFolder type="a">folder</idOrFolder>
 			</favoritesItem>
 			
-
-	- tableMatrixRowAdditionHight = {
-		count=1;
-		{ - TableMatrixView
-			id=8ce8bc38-c9b6-45a0-bf17-889f134b6265;
-			rowAdditionalHight=;;
-			rowAdditionalHightExt=;
-		}
-	}
-
 		</CGEMdiWorkspace>
 		
 	</RHAPSODY-MODEL>
