@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0</version>
+	<lang>C++</lang>
+	<BuildNo>202002261110</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID c255a7b1-05cf-4d64-b2f0-737a7c9e8d4e</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Optics</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::14:49:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::14:49:14</_modifiedTime>
+			<weakCGTime type="a">4.16.2024::14:49:14</weakCGTime>
+			<strongCGTime type="a">4.16.2024::14:37:4</strongCGTime>
+			<_defaultComposite type="s">GUID 5637a282-be89-47b1-b724-9a23a176b02c</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.1.1970::1:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 83876182-f21a-495a-92ae-4807b6b7079e</value>
+				<value>GUID 5637a282-be89-47b1-b724-9a23a176b02c</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IEmbededFile type="e">
+			<_id type="a">GUID 83876182-f21a-495a-92ae-4807b6b7079e</_id>
+			<_name type="a">F2037082613.pdf</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::14:49:14</_modifiedTime>
+			<_MayNeedToRelocate type="a">0</_MayNeedToRelocate>
+			<_LastKnownFullPath type="a">C:\Users\20235604\Desktop\TUe Documents\Module 2\SysML\Class Examples\Project\E-NVIS-ion\E-NVIS-ion_Deniz_rpy\F2037082613.pdf</_LastKnownFullPath>
+		</IEmbededFile>
+		<IClass type="e">
+			<_id type="a">GUID 5637a282-be89-47b1-b724-9a23a176b02c</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

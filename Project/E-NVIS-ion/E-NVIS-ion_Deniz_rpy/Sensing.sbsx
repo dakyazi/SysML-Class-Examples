@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0</version>
+	<lang>C++</lang>
+	<BuildNo>202002261110</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID fd359472-f073-4dad-b316-b1e9fb4392dd</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Sensing</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::14:48:31</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::14:48:31</_modifiedTime>
+			<weakCGTime type="a">4.16.2024::14:48:31</weakCGTime>
+			<strongCGTime type="a">4.16.2024::14:39:39</strongCGTime>
+			<_defaultComposite type="s">GUID b20a5829-791e-4597-b1f5-3c193ab0e880</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.1.1970::1:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID f3cf42ea-56fc-4bba-bad7-deb6c2e2ed7b</value>
+				<value>GUID a1a528eb-e6a0-45cf-bba6-a781a2426385</value>
+				<value>GUID b20a5829-791e-4597-b1f5-3c193ab0e880</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IEmbededFile type="e">
+			<_id type="a">GUID f3cf42ea-56fc-4bba-bad7-deb6c2e2ed7b</_id>
+			<_name type="a">ir-in-surveillance-en-US-398429.pdf</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::14:46:40</_modifiedTime>
+			<_MayNeedToRelocate type="a">0</_MayNeedToRelocate>
+			<_LastKnownFullPath type="a">C:\Users\20235604\Desktop\TUe Documents\Module 2\SysML\Class Examples\Project\E-NVIS-ion\E-NVIS-ion_Deniz_rpy\ir-in-surveillance-en-US-398429.pdf</_LastKnownFullPath>
+		</IEmbededFile>
+		<IEmbededFile type="e">
+			<_id type="a">GUID a1a528eb-e6a0-45cf-bba6-a781a2426385</_id>
+			<_name type="a">High_Dynamic_Range_Imaging_and_its_Application_in_.pdf</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::14:48:31</_modifiedTime>
+			<_MayNeedToRelocate type="a">0</_MayNeedToRelocate>
+			<_LastKnownFullPath type="a">C:\Users\20235604\Desktop\TUe Documents\Module 2\SysML\Class Examples\Project\E-NVIS-ion\E-NVIS-ion_Deniz_rpy\High_Dynamic_Range_Imaging_and_its_Application_in_.pdf</_LastKnownFullPath>
+		</IEmbededFile>
+		<IClass type="e">
+			<_id type="a">GUID b20a5829-791e-4597-b1f5-3c193ab0e880</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+
