@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0</version>
+	<lang>C++</lang>
+	<BuildNo>202002261110</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID f14c6ebf-2644-4a73-923f-e1d88ac7c7ab</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Existing_Solutions</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::14:55:39</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::14:44:20</_modifiedTime>
+			<weakCGTime type="a">4.16.2024::14:55:39</weakCGTime>
+			<strongCGTime type="a">4.16.2024::14:55:39</strongCGTime>
+			<_defaultComposite type="s">GUID ec224064-78ee-4b21-8fea-7066ebbfbfb4</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 1b24a03b-cef7-488f-81a0-40899a54cdc5</value>
+				<value>GUID 9dc61acb-c8db-4573-8232-f1f3b13b8716</value>
+				<value>GUID 2aaaa8b0-e62c-4214-893f-30ed2bea43e7</value>
+				<value>GUID ec224064-78ee-4b21-8fea-7066ebbfbfb4</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IEmbededFile type="e">
+			<_id type="a">GUID 1b24a03b-cef7-488f-81a0-40899a54cdc5</_id>
+			<_name type="a">336799-intelligent-night-vision-system-for-auto-1e7077c8.pdf</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::14:43:59</_modifiedTime>
+			<_MayNeedToRelocate type="a">0</_MayNeedToRelocate>
+			<_LastKnownFullPath type="a">C:\Users\20235613\OneDrive - TU Eindhoven\Documents\GitHub\SysML-EngD\Project\E-NVIS-ion\E-NVIS-ion2_rpy\336799-intelligent-night-vision-system-for-auto-1e7077c8.pdf</_LastKnownFullPath>
+		</IEmbededFile>
+		<IEmbededFile type="e">
+			<_id type="a">GUID 9dc61acb-c8db-4573-8232-f1f3b13b8716</_id>
+			<_name type="a">VDI_Optische_Technologien_2010_Paper_final.pdf</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::14:44:9</_modifiedTime>
+			<_MayNeedToRelocate type="a">0</_MayNeedToRelocate>
+			<_LastKnownFullPath type="a">C:\Users\20235613\OneDrive - TU Eindhoven\Documents\GitHub\SysML-EngD\Project\E-NVIS-ion\E-NVIS-ion2_rpy\VDI_Optische_Technologien_2010_Paper_final.pdf</_LastKnownFullPath>
+		</IEmbededFile>
+		<IEmbededFile type="e">
+			<_id type="a">GUID 2aaaa8b0-e62c-4214-893f-30ed2bea43e7</_id>
+			<_name type="a">e14dc498849749d893de8089feef5be2.pdf</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::14:44:20</_modifiedTime>
+			<_MayNeedToRelocate type="a">0</_MayNeedToRelocate>
+			<_LastKnownFullPath type="a">C:\Users\20235613\OneDrive - TU Eindhoven\Documents\GitHub\SysML-EngD\Project\E-NVIS-ion\E-NVIS-ion2_rpy\e14dc498849749d893de8089feef5be2.pdf</_LastKnownFullPath>
+		</IEmbededFile>
+		<IClass type="e">
+			<_id type="a">GUID ec224064-78ee-4b21-8fea-7066ebbfbfb4</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::14:55:39</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">4.16.2024::14:55:39</weakCGTime>
+			<strongCGTime type="a">4.16.2024::14:55:39</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

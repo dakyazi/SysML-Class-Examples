@@ -12,11 +12,11 @@
 			<_id type="a">GUID 59fb556d-890b-4003-aefe-02fcbbcda1a5</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">NVIS_Operating_Environment</_name>
-			<_modifiedTimeWeak type="a">4.16.2024::14:34:7</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.16.2024::14:42:19</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.16.2024::14:59:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::14:59:23</_modifiedTime>
 			<_lastID type="a">1</_lastID>
-			<weakCGTime type="a">4.16.2024::14:34:7</weakCGTime>
-			<strongCGTime type="a">4.16.2024::13:26:19</strongCGTime>
+			<weakCGTime type="a">4.16.2024::14:59:23</weakCGTime>
+			<strongCGTime type="a">4.16.2024::14:48:36</strongCGTime>
 			<_defaultComposite type="s">GUID 66afdb0f-05d2-4101-b84f-c928741319f3</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
 			<_configurationRelatedTime type="a">4.16.2024::13:26:19</_configurationRelatedTime>
@@ -280,8 +280,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.16.2024::14:34:7</_modifiedTime>
-			<_lastModifiedTime type="a">4.16.2024::14:34:7</_lastModifiedTime>
+			<_modifiedTime type="a">4.16.2024::14:59:23</_modifiedTime>
+			<_lastModifiedTime type="a">4.16.2024::14:59:23</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -469,7 +469,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hfilename type="a">.\System_Context.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::System_Context</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::System_Context</_hsubsystem>
 					<_hclass type="a">HighResVideoCam</_hclass>
 					<_hname type="a">itsNVIS</_hname>
 					<_hid type="a">GUID 5c5cdab7-e84b-4946-9182-7e83b084d6d6</_hid>
@@ -525,7 +525,7 @@
 				<IAssociationEndHandle type="e">
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hfilename type="a">.\System_Context.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::System_Context</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::System_Context</_hsubsystem>
 					<_hclass type="a">NVIS</_hclass>
 					<_hname type="a">itsHighResVideoCam</_hname>
 					<_hid type="a">GUID c3055bb3-fc22-42ba-bed4-b6e5fbd7a9d5</_hid>
@@ -655,7 +655,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hfilename type="a">.\System_Context.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::System_Context</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::System_Context</_hsubsystem>
 					<_hclass type="a">InfraredFilter</_hclass>
 					<_hname type="a">itsNVIS</_hname>
 					<_hid type="a">GUID 5ee7eb4c-b361-49ab-a493-e5133c14b3f7</_hid>
@@ -711,7 +711,7 @@
 				<IAssociationEndHandle type="e">
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hfilename type="a">.\System_Context.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::System_Context</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::System_Context</_hsubsystem>
 					<_hclass type="a">NVIS</_hclass>
 					<_hname type="a">itsInfraredFilter</_hname>
 					<_hid type="a">GUID a546f4bc-99f6-4580-8d16-60f2e1b79e0d</_hid>
@@ -835,7 +835,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hfilename type="a">.\System_Context.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::System_Context</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::System_Context</_hsubsystem>
 					<_hclass type="a">NaturalEnvironment</_hclass>
 					<_hname type="a">itsNVIS</_hname>
 					<_hid type="a">GUID da21c089-aa8f-435b-9d44-e028270ac726</_hid>
@@ -891,7 +891,7 @@
 				<IAssociationEndHandle type="e">
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hfilename type="a">.\System_Context.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::System_Context</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::System_Context</_hsubsystem>
 					<_hclass type="a">NVIS</_hclass>
 					<_hname type="a">itsNaturalEnvironment</_hname>
 					<_hid type="a">GUID 0e0b8854-4712-407f-a387-ec487182c146</_hid>
@@ -1015,7 +1015,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hfilename type="a">.\System_Context.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::System_Context</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::System_Context</_hsubsystem>
 					<_hclass type="a">CommunicationSystem</_hclass>
 					<_hname type="a">itsNVIS</_hname>
 					<_hid type="a">GUID d5bef527-ec1c-4a4c-91b7-72aaaed38196</_hid>
@@ -1071,7 +1071,7 @@
 				<IAssociationEndHandle type="e">
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hfilename type="a">.\System_Context.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::System_Context</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::System_Context</_hsubsystem>
 					<_hclass type="a">NVIS</_hclass>
 					<_hname type="a">itsCommunicationSystem</_hname>
 					<_hid type="a">GUID bd68599a-eeee-4894-885e-af64d2e51947</_hid>
@@ -1195,7 +1195,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hfilename type="a">.\System_Context.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::System_Context</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::System_Context</_hsubsystem>
 					<_hclass type="a">CentralProcessingUnit</_hclass>
 					<_hname type="a">itsNVIS</_hname>
 					<_hid type="a">GUID 55565b5d-9f75-4018-9326-0dfe128ec608</_hid>
@@ -1251,7 +1251,7 @@
 				<IAssociationEndHandle type="e">
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hfilename type="a">.\System_Context.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::System_Context</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::System_Context</_hsubsystem>
 					<_hclass type="a">NVIS</_hclass>
 					<_hname type="a">itsCentralProcessingUnit</_hname>
 					<_hid type="a">GUID 73ba2475-dac5-4a73-b105-a20d5c4c5ee8</_hid>
@@ -1375,7 +1375,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hfilename type="a">.\System_Context.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::System_Context</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::System_Context</_hsubsystem>
 					<_hclass type="a">AutoLightControlUnit</_hclass>
 					<_hname type="a">itsNVIS</_hname>
 					<_hid type="a">GUID eed3bdda-80f9-4c3c-880d-14197d549843</_hid>
@@ -1431,7 +1431,7 @@
 				<IAssociationEndHandle type="e">
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hfilename type="a">.\System_Context.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::System_Context</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::System_Context</_hsubsystem>
 					<_hclass type="a">NVIS</_hclass>
 					<_hname type="a">itsAutoLightControlUnit</_hname>
 					<_hid type="a">GUID 1f25119d-af99-48f0-bab8-7b26ab9d6175</_hid>
@@ -1555,7 +1555,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hfilename type="a">.\System_Context.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::System_Context</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::System_Context</_hsubsystem>
 					<_hclass type="a">MonitoringDevice</_hclass>
 					<_hname type="a">itsNVIS</_hname>
 					<_hid type="a">GUID b064ef4e-d1b4-4956-8d19-b1ca11d1efb2</_hid>
@@ -1611,7 +1611,7 @@
 				<IAssociationEndHandle type="e">
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hfilename type="a">.\System_Context.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::System_Context</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::System_Context</_hsubsystem>
 					<_hclass type="a">NVIS</_hclass>
 					<_hname type="a">itsMonitoringDevice</_hname>
 					<_hid type="a">GUID d359c078-b486-4ea3-b6f4-92d17401cd1a</_hid>
@@ -1735,7 +1735,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hfilename type="a">.\System_Context.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::System_Context</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::System_Context</_hsubsystem>
 					<_hclass type="a">Headlights</_hclass>
 					<_hname type="a">itsNVIS</_hname>
 					<_hid type="a">GUID 471bf4d3-ce8e-49a2-88cc-8fcc657027bb</_hid>
@@ -1791,7 +1791,7 @@
 				<IAssociationEndHandle type="e">
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hfilename type="a">.\System_Context.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::System_Context</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::System_Context</_hsubsystem>
 					<_hclass type="a">NVIS</_hclass>
 					<_hname type="a">itsHeadlights</_hname>
 					<_hid type="a">GUID 1040c77d-c119-4d41-babf-6bf1b81f76c7</_hid>
@@ -1949,7 +1949,7 @@
 			<m_pParent type="s">GUID d37fcea5-bb01-4406-934f-c4b8f32d139c</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">itsNVIS</m_str>
+					<m_str type="a">itsNVIS:NVIS</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -2074,7 +2074,7 @@
 			<m_pParent type="s">GUID d37fcea5-bb01-4406-934f-c4b8f32d139c</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">itsHighResVideoCam</m_str>
+					<m_str type="a">itsHighResVideoCam:HighResVideoCam</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -2199,7 +2199,7 @@
 			<m_pParent type="s">GUID d37fcea5-bb01-4406-934f-c4b8f32d139c</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">itsInfraredFilter</m_str>
+					<m_str type="a">itsInfraredFilter:InfraredFilter</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -2324,7 +2324,7 @@
 			<m_pParent type="s">GUID d37fcea5-bb01-4406-934f-c4b8f32d139c</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">itsNaturalEnvironment</m_str>
+					<m_str type="a">itsNaturalEnvironment:NaturalEnvironment</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -2449,7 +2449,7 @@
 			<m_pParent type="s">GUID d37fcea5-bb01-4406-934f-c4b8f32d139c</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">itsCentralProcessingUnit</m_str>
+					<m_str type="a">itsCentralProcessingUnit:CentralProcessingUnit</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -2574,7 +2574,7 @@
 			<m_pParent type="s">GUID d37fcea5-bb01-4406-934f-c4b8f32d139c</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">itsAutoLightControlUnit</m_str>
+					<m_str type="a">itsAutoLightControlUnit:AutoLightControlUnit</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -2699,7 +2699,7 @@
 			<m_pParent type="s">GUID d37fcea5-bb01-4406-934f-c4b8f32d139c</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">itsMonitoringDevice</m_str>
+					<m_str type="a">itsMonitoringDevice:MonitoringDevice</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -2824,7 +2824,7 @@
 			<m_pParent type="s">GUID d37fcea5-bb01-4406-934f-c4b8f32d139c</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">itsHeadlights</m_str>
+					<m_str type="a">itsHeadlights:Headlights</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -2949,7 +2949,7 @@
 			<m_pParent type="s">GUID d37fcea5-bb01-4406-934f-c4b8f32d139c</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">itsCommunicationSystem</m_str>
+					<m_str type="a">itsCommunicationSystem:CommunicationSystem</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -3037,10 +3037,10 @@
 			<_id type="a">GUID 66afdb0f-05d2-4101-b84f-c928741319f3</_id>
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
-			<_modifiedTimeWeak type="a">4.16.2024::13:26:19</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.16.2024::14:48:36</_modifiedTimeWeak>
 			<_modifiedTime type="a">4.16.2024::13:26:19</_modifiedTime>
-			<weakCGTime type="a">4.16.2024::13:26:19</weakCGTime>
-			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<weakCGTime type="a">4.16.2024::14:48:36</weakCGTime>
+			<strongCGTime type="a">4.16.2024::14:48:36</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -3069,7 +3069,7 @@
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
 					<_hfilename type="a">.\System_Context.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::System_Context</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::System_Context</_hsubsystem>
 					<_hname type="a">NVIS</_hname>
 					<_hid type="a">GUID 665a150c-9beb-496f-843d-7ec04b260499</_hid>
 				</IClassifierHandle>
@@ -3090,7 +3090,7 @@
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
 					<_hfilename type="a">.\System_Context.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::System_Context</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::System_Context</_hsubsystem>
 					<_hname type="a">HighResVideoCam</_hname>
 					<_hid type="a">GUID ebc630f1-63b9-4698-a655-e2719ea1cb95</_hid>
 				</IClassifierHandle>
@@ -3111,7 +3111,7 @@
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
 					<_hfilename type="a">.\System_Context.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::System_Context</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::System_Context</_hsubsystem>
 					<_hname type="a">InfraredFilter</_hname>
 					<_hid type="a">GUID 9073015e-0613-4c62-8ec3-5ed05743c3f7</_hid>
 				</IClassifierHandle>
@@ -3132,7 +3132,7 @@
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
 					<_hfilename type="a">.\System_Context.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::System_Context</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::System_Context</_hsubsystem>
 					<_hname type="a">NaturalEnvironment</_hname>
 					<_hid type="a">GUID f9e9c261-ce93-4509-b749-6e8d3c29c903</_hid>
 				</IClassifierHandle>
@@ -3153,7 +3153,7 @@
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
 					<_hfilename type="a">.\System_Context.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::System_Context</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::System_Context</_hsubsystem>
 					<_hname type="a">CentralProcessingUnit</_hname>
 					<_hid type="a">GUID a5238308-2897-464c-b4b8-7f7f18bd69aa</_hid>
 				</IClassifierHandle>
@@ -3174,7 +3174,7 @@
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
 					<_hfilename type="a">.\System_Context.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::System_Context</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::System_Context</_hsubsystem>
 					<_hname type="a">AutoLightControlUnit</_hname>
 					<_hid type="a">GUID 47ba5f55-eeb9-4aeb-913c-13706faf293c</_hid>
 				</IClassifierHandle>
@@ -3195,7 +3195,7 @@
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
 					<_hfilename type="a">.\System_Context.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::System_Context</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::System_Context</_hsubsystem>
 					<_hname type="a">MonitoringDevice</_hname>
 					<_hid type="a">GUID 9e42b075-31f8-4ff6-b8d9-ad718eed25fb</_hid>
 				</IClassifierHandle>
@@ -3216,7 +3216,7 @@
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
 					<_hfilename type="a">.\System_Context.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::System_Context</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::System_Context</_hsubsystem>
 					<_hname type="a">Headlights</_hname>
 					<_hid type="a">GUID df6573af-ca1e-4ae3-9064-4a2098ba06f9</_hid>
 				</IClassifierHandle>
@@ -3237,7 +3237,7 @@
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
 					<_hfilename type="a">.\System_Context.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::System_Context</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::System_Context</_hsubsystem>
 					<_hname type="a">CommunicationSystem</_hname>
 					<_hid type="a">GUID 814d35f5-7abe-4df2-bfae-704cf4a1d004</_hid>
 				</IClassifierHandle>
