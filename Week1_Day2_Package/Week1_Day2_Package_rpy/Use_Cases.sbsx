@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0</version>
+	<lang>C++</lang>
+	<BuildNo>202002261110</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID da941b84-e70f-4024-b8e0-10c34181b396</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Use_Cases</_name>
+			<_modifiedTimeWeak type="a">3.28.2024::12:21:32</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.28.2024::12:21:32</_modifiedTime>
+			<weakCGTime type="a">3.28.2024::12:21:32</weakCGTime>
+			<strongCGTime type="a">3.28.2024::12:19:58</strongCGTime>
+			<_defaultComposite type="s">GUID 0e537711-b003-4e9e-bbe5-2098cbaad659</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">3.28.2024::12:21:6</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID f8f9f368-e747-424f-997b-7c7457fe143f</value>
+				<value>GUID 0e537711-b003-4e9e-bbe5-2098cbaad659</value>
+			</AggregatesList>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">Temperature_UC</fileName>
+			<_id type="a">GUID f8f9f368-e747-424f-997b-7c7457fe143f</_id>
+		</ISubsystem>
+		<IClass type="e">
+			<_id type="a">GUID 0e537711-b003-4e9e-bbe5-2098cbaad659</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+
