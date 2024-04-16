@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0</version>
+	<lang>C++</lang>
+	<BuildNo>202002261110</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID a67ed95b-24a0-4c24-9a53-c2ea798925e1</_id>
+			<_myState type="a">8192</_myState>
+			<_rmmServerID type="a">-1</_rmmServerID>
+			<_name type="a">DerivedRequirements</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::12:17:24</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::12:17:24</_modifiedTime>
+			<_lastID type="a">3</_lastID>
+			<weakCGTime type="a">4.16.2024::12:17:24</weakCGTime>
+			<strongCGTime type="a">3.26.2024::15:2:48</strongCGTime>
+			<_defaultComposite type="s">GUID 166fe6e6-e8a8-4088-8568-5be3dc8d72a5</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 347e9e34-b65e-47f6-85f8-9adfc4a39bb2</value>
+				<value>GUID 86ec12a4-6db9-447d-b996-404ad3efc407</value>
+				<value>GUID b3ccca39-6de9-4ec8-8357-75cea38e3e20</value>
+				<value>GUID a1c17a5f-9db6-4dd2-8685-bb7dae1a993c</value>
+				<value>GUID e3c08550-e2ec-4121-8501-6fc3ca721e11</value>
+				<value>GUID 9f437946-cbee-41a4-a3bc-ad5e84bfe54e</value>
+				<value>GUID b298cd18-b8d7-46c2-bddd-63e650ff4110</value>
+				<value>GUID 653b5df4-8a71-42db-b486-a3c072240058</value>
+				<value>GUID 166fe6e6-e8a8-4088-8568-5be3dc8d72a5</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IRequirement type="e">
+			<_id type="a">GUID 347e9e34-b65e-47f6-85f8-9adfc4a39bb2</_id>
+			<_myState type="a">8192</_myState>
+			<_rmmServerID type="a">-1</_rmmServerID>
+			<_name type="a">DecreaseTempFR</_name>
+			<_modifiedTimeWeak type="a">3.26.2024::20:58:10</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::12:17:24</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The TMS must turn the cooler on and the heater off to decrease temperature.\par%0D
+}%0D
+</_body>
+			<reqID type="a">2.9</reqID>
+			<AggregatesList type="e">
+				<value>GUID 8e689b93-ec49-484a-a0d2-f022b0e6d5dc</value>
+			</AggregatesList>
+		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID 8e689b93-ec49-484a-a0d2-f022b0e6d5dc</_id>
+			<_myState type="a">2048</_myState>
+			<_rmmServerID type="a">-1</_rmmServerID>
+			<_name type="a">ControlHeaterCoolerFR</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">derive</_hname>
+							<_hid type="a">GUID 77e51128-5c12-48fa-9a18-d782ae0ec76a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">3.26.2024::15:2:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::12:17:24</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\GeneralRequirements_1.sbsx</_hfilename>
+					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS_copy::GeneralRequirements</_hsubsystem>
+					<_hname type="a">ControlHeaterCoolerFR</_hname>
+					<_hid type="a">GUID 44c8567a-01b1-4e48-b45e-fc493ff7779a</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 347e9e34-b65e-47f6-85f8-9adfc4a39bb2</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IRequirement type="e">
+			<_id type="a">GUID 86ec12a4-6db9-447d-b996-404ad3efc407</_id>
+			<_myState type="a">8192</_myState>
+			<_rmmServerID type="a">-1</_rmmServerID>
+			<_name type="a">IncreaseTempFR</_name>
+			<_modifiedTimeWeak type="a">3.26.2024::15:5:45</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::12:17:24</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The TMS must turn the heater on and the cooler off.\par%0D
+}%0D
+</_body>
+			<reqID type="a">2.10</reqID>
+			<AggregatesList type="e">
+				<value>GUID 73101527-a526-4c9a-a8f8-e67d35b447e5</value>
+			</AggregatesList>
+		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID 73101527-a526-4c9a-a8f8-e67d35b447e5</_id>
+			<_myState type="a">2048</_myState>
+			<_rmmServerID type="a">-1</_rmmServerID>
+			<_name type="a">ControlHeaterCoolerFR</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">derive</_hname>
+							<_hid type="a">GUID 77e51128-5c12-48fa-9a18-d782ae0ec76a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">3.26.2024::15:5:28</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::12:17:24</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\GeneralRequirements_1.sbsx</_hfilename>
+					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS_copy::GeneralRequirements</_hsubsystem>
+					<_hname type="a">ControlHeaterCoolerFR</_hname>
+					<_hid type="a">GUID 44c8567a-01b1-4e48-b45e-fc493ff7779a</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 86ec12a4-6db9-447d-b996-404ad3efc407</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IRequirement type="e">
+			<_id type="a">GUID b3ccca39-6de9-4ec8-8357-75cea38e3e20</_id>
+			<_myState type="a">8192</_myState>
+			<_rmmServerID type="a">-1</_rmmServerID>
+			<_name type="a">VerifyPresence</_name>
+			<_modifiedTimeWeak type="a">3.26.2024::15:7:51</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::12:17:24</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The TMS must receive data from a presence sensor to detect if any user is nearby.\par%0D
+}%0D
+</_body>
+			<reqID type="a">2.11</reqID>
+			<AggregatesList type="e">
+				<value>GUID f097767d-6239-4bb7-8cab-a140978bfc2a</value>
+			</AggregatesList>
+		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID f097767d-6239-4bb7-8cab-a140978bfc2a</_id>
+			<_myState type="a">2048</_myState>
+			<_rmmServerID type="a">-1</_rmmServerID>
+			<_name type="a">DefineTemperatureFR</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">derive</_hname>
+							<_hid type="a">GUID 77e51128-5c12-48fa-9a18-d782ae0ec76a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">3.26.2024::15:7:51</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::12:17:24</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\GeneralRequirements_1.sbsx</_hfilename>
+					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS_copy::GeneralRequirements</_hsubsystem>
+					<_hname type="a">DefineTemperatureFR</_hname>
+					<_hid type="a">GUID 45568984-fc06-4d55-8193-b8fc40091071</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID b3ccca39-6de9-4ec8-8357-75cea38e3e20</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IRequirement type="e">
+			<_id type="a">GUID a1c17a5f-9db6-4dd2-8685-bb7dae1a993c</_id>
+			<_myState type="a">8192</_myState>
+			<_rmmServerID type="a">-1</_rmmServerID>
+			<_name type="a">DecideTargetTemperatureFR</_name>
+			<_modifiedTimeWeak type="a">3.26.2024::15:11:33</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::12:17:24</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The TMS must maintain the desired temperature DesireTemp if there is a person in the room or it must set temperature to DefaultTemp degrees when there is nobody in the room.\par%0D
+}%0D
+</_body>
+			<reqID type="a">2.12</reqID>
+			<AggregatesList type="e">
+				<value>GUID a805e62d-89ae-4b7d-8890-4f0f19f47e4d</value>
+			</AggregatesList>
+		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID a805e62d-89ae-4b7d-8890-4f0f19f47e4d</_id>
+			<_myState type="a">2048</_myState>
+			<_rmmServerID type="a">-1</_rmmServerID>
+			<_name type="a">DefineTemperatureFR</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">derive</_hname>
+							<_hid type="a">GUID 77e51128-5c12-48fa-9a18-d782ae0ec76a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">3.26.2024::15:11:33</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::12:17:24</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\GeneralRequirements_1.sbsx</_hfilename>
+					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS_copy::GeneralRequirements</_hsubsystem>
+					<_hname type="a">DefineTemperatureFR</_hname>
+					<_hid type="a">GUID 45568984-fc06-4d55-8193-b8fc40091071</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID a1c17a5f-9db6-4dd2-8685-bb7dae1a993c</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IRequirement type="e">
+			<_id type="a">GUID e3c08550-e2ec-4121-8501-6fc3ca721e11</_id>
+			<_myState type="a">8192</_myState>
+			<_rmmServerID type="a">-1</_rmmServerID>
+			<_name type="a">SetDesiredTempFR</_name>
+			<_modifiedTimeWeak type="a">3.26.2024::15:15:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::12:17:24</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The TMS must allow the user set the desired temperature.\par%0D
+}%0D
+</_body>
+			<reqID type="a">2.13</reqID>
+			<AggregatesList type="e">
+				<value>GUID 9bdce993-fbed-4281-bbb6-b0dd9150310e</value>
+			</AggregatesList>
+		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID 9bdce993-fbed-4281-bbb6-b0dd9150310e</_id>
+			<_myState type="a">2048</_myState>
+			<_rmmServerID type="a">-1</_rmmServerID>
+			<_name type="a">DefineTemperatureFR</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">derive</_hname>
+							<_hid type="a">GUID 77e51128-5c12-48fa-9a18-d782ae0ec76a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">3.26.2024::15:15:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::12:17:24</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\GeneralRequirements_1.sbsx</_hfilename>
+					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS_copy::GeneralRequirements</_hsubsystem>
+					<_hname type="a">DefineTemperatureFR</_hname>
+					<_hid type="a">GUID 45568984-fc06-4d55-8193-b8fc40091071</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID e3c08550-e2ec-4121-8501-6fc3ca721e11</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IRequirement type="e">
+			<_id type="a">GUID 9f437946-cbee-41a4-a3bc-ad5e84bfe54e</_id>
+			<_myState type="a">8192</_myState>
+			<_rmmServerID type="a">-1</_rmmServerID>
+			<_name type="a">setUserTemperatureFR</_name>
+			<_modifiedTimeWeak type="a">3.26.2024::21:1:21</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::12:17:24</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The TMS must assign the value given remotely by user to DesireTemp.\par%0D
+}%0D
+</_body>
+			<reqID type="a">2.14</reqID>
+			<AggregatesList type="e">
+				<value>GUID 97736e64-ff4c-47c1-82b3-43897a6f2fe7</value>
+			</AggregatesList>
+		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID 97736e64-ff4c-47c1-82b3-43897a6f2fe7</_id>
+			<_myState type="a">2048</_myState>
+			<_rmmServerID type="a">-1</_rmmServerID>
+			<_name type="a">RemoteControlFR</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">derive</_hname>
+							<_hid type="a">GUID 77e51128-5c12-48fa-9a18-d782ae0ec76a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">3.26.2024::21:1:21</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::12:17:24</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\GeneralRequirements_1.sbsx</_hfilename>
+					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS_copy::GeneralRequirements</_hsubsystem>
+					<_hname type="a">RemoteControlFR</_hname>
+					<_hid type="a">GUID 7673a598-663c-45e1-9fba-04f758c139c5</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 9f437946-cbee-41a4-a3bc-ad5e84bfe54e</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IRequirement type="e">
+			<_id type="a">GUID b298cd18-b8d7-46c2-bddd-63e650ff4110</_id>
+			<_myState type="a">8192</_myState>
+			<_rmmServerID type="a">-1</_rmmServerID>
+			<_name type="a">DisplayFR</_name>
+			<_modifiedTimeWeak type="a">3.26.2024::21:7:41</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::12:17:24</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The TMS must be able to display the user-interface to users for reachability.\par%0D
+}%0D
+</_body>
+			<reqID type="a">1.9</reqID>
+			<AggregatesList type="e">
+				<value>GUID f7614803-d61c-4d26-962c-f83e318778f0</value>
+			</AggregatesList>
+		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID f7614803-d61c-4d26-962c-f83e318778f0</_id>
+			<_myState type="a">2048</_myState>
+			<_rmmServerID type="a">-1</_rmmServerID>
+			<_name type="a">UserInterfaceNFR</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">derive</_hname>
+							<_hid type="a">GUID 77e51128-5c12-48fa-9a18-d782ae0ec76a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">3.26.2024::21:5:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::12:17:24</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\GeneralRequirements_1.sbsx</_hfilename>
+					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS_copy::GeneralRequirements</_hsubsystem>
+					<_hname type="a">UserInterfaceNFR</_hname>
+					<_hid type="a">GUID 464d7a3b-061f-4538-949e-42c55c0a777a</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID b298cd18-b8d7-46c2-bddd-63e650ff4110</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IRequirement type="e">
+			<_id type="a">GUID 653b5df4-8a71-42db-b486-a3c072240058</_id>
+			<_myState type="a">8192</_myState>
+			<_rmmServerID type="a">-1</_rmmServerID>
+			<_name type="a">displayTemperaturesFR</_name>
+			<_modifiedTimeWeak type="a">3.26.2024::21:9:11</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::12:17:24</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The TMS must be able to display the target temperature and current temperature of the room/car to the user.\par%0D
+}%0D
+</_body>
+			<reqID type="a">1.10</reqID>
+			<AggregatesList type="e">
+				<value>GUID be6e3892-e270-4c25-ad02-c813a61d2c0f</value>
+			</AggregatesList>
+		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID be6e3892-e270-4c25-ad02-c813a61d2c0f</_id>
+			<_myState type="a">2048</_myState>
+			<_rmmServerID type="a">-1</_rmmServerID>
+			<_name type="a">DisplayFR</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">derive</_hname>
+							<_hid type="a">GUID 77e51128-5c12-48fa-9a18-d782ae0ec76a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">3.26.2024::21:8:40</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::12:17:24</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID b298cd18-b8d7-46c2-bddd-63e650ff4110</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 653b5df4-8a71-42db-b486-a3c072240058</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IClass type="e">
+			<_id type="a">GUID 166fe6e6-e8a8-4088-8568-5be3dc8d72a5</_id>
+			<_myState type="a">40960</_myState>
+			<_rmmServerID type="a">-1</_rmmServerID>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+
