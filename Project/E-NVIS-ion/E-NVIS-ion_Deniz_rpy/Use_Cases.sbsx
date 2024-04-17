@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0</version>
+	<lang>C++</lang>
+	<BuildNo>202002261110</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID f9a598db-131c-42aa-9503-547b16a908dd</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Use_Cases</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::13:54:59</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::13:54:59</_modifiedTime>
+			<weakCGTime type="a">4.16.2024::13:54:59</weakCGTime>
+			<strongCGTime type="a">4.16.2024::13:54:20</strongCGTime>
+			<_defaultComposite type="s">GUID 5d47dcb5-3a0e-4494-92da-563f05a6f46a</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 84c9f1e4-6b9d-4f2b-bafc-1212a695b6be</value>
+				<value>GUID 5d47dcb5-3a0e-4494-92da-563f05a6f46a</value>
+			</AggregatesList>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">NVIS_Use_Case</fileName>
+			<_id type="a">GUID 84c9f1e4-6b9d-4f2b-bafc-1212a695b6be</_id>
+		</ISubsystem>
+		<IClass type="e">
+			<_id type="a">GUID 5d47dcb5-3a0e-4494-92da-563f05a6f46a</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

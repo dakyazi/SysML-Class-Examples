@@ -1,10 +1,10 @@
 /********************************************************************
 	Rhapsody	: 9.0 
-	Login		: 20235613
+	Login		: 20235604
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: TMS_Operating_Environment
-//!	Generated Date	: Mon, 15, Apr 2024  
+//!	Generated Date	: Wed, 17, Apr 2024  
 	File Path	: DefaultComponent\DefaultConfig\TMS_Operating_Environment.cpp
 *********************************************************************/
 
@@ -24,10 +24,14 @@
 #include "NaturalEnvironment.h"
 //## classInstance itsPresenceSensor
 #include "PresenceSensor.h"
-//## classInstance itsTempSensor
+//## classInstance itsTempSensor_1
 #include "TempSensor.h"
-//## classInstance itsTMS
+//## classInstance itsTMS_1
 #include "TMS.h"
+//## auto_generated
+#include "TempSensor_1.h"
+//## auto_generated
+#include "TMS_1.h"
 //## package System_Analysis::TMS_Operating_Environment
 
 
@@ -46,11 +50,11 @@ NaturalEnvironment itsNaturalEnvironment;
 //## classInstance itsPresenceSensor
 PresenceSensor itsPresenceSensor;
 
-//## classInstance itsTMS
-TMS itsTMS;
+//## classInstance itsTMS_1
+TMS itsTMS_1;
 
-//## classInstance itsTempSensor
-TempSensor itsTempSensor;
+//## classInstance itsTempSensor_1
+TempSensor itsTempSensor_1;
 
 #ifdef _OMINSTRUMENT
 static void serializeGlobalVars(AOMSAttributes* /* aomsAttributes */);
@@ -75,10 +79,10 @@ static void RenameGlobalInstances(void) {
     OM_SET_INSTANCE_NAME(&itsCommunicationSystem, CommunicationSystem, "itsCommunicationSystem", AOMNoMultiplicity);
     OM_SET_INSTANCE_NAME(&itsHeatingSystem, HeatingSystem, "itsHeatingSystem", AOMNoMultiplicity);
     OM_SET_INSTANCE_NAME(&itsCoolingSystem, CoolingSystem, "itsCoolingSystem", AOMNoMultiplicity);
-    OM_SET_INSTANCE_NAME(&itsTempSensor, TempSensor, "itsTempSensor", AOMNoMultiplicity);
+    OM_SET_INSTANCE_NAME(&itsTempSensor_1, TempSensor, "itsTempSensor_1", AOMNoMultiplicity);
     OM_SET_INSTANCE_NAME(&itsPresenceSensor, PresenceSensor, "itsPresenceSensor", AOMNoMultiplicity);
     OM_SET_INSTANCE_NAME(&itsNaturalEnvironment, NaturalEnvironment, "itsNaturalEnvironment", AOMNoMultiplicity);
-    OM_SET_INSTANCE_NAME(&itsTMS, TMS, "itsTMS", AOMNoMultiplicity);
+    OM_SET_INSTANCE_NAME(&itsTMS_1, TMS, "itsTMS_1", AOMNoMultiplicity);
 }
 #endif // _OMINSTRUMENT
 

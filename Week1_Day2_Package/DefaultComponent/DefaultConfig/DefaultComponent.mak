@@ -99,12 +99,15 @@ OBJS= \
   PresenceSensor.obj \
   TempSensor.obj \
   PowerSource.obj \
+  TempSensor_1.obj \
+  TMS_1.obj \
   CarOccupant.obj \
   Default.obj \
   System_Context.obj \
   TMS_Operating_Environment.obj \
   Temperature_UC.obj \
-  USERMODEL.obj
+  USERMODEL.obj \
+  ProxyPortInterfaces.obj
 
 
 
@@ -205,7 +208,7 @@ Cloud.obj : Cloud.cpp Cloud.h    Default.h Car.h
 
 
 
-TMS.obj : TMS.cpp TMS.h    System_Context.h Stakeholder.h Standard.h NaturalEnvironment.h Constraints.h CommunicationSystem.h HeatingSystem.h CoolingSystem.h TempSensor.h PresenceSensor.h CarOccupant.h PowerSource.h 
+TMS.obj : TMS.cpp TMS.h    System_Context.h Stakeholder.h Standard.h NaturalEnvironment.h Constraints.h CommunicationSystem.h HeatingSystem.h CoolingSystem.h TempSensor.h PresenceSensor.h CarOccupant.h PowerSource.h int_setTmpMax_ProxyFlowPropertyInterface.h int_setTmpMin_ProxyFlowPropertyInterface.h int_voltage_ProxyFlowPropertyInterface.h int_currentTmp_ProxyFlowPropertyInterface.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"TMS.obj" "TMS.cpp" 
 
@@ -259,15 +262,27 @@ PresenceSensor.obj : PresenceSensor.cpp PresenceSensor.h    System_Context.h TMS
 
 
 
-TempSensor.obj : TempSensor.cpp TempSensor.h    System_Context.h TMS.h 
+TempSensor.obj : TempSensor.cpp TempSensor.h    System_Context.h TMS.h int_currentTmp_ProxyFlowPropertyInterface.h int_setTmpMax_ProxyFlowPropertyInterface.h int_setTmpMin_ProxyFlowPropertyInterface.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"TempSensor.obj" "TempSensor.cpp" 
 
 
 
-PowerSource.obj : PowerSource.cpp PowerSource.h    System_Context.h TMS.h 
+PowerSource.obj : PowerSource.cpp PowerSource.h    System_Context.h TMS.h int_voltage_ProxyFlowPropertyInterface.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"PowerSource.obj" "PowerSource.cpp" 
+
+
+
+TempSensor_1.obj : TempSensor_1.cpp TempSensor_1.h    TMS_Operating_Environment.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"TempSensor_1.obj" "TempSensor_1.cpp" 
+
+
+
+TMS_1.obj : TMS_1.cpp TMS_1.h    TMS_Operating_Environment.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"TMS_1.obj" "TMS_1.cpp" 
 
 
 
@@ -289,7 +304,7 @@ System_Context.obj : System_Context.cpp System_Context.h    TMS.h Stakeholder.h 
 
 
 
-TMS_Operating_Environment.obj : TMS_Operating_Environment.cpp TMS_Operating_Environment.h    CommunicationSystem.h HeatingSystem.h CoolingSystem.h TempSensor.h PresenceSensor.h NaturalEnvironment.h TMS.h 
+TMS_Operating_Environment.obj : TMS_Operating_Environment.cpp TMS_Operating_Environment.h    TempSensor_1.h TMS_1.h CommunicationSystem.h HeatingSystem.h CoolingSystem.h TempSensor.h PresenceSensor.h NaturalEnvironment.h TMS.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"TMS_Operating_Environment.obj" "TMS_Operating_Environment.cpp" 
 
@@ -301,9 +316,15 @@ Temperature_UC.obj : Temperature_UC.cpp Temperature_UC.h
 
 
 
-USERMODEL.obj : USERMODEL.cpp USERMODEL.h    PowerSource.h 
+USERMODEL.obj : USERMODEL.cpp USERMODEL.h    PowerSource.h TMS.h TempSensor.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"USERMODEL.obj" "USERMODEL.cpp" 
+
+
+
+ProxyPortInterfaces.obj : ProxyPortInterfaces.cpp ProxyPortInterfaces.h    int_voltage_ProxyFlowPropertyInterface.h int_currentTmp_ProxyFlowPropertyInterface.h int_setTmpMax_ProxyFlowPropertyInterface.h int_setTmpMin_ProxyFlowPropertyInterface.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"ProxyPortInterfaces.obj" "ProxyPortInterfaces.cpp" 
 
 
 
@@ -348,12 +369,15 @@ clean:
 	if exist PresenceSensor.obj erase PresenceSensor.obj
 	if exist TempSensor.obj erase TempSensor.obj
 	if exist PowerSource.obj erase PowerSource.obj
+	if exist TempSensor_1.obj erase TempSensor_1.obj
+	if exist TMS_1.obj erase TMS_1.obj
 	if exist CarOccupant.obj erase CarOccupant.obj
 	if exist Default.obj erase Default.obj
 	if exist System_Context.obj erase System_Context.obj
 	if exist TMS_Operating_Environment.obj erase TMS_Operating_Environment.obj
 	if exist Temperature_UC.obj erase Temperature_UC.obj
 	if exist USERMODEL.obj erase USERMODEL.obj
+	if exist ProxyPortInterfaces.obj erase ProxyPortInterfaces.obj
 	if exist $(TARGET_MAIN)$(OBJ_EXT) erase $(TARGET_MAIN)$(OBJ_EXT)
 	if exist *$(OBJ_EXT) erase *$(OBJ_EXT)
 	if exist $(TARGET_NAME).pdb erase $(TARGET_NAME).pdb

@@ -1,15 +1,17 @@
 /********************************************************************
 	Rhapsody	: 9.0 
-	Login		: 20235613
+	Login		: 20235604
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: PowerSource
-//!	Generated Date	: Tue, 16, Apr 2024  
+//!	Generated Date	: Wed, 17, Apr 2024  
 	File Path	: DefaultComponent\DefaultConfig\PowerSource.cpp
 *********************************************************************/
 
 //#[ ignore
 #define NAMESPACE_PREFIX
+
+#define _OMSTATECHART_ANIMATED
 //#]
 
 //## auto_generated
@@ -28,209 +30,61 @@
 #define System_Analysis_System_Context_PowerSource_switchLightOff_SERIALIZE OM_NO_OP
 
 #define System_Analysis_System_Context_PowerSource_switchLightOn_SERIALIZE OM_NO_OP
+
+#define OMAnim_System_Analysis_System_Context_PowerSource_setVoltage_int_UNSERIALIZE_ARGS OP_UNSER(OMDestructiveString2X,p_voltage)
+
+#define OMAnim_System_Analysis_System_Context_PowerSource_setVoltage_int_SERIALIZE_RET_VAL
 //#]
 
 //## package System_Analysis::System_Context
 
 //## class PowerSource
 //#[ ignore
-PowerSource::ACT_POWERSOURCEOfPowerSource::ActionAction_0InActivityACT_POWERSOURCEOfPowerSource::ActionAction_0InActivityACT_POWERSOURCEOfPowerSource(const OMString& id, ACT_POWERSOURCEOfPowerSource& activity, PowerSource& context) : OMContextualAction(id, activity), mContext(&context) {
+PowerSource::p_PowerSource_C::p_PowerSource_C(void) : int_voltage_ProxyFlowPropertyInterface(), _p_(0), itsInt_voltage_ProxyFlowPropertyInterface(NULL) {
 }
 
-OMList<OMString> PowerSource::ACT_POWERSOURCEOfPowerSource::ActionAction_0InActivityACT_POWERSOURCEOfPowerSource::filterPassableFlows(void) {
-    return mContext->delegatedFilterPassableFlowsFromActionAction_0InActivityACT_POWERSOURCEOfPowerSource();
+PowerSource::p_PowerSource_C::~p_PowerSource_C(void) {
+    cleanUpRelations();
 }
 
-void PowerSource::ACT_POWERSOURCEOfPowerSource::ActionAction_0InActivityACT_POWERSOURCEOfPowerSource::invokeContextMethod(void) {
-    mContext->delegatedInvokeContextMethodFromActionAction_0InActivityACT_POWERSOURCEOfPowerSource();
+int_voltage_ProxyFlowPropertyInterface* PowerSource::p_PowerSource_C::getItsInt_voltage_ProxyFlowPropertyInterface(void) {
+    return this;
 }
 
-PowerSource::ACT_POWERSOURCEOfPowerSource::ActionAction_1InActivityACT_POWERSOURCEOfPowerSource::ActionAction_1InActivityACT_POWERSOURCEOfPowerSource(const OMString& id, ACT_POWERSOURCEOfPowerSource& activity, PowerSource& context) : OMContextualAction(id, activity), mContext(&context) {
+int_voltage_ProxyFlowPropertyInterface* PowerSource::p_PowerSource_C::getOutBound(void) {
+    return this;
 }
 
-OMList<OMString> PowerSource::ACT_POWERSOURCEOfPowerSource::ActionAction_1InActivityACT_POWERSOURCEOfPowerSource::filterPassableFlows(void) {
-    return mContext->delegatedFilterPassableFlowsFromActionAction_1InActivityACT_POWERSOURCEOfPowerSource();
-}
-
-void PowerSource::ACT_POWERSOURCEOfPowerSource::ActionAction_1InActivityACT_POWERSOURCEOfPowerSource::invokeContextMethod(void) {
-    mContext->delegatedInvokeContextMethodFromActionAction_1InActivityACT_POWERSOURCEOfPowerSource();
-}
-
-PowerSource::ACT_POWERSOURCEOfPowerSource::ActionCheckingSystemStatusInActivityACT_POWERSOURCEOfPowerSource::ActionCheckingSystemStatusInActivityACT_POWERSOURCEOfPowerSource(const OMString& id, ACT_POWERSOURCEOfPowerSource& activity, PowerSource& context) : OMContextualAction(id, activity), mContext(&context) {
-}
-
-OMList<OMString> PowerSource::ACT_POWERSOURCEOfPowerSource::ActionCheckingSystemStatusInActivityACT_POWERSOURCEOfPowerSource::filterPassableFlows(void) {
-    return mContext->delegatedFilterPassableFlowsFromActionCheckingSystemStatusInActivityACT_POWERSOURCEOfPowerSource();
-}
-
-void PowerSource::ACT_POWERSOURCEOfPowerSource::ActionCheckingSystemStatusInActivityACT_POWERSOURCEOfPowerSource::invokeContextMethod(void) {
-    mContext->delegatedInvokeContextMethodFromActionCheckingSystemStatusInActivityACT_POWERSOURCEOfPowerSource();
-}
-
-PowerSource::ACT_POWERSOURCEOfPowerSource::ActionAccepteventaction_4InActivityACT_POWERSOURCEOfPowerSource::ActionAccepteventaction_4InActivityACT_POWERSOURCEOfPowerSource(const OMString& id, ACT_POWERSOURCEOfPowerSource& activity, IOxfEvent::ID eventId, PowerSource& context) : OMAcceptEventAction(id, activity, eventId), mContext(&context) {
-}
-
-OMList<OMString> PowerSource::ACT_POWERSOURCEOfPowerSource::ActionAccepteventaction_4InActivityACT_POWERSOURCEOfPowerSource::filterPassableFlows(void) {
-    return mContext->delegatedFilterPassableFlowsFromActionAccepteventaction_4InActivityACT_POWERSOURCEOfPowerSource();
-}
-
-void PowerSource::ACT_POWERSOURCEOfPowerSource::ActionAccepteventaction_4InActivityACT_POWERSOURCEOfPowerSource::acceptEventData(void) {
-    mContext->delegatedAcceptEventDataFromActionAccepteventaction_4InActivityACT_POWERSOURCEOfPowerSource();
-}
-
-PowerSource::ACT_POWERSOURCEOfPowerSource::ActionCalloperation_5InActivityACT_POWERSOURCEOfPowerSource::ActionCalloperation_5InActivityACT_POWERSOURCEOfPowerSource(const OMString& id, ACT_POWERSOURCEOfPowerSource& activity, PowerSource& context) : OMContextualAction(id, activity), mContext(&context) {
-}
-
-OMList<OMString> PowerSource::ACT_POWERSOURCEOfPowerSource::ActionCalloperation_5InActivityACT_POWERSOURCEOfPowerSource::filterPassableFlows(void) {
-    return mContext->delegatedFilterPassableFlowsFromActionCalloperation_5InActivityACT_POWERSOURCEOfPowerSource();
-}
-
-void PowerSource::ACT_POWERSOURCEOfPowerSource::ActionCalloperation_5InActivityACT_POWERSOURCEOfPowerSource::invokeContextMethod(void) {
-    mContext->delegatedInvokeContextMethodFromActionCalloperation_5InActivityACT_POWERSOURCEOfPowerSource();
-}
-
-PowerSource::ACT_POWERSOURCEOfPowerSource::ActionCalloperation_6InActivityACT_POWERSOURCEOfPowerSource::ActionCalloperation_6InActivityACT_POWERSOURCEOfPowerSource(const OMString& id, ACT_POWERSOURCEOfPowerSource& activity, PowerSource& context) : OMContextualAction(id, activity), mContext(&context) {
-}
-
-OMList<OMString> PowerSource::ACT_POWERSOURCEOfPowerSource::ActionCalloperation_6InActivityACT_POWERSOURCEOfPowerSource::filterPassableFlows(void) {
-    return mContext->delegatedFilterPassableFlowsFromActionCalloperation_6InActivityACT_POWERSOURCEOfPowerSource();
-}
-
-void PowerSource::ACT_POWERSOURCEOfPowerSource::ActionCalloperation_6InActivityACT_POWERSOURCEOfPowerSource::invokeContextMethod(void) {
-    mContext->delegatedInvokeContextMethodFromActionCalloperation_6InActivityACT_POWERSOURCEOfPowerSource();
-}
-
-PowerSource::ACT_POWERSOURCEOfPowerSource::ActionAccepteventaction_7InActivityACT_POWERSOURCEOfPowerSource::ActionAccepteventaction_7InActivityACT_POWERSOURCEOfPowerSource(const OMString& id, ACT_POWERSOURCEOfPowerSource& activity, IOxfEvent::ID eventId, PowerSource& context) : OMAcceptEventAction(id, activity, eventId), mContext(&context) {
-}
-
-OMList<OMString> PowerSource::ACT_POWERSOURCEOfPowerSource::ActionAccepteventaction_7InActivityACT_POWERSOURCEOfPowerSource::filterPassableFlows(void) {
-    return mContext->delegatedFilterPassableFlowsFromActionAccepteventaction_7InActivityACT_POWERSOURCEOfPowerSource();
-}
-
-void PowerSource::ACT_POWERSOURCEOfPowerSource::ActionAccepteventaction_7InActivityACT_POWERSOURCEOfPowerSource::acceptEventData(void) {
-    mContext->delegatedAcceptEventDataFromActionAccepteventaction_7InActivityACT_POWERSOURCEOfPowerSource();
-}
-
-PowerSource::ACT_POWERSOURCEOfPowerSource::ActionAction_8InActivityACT_POWERSOURCEOfPowerSource::ActionAction_8InActivityACT_POWERSOURCEOfPowerSource(const OMString& id, ACT_POWERSOURCEOfPowerSource& activity, PowerSource& context) : OMContextualAction(id, activity), mContext(&context) {
-}
-
-OMList<OMString> PowerSource::ACT_POWERSOURCEOfPowerSource::ActionAction_8InActivityACT_POWERSOURCEOfPowerSource::filterPassableFlows(void) {
-    return mContext->delegatedFilterPassableFlowsFromActionAction_8InActivityACT_POWERSOURCEOfPowerSource();
-}
-
-void PowerSource::ACT_POWERSOURCEOfPowerSource::ActionAction_8InActivityACT_POWERSOURCEOfPowerSource::invokeContextMethod(void) {
-    mContext->delegatedInvokeContextMethodFromActionAction_8InActivityACT_POWERSOURCEOfPowerSource();
-}
-
-PowerSource::ACT_POWERSOURCEOfPowerSource::ActionCalloperation_9InActivityACT_POWERSOURCEOfPowerSource::ActionCalloperation_9InActivityACT_POWERSOURCEOfPowerSource(const OMString& id, ACT_POWERSOURCEOfPowerSource& activity, PowerSource& context) : OMContextualAction(id, activity), mContext(&context) {
-}
-
-OMList<OMString> PowerSource::ACT_POWERSOURCEOfPowerSource::ActionCalloperation_9InActivityACT_POWERSOURCEOfPowerSource::filterPassableFlows(void) {
-    return mContext->delegatedFilterPassableFlowsFromActionCalloperation_9InActivityACT_POWERSOURCEOfPowerSource();
-}
-
-void PowerSource::ACT_POWERSOURCEOfPowerSource::ActionCalloperation_9InActivityACT_POWERSOURCEOfPowerSource::invokeContextMethod(void) {
-    mContext->delegatedInvokeContextMethodFromActionCalloperation_9InActivityACT_POWERSOURCEOfPowerSource();
-}
-
-PowerSource::ACT_POWERSOURCEOfPowerSource::ActionAccepteventaction_10InActivityACT_POWERSOURCEOfPowerSource::ActionAccepteventaction_10InActivityACT_POWERSOURCEOfPowerSource(const OMString& id, ACT_POWERSOURCEOfPowerSource& activity, IOxfEvent::ID eventId, PowerSource& context) : OMAcceptEventAction(id, activity, eventId), mContext(&context) {
-}
-
-OMList<OMString> PowerSource::ACT_POWERSOURCEOfPowerSource::ActionAccepteventaction_10InActivityACT_POWERSOURCEOfPowerSource::filterPassableFlows(void) {
-    return mContext->delegatedFilterPassableFlowsFromActionAccepteventaction_10InActivityACT_POWERSOURCEOfPowerSource();
-}
-
-void PowerSource::ACT_POWERSOURCEOfPowerSource::ActionAccepteventaction_10InActivityACT_POWERSOURCEOfPowerSource::acceptEventData(void) {
-    mContext->delegatedAcceptEventDataFromActionAccepteventaction_10InActivityACT_POWERSOURCEOfPowerSource();
-}
-
-PowerSource::ACT_POWERSOURCEOfPowerSource::ActionAccepttimeevent_11InActivityACT_POWERSOURCEOfPowerSource::ActionAccepttimeevent_11InActivityACT_POWERSOURCEOfPowerSource(const OMString& id, ACT_POWERSOURCEOfPowerSource& activity, int duration, PowerSource& context) : OMTimeEventAction(id, activity, duration), mContext(&context) {
-}
-
-OMList<OMString> PowerSource::ACT_POWERSOURCEOfPowerSource::ActionAccepttimeevent_11InActivityACT_POWERSOURCEOfPowerSource::filterPassableFlows(void) {
-    return mContext->delegatedFilterPassableFlowsFromActionAccepttimeevent_11InActivityACT_POWERSOURCEOfPowerSource();
-}
-
-PowerSource::ACT_POWERSOURCEOfPowerSource::ActionSendaction_12InActivityACT_POWERSOURCEOfPowerSource::ActionSendaction_12InActivityACT_POWERSOURCEOfPowerSource(const OMString& id, ACT_POWERSOURCEOfPowerSource& activity, PowerSource& context) : OMSendEventAction(id, activity), mContext(&context) {
-}
-
-OMList<OMString> PowerSource::ACT_POWERSOURCEOfPowerSource::ActionSendaction_12InActivityACT_POWERSOURCEOfPowerSource::filterPassableFlows(void) {
-    return mContext->delegatedFilterPassableFlowsFromActionSendaction_12InActivityACT_POWERSOURCEOfPowerSource();
-}
-
-void PowerSource::ACT_POWERSOURCEOfPowerSource::ActionSendaction_12InActivityACT_POWERSOURCEOfPowerSource::sendEvent(void) {
-    mContext->delegatedSendEventFromActionSendaction_12InActivityACT_POWERSOURCEOfPowerSource();
-}
-
-PowerSource::ACT_POWERSOURCEOfPowerSource::ControlDecisionnode_7InActivityACT_POWERSOURCEOfPowerSource::ControlDecisionnode_7InActivityACT_POWERSOURCEOfPowerSource(const OMString& id, ACT_POWERSOURCEOfPowerSource& activity, PowerSource& context) : OMDecisionNode(id, activity), mContext(&context) {
-}
-
-OMList<OMString> PowerSource::ACT_POWERSOURCEOfPowerSource::ControlDecisionnode_7InActivityACT_POWERSOURCEOfPowerSource::filterPassableFlows(void) {
-    return mContext->delegatedFilterPassableFlowsFromControlDecisionnode_7InActivityACT_POWERSOURCEOfPowerSource();
-}
-
-PowerSource::ACT_POWERSOURCEOfPowerSource::ControlMergenode_24InActivityACT_POWERSOURCEOfPowerSource::ControlMergenode_24InActivityACT_POWERSOURCEOfPowerSource(const OMString& id, ACT_POWERSOURCEOfPowerSource& activity, PowerSource& context) : OMMergeNode(id, activity), mContext(&context) {
-}
-
-OMList<OMString> PowerSource::ACT_POWERSOURCEOfPowerSource::ControlMergenode_24InActivityACT_POWERSOURCEOfPowerSource::filterPassableFlows(void) {
-    return mContext->delegatedFilterPassableFlowsFromControlMergenode_24InActivityACT_POWERSOURCEOfPowerSource();
-}
-
-PowerSource::ACT_POWERSOURCEOfPowerSource::ControlMergenode_33InActivityACT_POWERSOURCEOfPowerSource::ControlMergenode_33InActivityACT_POWERSOURCEOfPowerSource(const OMString& id, ACT_POWERSOURCEOfPowerSource& activity, PowerSource& context) : OMMergeNode(id, activity), mContext(&context) {
-}
-
-OMList<OMString> PowerSource::ACT_POWERSOURCEOfPowerSource::ControlMergenode_33InActivityACT_POWERSOURCEOfPowerSource::filterPassableFlows(void) {
-    return mContext->delegatedFilterPassableFlowsFromControlMergenode_33InActivityACT_POWERSOURCEOfPowerSource();
-}
-
-PowerSource::ACT_POWERSOURCEOfPowerSource::ACT_POWERSOURCEOfPowerSource(PowerSource& context) : OMActivity(&context), mContext(&context) {
-    // Setup nodes
-    ActionAction_0InActivityACT_POWERSOURCEOfPowerSource* varAction_0 = new ActionAction_0InActivityACT_POWERSOURCEOfPowerSource("ACT_POWERSOURCE:ROOT.action_0", *this, *mContext);
-    ActionAction_1InActivityACT_POWERSOURCEOfPowerSource* varAction_1 = new ActionAction_1InActivityACT_POWERSOURCEOfPowerSource("ACT_POWERSOURCE:ROOT.action_1", *this, *mContext);
-    ActionCheckingSystemStatusInActivityACT_POWERSOURCEOfPowerSource* varCheckingSystemStatus = new ActionCheckingSystemStatusInActivityACT_POWERSOURCEOfPowerSource("ACT_POWERSOURCE:ROOT.CheckingSystemStatus", *this, *mContext);
-    ActionAccepteventaction_4InActivityACT_POWERSOURCEOfPowerSource* varAccepteventaction_4 = new ActionAccepteventaction_4InActivityACT_POWERSOURCEOfPowerSource("ACT_POWERSOURCE:ROOT.accepteventaction_4", *this, reqPowerOn_System_Context_System_Analysis_id, *mContext);
-    ActionCalloperation_5InActivityACT_POWERSOURCEOfPowerSource* varCalloperation_5 = new ActionCalloperation_5InActivityACT_POWERSOURCEOfPowerSource("ACT_POWERSOURCE:ROOT.calloperation_5", *this, *mContext);
-    ActionCalloperation_6InActivityACT_POWERSOURCEOfPowerSource* varCalloperation_6 = new ActionCalloperation_6InActivityACT_POWERSOURCEOfPowerSource("ACT_POWERSOURCE:ROOT.calloperation_6", *this, *mContext);
-    ActionAccepteventaction_7InActivityACT_POWERSOURCEOfPowerSource* varAccepteventaction_7 = new ActionAccepteventaction_7InActivityACT_POWERSOURCEOfPowerSource("ACT_POWERSOURCE:ROOT.accepteventaction_7", *this, reqPowerOff_System_Context_System_Analysis_id, *mContext);
-    ActionAction_8InActivityACT_POWERSOURCEOfPowerSource* varAction_8 = new ActionAction_8InActivityACT_POWERSOURCEOfPowerSource("ACT_POWERSOURCE:ROOT.action_8", *this, *mContext);
-    ActionCalloperation_9InActivityACT_POWERSOURCEOfPowerSource* varCalloperation_9 = new ActionCalloperation_9InActivityACT_POWERSOURCEOfPowerSource("ACT_POWERSOURCE:ROOT.calloperation_9", *this, *mContext);
-    ActionAccepteventaction_10InActivityACT_POWERSOURCEOfPowerSource* varAccepteventaction_10 = new ActionAccepteventaction_10InActivityACT_POWERSOURCEOfPowerSource("ACT_POWERSOURCE:ROOT.accepteventaction_10", *this, evFaultCleared_System_Context_System_Analysis_id, *mContext);
-    ActionAccepttimeevent_11InActivityACT_POWERSOURCEOfPowerSource* varAccepttimeevent_11 = new ActionAccepttimeevent_11InActivityACT_POWERSOURCEOfPowerSource("ACT_POWERSOURCE:ROOT.accepttimeevent_11", *this, 3000, *mContext);
-    ActionSendaction_12InActivityACT_POWERSOURCEOfPowerSource* varSendaction_12 = new ActionSendaction_12InActivityACT_POWERSOURCEOfPowerSource("ACT_POWERSOURCE:ROOT.sendaction_12", *this, *mContext);
-    ControlDecisionnode_7InActivityACT_POWERSOURCEOfPowerSource* varDecisionnode_7 = new ControlDecisionnode_7InActivityACT_POWERSOURCEOfPowerSource("ACT_POWERSOURCE:ROOT.decisionnode_7", *this, *mContext);
-    ControlMergenode_24InActivityACT_POWERSOURCEOfPowerSource* varMergenode_24 = new ControlMergenode_24InActivityACT_POWERSOURCEOfPowerSource("ACT_POWERSOURCE:ROOT.mergenode_24", *this, *mContext);
-    ControlMergenode_33InActivityACT_POWERSOURCEOfPowerSource* varMergenode_33 = new ControlMergenode_33InActivityACT_POWERSOURCEOfPowerSource("ACT_POWERSOURCE:ROOT.mergenode_33", *this, *mContext);
-    OMInitialAction* varInitialNode0 = new OMInitialAction("ACT_POWERSOURCE:0", *this);
+void PowerSource::p_PowerSource_C::setVoltage(int p_voltage) {
     
-    // Setup flows
-    new OMControlFlow("ACT_POWERSOURCE:0", *this, *varInitialNode0, *varMergenode_24);
-    new OMControlFlow("ACT_POWERSOURCE:1", *this, *varAccepteventaction_4, *varCheckingSystemStatus);
-    new OMControlFlow("ACT_POWERSOURCE:2", *this, *varCheckingSystemStatus, *varDecisionnode_7);
-    new OMControlFlow("ACT_POWERSOURCE:3", *this, *varDecisionnode_7, *varCalloperation_5);
-    new OMControlFlow("ACT_POWERSOURCE:4", *this, *varCalloperation_5, *varCalloperation_6);
-    new OMControlFlow("ACT_POWERSOURCE:5", *this, *varCalloperation_6, *varAction_1);
-    new OMControlFlow("ACT_POWERSOURCE:6", *this, *varAction_1, *varAccepteventaction_7);
-    new OMControlFlow("ACT_POWERSOURCE:7", *this, *varAccepteventaction_7, *varMergenode_33);
-    new OMControlFlow("ACT_POWERSOURCE:8", *this, *varDecisionnode_7, *varAction_8);
-    new OMControlFlow("ACT_POWERSOURCE:9", *this, *varAction_8, *varCalloperation_9);
-    new OMControlFlow("ACT_POWERSOURCE:10", *this, *varAction_0, *varAccepteventaction_4);
-    new OMControlFlow("ACT_POWERSOURCE:11", *this, *varMergenode_24, *varAction_0);
-    new OMControlFlow("ACT_POWERSOURCE:12", *this, *varCalloperation_9, *varAccepteventaction_10);
-    new OMControlFlow("ACT_POWERSOURCE:13", *this, *varAccepteventaction_10, *varMergenode_24);
-    new OMControlFlow("ACT_POWERSOURCE:14", *this, *varAction_1, *varAccepttimeevent_11);
-    new OMControlFlow("ACT_POWERSOURCE:15", *this, *varAccepttimeevent_11, *varSendaction_12);
-    new OMControlFlow("ACT_POWERSOURCE:16", *this, *varMergenode_33, *varMergenode_24);
-    new OMControlFlow("ACT_POWERSOURCE:17", *this, *varSendaction_12, *varMergenode_33);
+    if (itsInt_voltage_ProxyFlowPropertyInterface != NULL) {
+        itsInt_voltage_ProxyFlowPropertyInterface->setVoltage(p_voltage);
+    }
+    
+}
+
+void PowerSource::p_PowerSource_C::setItsInt_voltage_ProxyFlowPropertyInterface(int_voltage_ProxyFlowPropertyInterface* const p_int_voltage_ProxyFlowPropertyInterface) {
+    itsInt_voltage_ProxyFlowPropertyInterface = p_int_voltage_ProxyFlowPropertyInterface;
+}
+
+void PowerSource::p_PowerSource_C::cleanUpRelations(void) {
+    if(itsInt_voltage_ProxyFlowPropertyInterface != NULL)
+        {
+            itsInt_voltage_ProxyFlowPropertyInterface = NULL;
+        }
 }
 //#]
 
-PowerSource::PowerSource(void) : systemOk(true), itsTMS(NULL) {
-    NOTIFY_ACTIVITY_CONSTRUCTOR(PowerSource, PowerSource(), 0, System_Analysis_System_Context_PowerSource_PowerSource_SERIALIZE);
+PowerSource::PowerSource(IOxfActive* const theActiveContext) : OMReactive(), systemOk(true), voltage(220), itsTMS(NULL) {
+    NOTIFY_REACTIVE_CONSTRUCTOR(PowerSource, PowerSource(), 0, System_Analysis_System_Context_PowerSource_PowerSource_SERIALIZE);
+    setActiveContext(theActiveContext, false);
+    initStatechart();
 }
 
 PowerSource::~PowerSource(void) {
     NOTIFY_DESTRUCTOR(~PowerSource, true);
     cleanUpRelations();
+    cancelTimeouts();
 }
 
 void PowerSource::indicateSystemFault(void) {
@@ -256,6 +110,15 @@ void PowerSource::runSystemTest(void) {
     //#]
 }
 
+//#[ ignore
+void PowerSource::setVoltage(int p_voltage) {
+    if (voltage != p_voltage)  {
+        voltage = p_voltage;
+        FLOW_DATA_SEND(voltage, p_PowerSource, setVoltage, x2String);
+    }
+}
+//#]
+
 void PowerSource::switchLightOff(void) {
     NOTIFY_OPERATION(switchLightOff, switchLightOff(), 0, System_Analysis_System_Context_PowerSource_switchLightOff_SERIALIZE);
     //#[ operation switchLightOff()
@@ -270,196 +133,12 @@ void PowerSource::switchLightOn(void) {
     //#]
 }
 
-//#[ ignore
-OMActivity* PowerSource::createMainActivity(void) {
-    return new ACT_POWERSOURCEOfPowerSource(*this);
+PowerSource::p_PowerSource_C* PowerSource::getP_PowerSource(void) const {
+    return (PowerSource::p_PowerSource_C*) &p_PowerSource;
 }
 
-void* PowerSource::getMe(void) {
-    return this;
-}
-//#]
-
-OMList<OMString> PowerSource::delegatedFilterPassableFlowsFromActionAction_0InActivityACT_POWERSOURCEOfPowerSource(void) {
-    //#[ activity_action ACT_POWERSOURCE:ROOT.action_0
-    OMList<OMString> ans;
-    ans.add("ACT_POWERSOURCE:10");
-    return ans;
-    //#]
-}
-
-void PowerSource::delegatedInvokeContextMethodFromActionAction_0InActivityACT_POWERSOURCEOfPowerSource(void) {
-    //#[ activity_action ACT_POWERSOURCE:ROOT.action_0
-    //#]
-}
-
-OMList<OMString> PowerSource::delegatedFilterPassableFlowsFromActionAction_1InActivityACT_POWERSOURCEOfPowerSource(void) {
-    //#[ activity_action ACT_POWERSOURCE:ROOT.action_1
-    OMList<OMString> ans;
-    ans.add("ACT_POWERSOURCE:6");
-    ans.add("ACT_POWERSOURCE:14");
-    return ans;
-    //#]
-}
-
-void PowerSource::delegatedInvokeContextMethodFromActionAction_1InActivityACT_POWERSOURCEOfPowerSource(void) {
-    //#[ activity_action ACT_POWERSOURCE:ROOT.action_1
-    //#]
-}
-
-OMList<OMString> PowerSource::delegatedFilterPassableFlowsFromActionCheckingSystemStatusInActivityACT_POWERSOURCEOfPowerSource(void) {
-    //#[ activity_action ACT_POWERSOURCE:ROOT.CheckingSystemStatus
-    OMList<OMString> ans;
-    ans.add("ACT_POWERSOURCE:2");
-    return ans;
-    //#]
-}
-
-void PowerSource::delegatedInvokeContextMethodFromActionCheckingSystemStatusInActivityACT_POWERSOURCEOfPowerSource(void) {
-    //#[ activity_action ACT_POWERSOURCE:ROOT.CheckingSystemStatus
-    runSystemTest();
-    //#]
-}
-
-OMList<OMString> PowerSource::delegatedFilterPassableFlowsFromActionAccepteventaction_4InActivityACT_POWERSOURCEOfPowerSource(void) {
-    //#[ activity_action ACT_POWERSOURCE:ROOT.accepteventaction_4
-    OMList<OMString> ans;
-    ans.add("ACT_POWERSOURCE:1");
-    return ans;
-    //#]
-}
-
-void PowerSource::delegatedAcceptEventDataFromActionAccepteventaction_4InActivityACT_POWERSOURCEOfPowerSource(void) {
-    //#[ activity_action ACT_POWERSOURCE:ROOT.accepteventaction_4
-    //#]
-}
-
-OMList<OMString> PowerSource::delegatedFilterPassableFlowsFromActionCalloperation_5InActivityACT_POWERSOURCEOfPowerSource(void) {
-    //#[ activity_action ACT_POWERSOURCE:ROOT.calloperation_5
-    OMList<OMString> ans;
-    ans.add("ACT_POWERSOURCE:4");
-    return ans;
-    //#]
-}
-
-void PowerSource::delegatedInvokeContextMethodFromActionCalloperation_5InActivityACT_POWERSOURCEOfPowerSource(void) {
-    //#[ activity_action ACT_POWERSOURCE:ROOT.calloperation_5
-    switchLightOn();
-    //#]
-}
-
-OMList<OMString> PowerSource::delegatedFilterPassableFlowsFromActionCalloperation_6InActivityACT_POWERSOURCEOfPowerSource(void) {
-    //#[ activity_action ACT_POWERSOURCE:ROOT.calloperation_6
-    OMList<OMString> ans;
-    ans.add("ACT_POWERSOURCE:5");
-    return ans;
-    //#]
-}
-
-void PowerSource::delegatedInvokeContextMethodFromActionCalloperation_6InActivityACT_POWERSOURCEOfPowerSource(void) {
-    //#[ activity_action ACT_POWERSOURCE:ROOT.calloperation_6
-    indicateSystemReady();
-    //#]
-}
-
-OMList<OMString> PowerSource::delegatedFilterPassableFlowsFromActionAccepteventaction_7InActivityACT_POWERSOURCEOfPowerSource(void) {
-    //#[ activity_action ACT_POWERSOURCE:ROOT.accepteventaction_7
-    OMList<OMString> ans;
-    ans.add("ACT_POWERSOURCE:7");
-    return ans;
-    //#]
-}
-
-void PowerSource::delegatedAcceptEventDataFromActionAccepteventaction_7InActivityACT_POWERSOURCEOfPowerSource(void) {
-    //#[ activity_action ACT_POWERSOURCE:ROOT.accepteventaction_7
-    //#]
-}
-
-OMList<OMString> PowerSource::delegatedFilterPassableFlowsFromActionAction_8InActivityACT_POWERSOURCEOfPowerSource(void) {
-    //#[ activity_action ACT_POWERSOURCE:ROOT.action_8
-    OMList<OMString> ans;
-    ans.add("ACT_POWERSOURCE:9");
-    return ans;
-    //#]
-}
-
-void PowerSource::delegatedInvokeContextMethodFromActionAction_8InActivityACT_POWERSOURCEOfPowerSource(void) {
-    //#[ activity_action ACT_POWERSOURCE:ROOT.action_8
-    //#]
-}
-
-OMList<OMString> PowerSource::delegatedFilterPassableFlowsFromActionCalloperation_9InActivityACT_POWERSOURCEOfPowerSource(void) {
-    //#[ activity_action ACT_POWERSOURCE:ROOT.calloperation_9
-    OMList<OMString> ans;
-    ans.add("ACT_POWERSOURCE:12");
-    return ans;
-    //#]
-}
-
-void PowerSource::delegatedInvokeContextMethodFromActionCalloperation_9InActivityACT_POWERSOURCEOfPowerSource(void) {
-    //#[ activity_action ACT_POWERSOURCE:ROOT.calloperation_9
-    indicateSystemFault();
-    //#]
-}
-
-OMList<OMString> PowerSource::delegatedFilterPassableFlowsFromActionAccepteventaction_10InActivityACT_POWERSOURCEOfPowerSource(void) {
-    //#[ activity_action ACT_POWERSOURCE:ROOT.accepteventaction_10
-    OMList<OMString> ans;
-    ans.add("ACT_POWERSOURCE:13");
-    return ans;
-    //#]
-}
-
-void PowerSource::delegatedAcceptEventDataFromActionAccepteventaction_10InActivityACT_POWERSOURCEOfPowerSource(void) {
-    //#[ activity_action ACT_POWERSOURCE:ROOT.accepteventaction_10
-    //#]
-}
-
-OMList<OMString> PowerSource::delegatedFilterPassableFlowsFromActionAccepttimeevent_11InActivityACT_POWERSOURCEOfPowerSource(void) {
-    //#[ activity_action ACT_POWERSOURCE:ROOT.accepttimeevent_11
-    OMList<OMString> ans;
-    ans.add("ACT_POWERSOURCE:15");
-    return ans;
-    //#]
-}
-
-OMList<OMString> PowerSource::delegatedFilterPassableFlowsFromActionSendaction_12InActivityACT_POWERSOURCEOfPowerSource(void) {
-    //#[ activity_action ACT_POWERSOURCE:ROOT.sendaction_12
-    OMList<OMString> ans;
-    ans.add("ACT_POWERSOURCE:17");
-    return ans;
-    //#]
-}
-
-void PowerSource::delegatedSendEventFromActionSendaction_12InActivityACT_POWERSOURCEOfPowerSource(void) {
-    //#[ activity_action ACT_POWERSOURCE:ROOT.sendaction_12
-    GEN(reqPowerOff);
-    //#]
-}
-
-OMList<OMString> PowerSource::delegatedFilterPassableFlowsFromControlDecisionnode_7InActivityACT_POWERSOURCEOfPowerSource(void) {
-    //#[ activity_control ACT_POWERSOURCE:ROOT.decisionnode_7
-    OMList<OMString> ans;
-    if (systemOk) { ans.add("ACT_POWERSOURCE:3"); }
-    else { ans.add("ACT_POWERSOURCE:8"); }
-    return ans;
-    //#]
-}
-
-OMList<OMString> PowerSource::delegatedFilterPassableFlowsFromControlMergenode_24InActivityACT_POWERSOURCEOfPowerSource(void) {
-    //#[ activity_control ACT_POWERSOURCE:ROOT.mergenode_24
-    OMList<OMString> ans;
-    ans.add("ACT_POWERSOURCE:11");
-    return ans;
-    //#]
-}
-
-OMList<OMString> PowerSource::delegatedFilterPassableFlowsFromControlMergenode_33InActivityACT_POWERSOURCEOfPowerSource(void) {
-    //#[ activity_control ACT_POWERSOURCE:ROOT.mergenode_33
-    OMList<OMString> ans;
-    ans.add("ACT_POWERSOURCE:16");
-    return ans;
-    //#]
+PowerSource::p_PowerSource_C* PowerSource::get_p_PowerSource(void) const {
+    return (PowerSource::p_PowerSource_C*) &p_PowerSource;
 }
 
 const bool PowerSource::getSystemOk(void) const {
@@ -468,6 +147,10 @@ const bool PowerSource::getSystemOk(void) const {
 
 void PowerSource::setSystemOk(const bool p_systemOk) {
     systemOk = p_systemOk;
+}
+
+const int PowerSource::getVoltage(void) const {
+    return voltage;
 }
 
 const TMS* PowerSource::getItsTMS(void) const {
@@ -482,10 +165,44 @@ void PowerSource::setItsTMS(TMS* const p_TMS) {
     _setItsTMS(p_TMS);
 }
 
+bool PowerSource::cancelTimeout(const IOxfTimeout* arg) {
+    bool res = false;
+    if(rootState_timeout == arg)
+        {
+            rootState_timeout = NULL;
+            res = true;
+        }
+    if(state_9_timeout == arg)
+        {
+            state_9_timeout = NULL;
+            res = true;
+        }
+    if(state_8_timeout == arg)
+        {
+            state_8_timeout = NULL;
+            res = true;
+        }
+    return res;
+}
+
 bool PowerSource::startBehavior(void) {
     bool done = false;
-    done = OMActivityContext::startBehavior();
+    done = OMReactive::startBehavior();
     return done;
+}
+
+void PowerSource::initStatechart(void) {
+    rootState_subState = OMNonState;
+    rootState_active = OMNonState;
+    rootState_timeout = NULL;
+    state_9_subState = OMNonState;
+    state_9_active = OMNonState;
+    state_9_lastState = OMNonState;
+    state_9_timeout = NULL;
+    state_8_subState = OMNonState;
+    state_8_active = OMNonState;
+    state_8_lastState = OMNonState;
+    state_8_timeout = NULL;
 }
 
 void PowerSource::cleanUpRelations(void) {
@@ -499,6 +216,12 @@ void PowerSource::cleanUpRelations(void) {
                 }
             itsTMS = NULL;
         }
+}
+
+void PowerSource::cancelTimeouts(void) {
+    cancel(rootState_timeout);
+    cancel(state_9_timeout);
+    cancel(state_8_timeout);
 }
 
 void PowerSource::__setItsTMS(TMS* const p_TMS) {
@@ -526,10 +249,486 @@ void PowerSource::_clearItsTMS(void) {
     itsTMS = NULL;
 }
 
+void PowerSource::On_entDef(void) {
+    NOTIFY_STATE_ENTERED("ROOT.On");
+    rootState_subState = On;
+    rootState_active = On;
+    rootState_timeout = scheduleTimeout(1000, "ROOT.On");
+    state_8_entDef();
+    state_9_entDef();
+}
+
+void PowerSource::On_exit(void) {
+    state_8_lastState = state_8_subState;
+    switch (state_8_subState) {
+        // State LowPower
+        case LowPower:
+        {
+            NOTIFY_STATE_EXITED("ROOT.On.state_8.LowPower");
+            state_8_lastState = LowPower;
+        }
+        break;
+        // State FullPower
+        case FullPower:
+        {
+            cancel(state_8_timeout);
+            NOTIFY_STATE_EXITED("ROOT.On.state_8.FullPower");
+            state_8_lastState = FullPower;
+        }
+        break;
+        default:
+            break;
+    }
+    state_8_subState = OMNonState;
+    NOTIFY_STATE_EXITED("ROOT.On.state_8");
+    state_9_lastState = state_9_subState;
+    switch (state_9_subState) {
+        // State OrdinaryMode
+        case OrdinaryMode:
+        {
+            NOTIFY_STATE_EXITED("ROOT.On.state_9.OrdinaryMode");
+            state_9_lastState = OrdinaryMode;
+        }
+        break;
+        // State HighPower
+        case HighPower:
+        {
+            cancel(state_9_timeout);
+            NOTIFY_STATE_EXITED("ROOT.On.state_9.HighPower");
+            state_9_lastState = HighPower;
+        }
+        break;
+        default:
+            break;
+    }
+    state_9_subState = OMNonState;
+    NOTIFY_STATE_EXITED("ROOT.On.state_9");
+    cancel(rootState_timeout);
+    NOTIFY_STATE_EXITED("ROOT.On");
+}
+
+IOxfReactive::TakeEventStatus PowerSource::OnTakeTimeout(void) {
+    IOxfReactive::TakeEventStatus res = eventNotConsumed;
+    if(getCurrentEvent() == rootState_timeout)
+        {
+            //## transition 20 
+            if(voltage > 20)
+                {
+                    NOTIFY_TRANSITION_STARTED("20");
+                    On_exit();
+                    //#[ transition 20 
+                    setVoltage(voltage - 1);
+                    //#]
+                    On_entDef();
+                    NOTIFY_TRANSITION_TERMINATED("20");
+                    res = eventConsumed;
+                }
+        }
+    return res;
+}
+
+IOxfReactive::TakeEventStatus PowerSource::On_processEvent(void) {
+    IOxfReactive::TakeEventStatus res = eventNotConsumed;
+    IOxfReactive::TakeEventStatus omComponentStatus = eventNotConsumed;
+    bool dispatchDone = false;
+    {
+        // State state_8
+        omComponentStatus = state_8_processEvent();
+        if(omComponentStatus != eventNotConsumed)
+            {
+                res = eventConsumed;
+                if(IS_IN(On) == false)
+                    {
+                        dispatchDone = true;
+                    }
+            }
+    }
+    if(!dispatchDone)
+        {
+            // State state_9
+            omComponentStatus = state_9_processEvent();
+            if(omComponentStatus != eventNotConsumed)
+                {
+                    res = eventConsumed;
+                }
+        }
+    if(res == eventNotConsumed)
+        {
+            res = On_handleEvent();
+        }
+    return res;
+}
+
+IOxfReactive::TakeEventStatus PowerSource::On_handleEvent(void) {
+    IOxfReactive::TakeEventStatus res = eventNotConsumed;
+    if(IS_EVENT_TYPE_OF(OMTimeoutEventId) == 1)
+        {
+            res = OnTakeTimeout();
+        }
+    else {
+        if(IS_EVENT_TYPE_OF(reqPowerOff_System_Context_System_Analysis_id) == 1)
+            {
+                NOTIFY_TRANSITION_STARTED("1");
+                On_exit();
+                //#[ transition 1 
+                switchLightOff();
+                //#]
+                NOTIFY_STATE_ENTERED("ROOT.Off");
+                rootState_subState = Off;
+                rootState_active = Off;
+                NOTIFY_TRANSITION_TERMINATED("1");
+                res = eventConsumed;
+            }
+        }
+        
+    
+    return res;
+}
+
+void PowerSource::state_9_entDef(void) {
+    NOTIFY_STATE_ENTERED("ROOT.On.state_9");
+    NOTIFY_TRANSITION_STARTED("19");
+    state_9_entShallowHist();
+    NOTIFY_TRANSITION_TERMINATED("19");
+}
+
+void PowerSource::state_9_entShallowHist(void) {
+    if(state_9_lastState == OMNonState)
+        {
+            NOTIFY_TRANSITION_STARTED("18");
+            NOTIFY_STATE_ENTERED("ROOT.On.state_9.OrdinaryMode");
+            state_9_subState = OrdinaryMode;
+            state_9_active = OrdinaryMode;
+            NOTIFY_TRANSITION_TERMINATED("18");
+        }
+    else
+        {
+            state_9_subState = state_9_lastState;
+            switch (state_9_subState) {
+                case OrdinaryMode:
+                {
+                    NOTIFY_STATE_ENTERED("ROOT.On.state_9.OrdinaryMode");
+                    state_9_subState = OrdinaryMode;
+                    state_9_active = OrdinaryMode;
+                }
+                break;
+                case HighPower:
+                {
+                    NOTIFY_STATE_ENTERED("ROOT.On.state_9.HighPower");
+                    state_9_subState = HighPower;
+                    state_9_active = HighPower;
+                    state_9_timeout = scheduleTimeout(8000, "ROOT.On.state_9.HighPower");
+                }
+                break;
+                default:
+                    break;
+            }
+        }
+}
+
+IOxfReactive::TakeEventStatus PowerSource::state_9_processEvent(void) {
+    IOxfReactive::TakeEventStatus res = eventNotConsumed;
+    switch (state_9_active) {
+        // State OrdinaryMode
+        case OrdinaryMode:
+        {
+            if(IS_EVENT_TYPE_OF(reqHighPower_System_Context_System_Analysis_id) == 1)
+                {
+                    NOTIFY_TRANSITION_STARTED("14");
+                    NOTIFY_STATE_EXITED("ROOT.On.state_9.OrdinaryMode");
+                    NOTIFY_STATE_ENTERED("ROOT.On.state_9.HighPower");
+                    state_9_subState = HighPower;
+                    state_9_active = HighPower;
+                    state_9_timeout = scheduleTimeout(8000, "ROOT.On.state_9.HighPower");
+                    NOTIFY_TRANSITION_TERMINATED("14");
+                    res = eventConsumed;
+                }
+            
+            
+        }
+        break;
+        // State HighPower
+        case HighPower:
+        {
+            if(IS_EVENT_TYPE_OF(OMTimeoutEventId) == 1)
+                {
+                    if(getCurrentEvent() == state_9_timeout)
+                        {
+                            NOTIFY_TRANSITION_STARTED("15");
+                            On_exit();
+                            NOTIFY_STATE_ENTERED("ROOT.accepttimeevent_12");
+                            pushNullTransition();
+                            rootState_subState = accepttimeevent_12;
+                            rootState_active = accepttimeevent_12;
+                            NOTIFY_TRANSITION_TERMINATED("15");
+                            res = eventConsumed;
+                        }
+                }
+            
+            
+        }
+        break;
+        default:
+            break;
+    }
+    return res;
+}
+
+void PowerSource::state_8_entDef(void) {
+    NOTIFY_STATE_ENTERED("ROOT.On.state_8");
+    NOTIFY_TRANSITION_STARTED("12");
+    state_8_entShallowHist();
+    NOTIFY_TRANSITION_TERMINATED("12");
+}
+
+void PowerSource::state_8_entShallowHist(void) {
+    if(state_8_lastState == OMNonState)
+        {
+            NOTIFY_TRANSITION_STARTED("13");
+            NOTIFY_STATE_ENTERED("ROOT.On.state_8.LowPower");
+            state_8_subState = LowPower;
+            state_8_active = LowPower;
+            NOTIFY_TRANSITION_TERMINATED("13");
+        }
+    else
+        {
+            state_8_subState = state_8_lastState;
+            switch (state_8_subState) {
+                case LowPower:
+                {
+                    NOTIFY_STATE_ENTERED("ROOT.On.state_8.LowPower");
+                    state_8_subState = LowPower;
+                    state_8_active = LowPower;
+                }
+                break;
+                case FullPower:
+                {
+                    NOTIFY_STATE_ENTERED("ROOT.On.state_8.FullPower");
+                    state_8_subState = FullPower;
+                    state_8_active = FullPower;
+                    state_8_timeout = scheduleTimeout(4000, "ROOT.On.state_8.FullPower");
+                }
+                break;
+                default:
+                    break;
+            }
+        }
+}
+
+IOxfReactive::TakeEventStatus PowerSource::state_8_processEvent(void) {
+    IOxfReactive::TakeEventStatus res = eventNotConsumed;
+    switch (state_8_active) {
+        // State LowPower
+        case LowPower:
+        {
+            if(IS_EVENT_TYPE_OF(reqFullPower_System_Context_System_Analysis_id) == 1)
+                {
+                    NOTIFY_TRANSITION_STARTED("10");
+                    NOTIFY_STATE_EXITED("ROOT.On.state_8.LowPower");
+                    NOTIFY_STATE_ENTERED("ROOT.On.state_8.FullPower");
+                    state_8_subState = FullPower;
+                    state_8_active = FullPower;
+                    state_8_timeout = scheduleTimeout(4000, "ROOT.On.state_8.FullPower");
+                    NOTIFY_TRANSITION_TERMINATED("10");
+                    res = eventConsumed;
+                }
+            
+            
+        }
+        break;
+        // State FullPower
+        case FullPower:
+        {
+            if(IS_EVENT_TYPE_OF(OMTimeoutEventId) == 1)
+                {
+                    if(getCurrentEvent() == state_8_timeout)
+                        {
+                            NOTIFY_TRANSITION_STARTED("7");
+                            On_exit();
+                            NOTIFY_STATE_ENTERED("ROOT.accepttimeevent_5");
+                            pushNullTransition();
+                            rootState_subState = accepttimeevent_5;
+                            rootState_active = accepttimeevent_5;
+                            NOTIFY_TRANSITION_TERMINATED("7");
+                            res = eventConsumed;
+                        }
+                }
+            else {
+                if(IS_EVENT_TYPE_OF(reqLowPower_System_Context_System_Analysis_id) == 1)
+                    {
+                        NOTIFY_TRANSITION_STARTED("11");
+                        cancel(state_8_timeout);
+                        NOTIFY_STATE_EXITED("ROOT.On.state_8.FullPower");
+                        NOTIFY_STATE_ENTERED("ROOT.On.state_8.LowPower");
+                        state_8_subState = LowPower;
+                        state_8_active = LowPower;
+                        NOTIFY_TRANSITION_TERMINATED("11");
+                        res = eventConsumed;
+                    }
+                }
+                
+            
+            
+        }
+        break;
+        default:
+            break;
+    }
+    return res;
+}
+
+IOxfReactive::TakeEventStatus PowerSource::CheckingSystemStatusTakeNull(void) {
+    IOxfReactive::TakeEventStatus res = eventNotConsumed;
+    //## transition 4 
+    if(systemOk)
+        {
+            NOTIFY_TRANSITION_STARTED("3");
+            NOTIFY_TRANSITION_STARTED("4");
+            popNullTransition();
+            NOTIFY_STATE_EXITED("ROOT.CheckingSystemStatus");
+            //#[ transition 4 
+            switchLightOn();
+            indicateSystemReady();
+            //#]
+            On_entDef();
+            NOTIFY_TRANSITION_TERMINATED("4");
+            NOTIFY_TRANSITION_TERMINATED("3");
+            res = eventConsumed;
+        }
+    else
+        {
+            NOTIFY_TRANSITION_STARTED("3");
+            NOTIFY_TRANSITION_STARTED("5");
+            popNullTransition();
+            NOTIFY_STATE_EXITED("ROOT.CheckingSystemStatus");
+            //#[ transition 5 
+            indicateSystemFault();
+            //#]
+            NOTIFY_STATE_ENTERED("ROOT.SystemFault");
+            rootState_subState = SystemFault;
+            rootState_active = SystemFault;
+            NOTIFY_TRANSITION_TERMINATED("5");
+            NOTIFY_TRANSITION_TERMINATED("3");
+            res = eventConsumed;
+        }
+    return res;
+}
+
+IOxfReactive::TakeEventStatus PowerSource::CheckingSystemStatus_handleEvent(void) {
+    IOxfReactive::TakeEventStatus res = eventNotConsumed;
+    if(IS_EVENT_TYPE_OF(OMNullEventId) == 1)
+        {
+            res = CheckingSystemStatusTakeNull();
+        }
+    
+    return res;
+}
+
+void PowerSource::rootState_entDef(void) {
+    {
+        NOTIFY_STATE_ENTERED("ROOT");
+        NOTIFY_TRANSITION_STARTED("0");
+        NOTIFY_STATE_ENTERED("ROOT.Off");
+        rootState_subState = Off;
+        rootState_active = Off;
+        NOTIFY_TRANSITION_TERMINATED("0");
+    }
+}
+
+IOxfReactive::TakeEventStatus PowerSource::rootState_processEvent(void) {
+    IOxfReactive::TakeEventStatus res = eventNotConsumed;
+    switch (rootState_active) {
+        // State Off
+        case Off:
+        {
+            if(IS_EVENT_TYPE_OF(reqPowerOn_System_Context_System_Analysis_id) == 1)
+                {
+                    NOTIFY_TRANSITION_STARTED("2");
+                    NOTIFY_STATE_EXITED("ROOT.Off");
+                    NOTIFY_STATE_ENTERED("ROOT.CheckingSystemStatus");
+                    pushNullTransition();
+                    rootState_subState = CheckingSystemStatus;
+                    rootState_active = CheckingSystemStatus;
+                    //#[ state CheckingSystemStatus.(Entry) 
+                    runSystemTest();
+                    //#]
+                    NOTIFY_TRANSITION_TERMINATED("2");
+                    res = eventConsumed;
+                }
+            
+        }
+        break;
+        // State On
+        case On:
+        {
+            res = On_processEvent();
+        }
+        break;
+        // State CheckingSystemStatus
+        case CheckingSystemStatus:
+        {
+            res = CheckingSystemStatus_handleEvent();
+        }
+        break;
+        // State SystemFault
+        case SystemFault:
+        {
+            if(IS_EVENT_TYPE_OF(evFaultCleared_System_Context_System_Analysis_id) == 1)
+                {
+                    NOTIFY_TRANSITION_STARTED("6");
+                    NOTIFY_STATE_EXITED("ROOT.SystemFault");
+                    NOTIFY_STATE_ENTERED("ROOT.Off");
+                    rootState_subState = Off;
+                    rootState_active = Off;
+                    NOTIFY_TRANSITION_TERMINATED("6");
+                    res = eventConsumed;
+                }
+            
+        }
+        break;
+        case accepttimeevent_5:
+        {
+            if(IS_EVENT_TYPE_OF(OMNullEventId) == 1)
+                {
+                    NOTIFY_TRANSITION_STARTED("8");
+                    popNullTransition();
+                    NOTIFY_STATE_EXITED("ROOT.accepttimeevent_5");
+                    NOTIFY_STATE_ENTERED("ROOT.Off");
+                    rootState_subState = Off;
+                    rootState_active = Off;
+                    NOTIFY_TRANSITION_TERMINATED("8");
+                    res = eventConsumed;
+                }
+            
+        }
+        break;
+        case accepttimeevent_12:
+        {
+            if(IS_EVENT_TYPE_OF(OMNullEventId) == 1)
+                {
+                    NOTIFY_TRANSITION_STARTED("16");
+                    popNullTransition();
+                    NOTIFY_STATE_EXITED("ROOT.accepttimeevent_12");
+                    NOTIFY_STATE_ENTERED("ROOT.Off");
+                    rootState_subState = Off;
+                    rootState_active = Off;
+                    NOTIFY_TRANSITION_TERMINATED("16");
+                    res = eventConsumed;
+                }
+            
+        }
+        break;
+        default:
+            break;
+    }
+    return res;
+}
+
 #ifdef _OMINSTRUMENT
 //#[ ignore
 void OMAnimatedPowerSource::serializeAttributes(AOMSAttributes* aomsAttributes) const {
     aomsAttributes->addAttribute("systemOk", x2String(myReal->systemOk));
+    aomsAttributes->addAttribute("voltage", x2String(myReal->voltage));
 }
 
 void OMAnimatedPowerSource::serializeRelations(AOMSRelations* aomsRelations) const {
@@ -539,9 +738,129 @@ void OMAnimatedPowerSource::serializeRelations(AOMSRelations* aomsRelations) con
             aomsRelations->ADD_ITEM(myReal->itsTMS);
         }
 }
+
+void OMAnimatedPowerSource::rootState_serializeStates(AOMSState* aomsState) const {
+    aomsState->addState("ROOT");
+    switch (myReal->rootState_subState) {
+        case PowerSource::Off:
+        {
+            Off_serializeStates(aomsState);
+        }
+        break;
+        case PowerSource::On:
+        {
+            On_serializeStates(aomsState);
+        }
+        break;
+        case PowerSource::CheckingSystemStatus:
+        {
+            CheckingSystemStatus_serializeStates(aomsState);
+        }
+        break;
+        case PowerSource::SystemFault:
+        {
+            SystemFault_serializeStates(aomsState);
+        }
+        break;
+        case PowerSource::accepttimeevent_5:
+        {
+            accepttimeevent_5_serializeStates(aomsState);
+        }
+        break;
+        case PowerSource::accepttimeevent_12:
+        {
+            accepttimeevent_12_serializeStates(aomsState);
+        }
+        break;
+        default:
+            break;
+    }
+}
+
+void OMAnimatedPowerSource::SystemFault_serializeStates(AOMSState* aomsState) const {
+    aomsState->addState("ROOT.SystemFault");
+}
+
+void OMAnimatedPowerSource::On_serializeStates(AOMSState* aomsState) const {
+    aomsState->addState("ROOT.On");
+    state_8_serializeStates(aomsState);
+    state_9_serializeStates(aomsState);
+}
+
+void OMAnimatedPowerSource::state_9_serializeStates(AOMSState* aomsState) const {
+    aomsState->addState("ROOT.On.state_9");
+    switch (myReal->state_9_subState) {
+        case PowerSource::OrdinaryMode:
+        {
+            OrdinaryMode_serializeStates(aomsState);
+        }
+        break;
+        case PowerSource::HighPower:
+        {
+            HighPower_serializeStates(aomsState);
+        }
+        break;
+        default:
+            break;
+    }
+}
+
+void OMAnimatedPowerSource::OrdinaryMode_serializeStates(AOMSState* aomsState) const {
+    aomsState->addState("ROOT.On.state_9.OrdinaryMode");
+}
+
+void OMAnimatedPowerSource::HighPower_serializeStates(AOMSState* aomsState) const {
+    aomsState->addState("ROOT.On.state_9.HighPower");
+}
+
+void OMAnimatedPowerSource::state_8_serializeStates(AOMSState* aomsState) const {
+    aomsState->addState("ROOT.On.state_8");
+    switch (myReal->state_8_subState) {
+        case PowerSource::LowPower:
+        {
+            LowPower_serializeStates(aomsState);
+        }
+        break;
+        case PowerSource::FullPower:
+        {
+            FullPower_serializeStates(aomsState);
+        }
+        break;
+        default:
+            break;
+    }
+}
+
+void OMAnimatedPowerSource::LowPower_serializeStates(AOMSState* aomsState) const {
+    aomsState->addState("ROOT.On.state_8.LowPower");
+}
+
+void OMAnimatedPowerSource::FullPower_serializeStates(AOMSState* aomsState) const {
+    aomsState->addState("ROOT.On.state_8.FullPower");
+}
+
+void OMAnimatedPowerSource::Off_serializeStates(AOMSState* aomsState) const {
+    aomsState->addState("ROOT.Off");
+}
+
+void OMAnimatedPowerSource::CheckingSystemStatus_serializeStates(AOMSState* aomsState) const {
+    aomsState->addState("ROOT.CheckingSystemStatus");
+}
+
+void OMAnimatedPowerSource::accepttimeevent_5_serializeStates(AOMSState* aomsState) const {
+    aomsState->addState("ROOT.accepttimeevent_5");
+}
+
+void OMAnimatedPowerSource::accepttimeevent_12_serializeStates(AOMSState* aomsState) const {
+    aomsState->addState("ROOT.accepttimeevent_12");
+}
 //#]
 
-IMPLEMENT_ACTIVITY_META_P(PowerSource, System_Analysis_System_Context, System_Analysis::System_Context, false, OMAnimatedPowerSource)
+IMPLEMENT_REACTIVE_META_P(PowerSource, System_Analysis_System_Context, System_Analysis::System_Context, false, OMAnimatedPowerSource)
+
+IMPLEMENT_META_OP(OMAnimatedPowerSource, System_Analysis_System_Context_PowerSource_setVoltage_int, "setVoltage", FALSE, "setVoltage(int)", 1)
+
+IMPLEMENT_OP_CALL(System_Analysis_System_Context_PowerSource_setVoltage_int, PowerSource, setVoltage(p_voltage), NO_OP())
 #endif // _OMINSTRUMENT
 
 /*********************************************************************

@@ -12,11 +12,11 @@
 			<_id type="a">GUID bcab5bfd-50a7-4bf9-8358-00b79d5b8288</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">GeneralRequirements</_name>
-			<_modifiedTimeWeak type="a">4.16.2024::14:22:6</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.16.2024::14:8:56</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.17.2024::12:8:26</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.17.2024::12:8:26</_modifiedTime>
 			<_lastID type="a">30</_lastID>
-			<weakCGTime type="a">4.16.2024::14:22:6</weakCGTime>
-			<strongCGTime type="a">4.16.2024::12:46:36</strongCGTime>
+			<weakCGTime type="a">4.17.2024::12:8:26</weakCGTime>
+			<strongCGTime type="a">4.16.2024::14:55:44</strongCGTime>
 			<_defaultComposite type="s">GUID 2338ea0e-eae4-4fad-a0e1-816ea4b88068</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
 			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
@@ -30,10 +30,6 @@
 			<_id type="a">GUID 31bf383c-9a67-4400-8898-4fb946c88af3</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">ENVISionRequirements</_name>
-			<OwnedDependencies type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</OwnedDependencies>
 			<_modifiedTimeWeak type="a">4.16.2024::13:58:55</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
 				<_text type="a">The ENVISion must satisfy the functional and non-functional requirements.</_text>
@@ -135,10 +131,6 @@
 			<_id type="a">GUID e6733b69-eb30-4c4f-8e76-f0004af28c27</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">ObstacleDetectionFR</_name>
-			<OwnedDependencies type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</OwnedDependencies>
 			<_modifiedTimeWeak type="a">4.16.2024::12:49:53</_modifiedTimeWeak>
 			<_modifiedTime type="a">4.16.2024::12:43:16</_modifiedTime>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
@@ -320,6 +312,62 @@
 									</IPropertyMetaclass>
 									
 									<IPropertyMetaclass type="e">
+										<_Name type="a">Object</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">DefaultSize</_Name>
+													<_Value type="a">0,34,84,148</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Fill.FillColor</_Name>
+													<_Value type="a">255,255,255</_Value>
+													<_Type type="a">Color</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Font</_Name>
+													<_Value type="a">Tahoma</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Size</_Name>
+													<_Value type="a">8</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Weight@Child.NameCompartment@Name</_Name>
+													<_Value type="a">700</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Line.LineColor</_Name>
+													<_Value type="a">109,163,217</_Value>
+													<_Type type="a">Color</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Line.LineStyle</_Name>
+													<_Value type="a">0</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Line.LineWidth</_Name>
+													<_Value type="a">1</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+									<IPropertyMetaclass type="e">
 										<_Name type="a">Requirement</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
@@ -408,8 +456,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.16.2024::14:10:20</_modifiedTime>
-			<_lastModifiedTime type="a">4.16.2024::14:10:20</_lastModifiedTime>
+			<_modifiedTime type="a">4.17.2024::12:9:10</_modifiedTime>
+			<_lastModifiedTime type="a">4.17.2024::12:9:10</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -452,7 +500,7 @@
 			</m_name>
 			<m_drawBehavior type="a">0</m_drawBehavior>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
-			<elementList type="a">67</elementList>
+			<elementList type="a">73</elementList>
 			
 			<m_access type="a">'Z'</m_access>
 			<m_modified type="a">'N'</m_modified>
@@ -532,6 +580,12 @@
 				<value>GUID 350c0eb2-e85f-41d2-baa9-040ce5dbf739</value>
 				<value>GUID 480fbc04-15cc-4d2a-aa5f-2bfbd777197d</value>
 				<value>GUID 1c5791b8-2837-416e-8b55-260178ae8ec1</value>
+				<value>GUID a9d210e7-bfff-4815-a81b-90d65f7b9c3c</value>
+				<value>GUID bba0a7b5-b155-436f-bb7f-39c40dcd699e</value>
+				<value>GUID 82f75f4d-bca8-48cb-b975-f8b2225f8406</value>
+				<value>GUID 784ed485-da9c-4d55-a8ec-d6f003c78f0a</value>
+				<value>GUID 91405dba-e084-4575-ab67-05f8a6da5fe7</value>
+				<value>GUID 51caaff2-9237-4352-b053-bbed5a44f995</value>
 			</AggregatesList>
 		</CGIClassChart>
 		<CGIClass type="e">
@@ -1260,7 +1314,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IRequirement</_hm2Class>
 					<_hfilename type="a">.\DerivedRequirements.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::DerivedRequirements</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::REQUIREMENTS::DerivedRequirements</_hsubsystem>
 					<_hname type="a">50MetersResponseFR</_hname>
 					<_hid type="a">GUID 1a91ba59-eb32-45fd-a2b9-c5b0c37b6e4c</_hid>
 				</IHandle>
@@ -1336,7 +1390,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IDependency</_hm2Class>
 					<_hfilename type="a">.\DerivedRequirements.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::DerivedRequirements</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::REQUIREMENTS::DerivedRequirements</_hsubsystem>
 					<_hname type="a">ObstacleDetectionFR</_hname>
 					<_hid type="a">GUID 678ddab4-cdec-432d-8548-fe7a90f04241</_hid>
 				</IHandle>
@@ -1481,7 +1535,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IRequirement</_hm2Class>
 					<_hfilename type="a">.\DerivedRequirements.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::DerivedRequirements</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::REQUIREMENTS::DerivedRequirements</_hsubsystem>
 					<_hname type="a">100MetersResponseFR</_hname>
 					<_hid type="a">GUID 7007db88-ffeb-4bca-97b5-7569f0c7e93d</_hid>
 				</IHandle>
@@ -1557,7 +1611,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IDependency</_hm2Class>
 					<_hfilename type="a">.\DerivedRequirements.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::DerivedRequirements</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::REQUIREMENTS::DerivedRequirements</_hsubsystem>
 					<_hname type="a">ObstacleDetectionFR</_hname>
 					<_hid type="a">GUID 93a78c5f-1c73-4222-ad6a-de8a9823e1bd</_hid>
 				</IHandle>
@@ -1648,7 +1702,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IRequirement</_hm2Class>
 					<_hfilename type="a">.\DerivedRequirements.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::DerivedRequirements</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::REQUIREMENTS::DerivedRequirements</_hsubsystem>
 					<_hname type="a">150MetersResponseFR</_hname>
 					<_hid type="a">GUID 09aede8e-4dc7-458a-9aaf-c8b0a4878bc6</_hid>
 				</IHandle>
@@ -1724,7 +1778,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IDependency</_hm2Class>
 					<_hfilename type="a">.\DerivedRequirements.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::DerivedRequirements</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::REQUIREMENTS::DerivedRequirements</_hsubsystem>
 					<_hname type="a">ObstacleDetectionFR</_hname>
 					<_hid type="a">GUID 4e129ed8-0785-4bfc-a3a0-cf58cc255719</_hid>
 				</IHandle>
@@ -1837,7 +1891,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IRequirement</_hm2Class>
 					<_hfilename type="a">.\DerivedRequirements.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::DerivedRequirements</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::REQUIREMENTS::DerivedRequirements</_hsubsystem>
 					<_hname type="a">200MetersResponseFR</_hname>
 					<_hid type="a">GUID b1a5da76-8b21-4615-9539-4970ee5b1375</_hid>
 				</IHandle>
@@ -1913,7 +1967,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IDependency</_hm2Class>
 					<_hfilename type="a">.\DerivedRequirements.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::DerivedRequirements</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::REQUIREMENTS::DerivedRequirements</_hsubsystem>
 					<_hname type="a">ObstacleDetectionFR</_hname>
 					<_hid type="a">GUID 54aeafaf-e7ae-46a9-9ad4-337ccb427a22</_hid>
 				</IHandle>
@@ -2182,7 +2236,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IRequirement</_hm2Class>
 					<_hfilename type="a">.\DerivedRequirements.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::DerivedRequirements</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::REQUIREMENTS::DerivedRequirements</_hsubsystem>
 					<_hname type="a">IRFilterSize</_hname>
 					<_hid type="a">GUID 3642ac9d-dc49-40d2-abef-3e06defae562</_hid>
 				</IHandle>
@@ -2258,7 +2312,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IDependency</_hm2Class>
 					<_hfilename type="a">.\DerivedRequirements.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::DerivedRequirements</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::REQUIREMENTS::DerivedRequirements</_hsubsystem>
 					<_hname type="a">FilteringFR</_hname>
 					<_hid type="a">GUID 5d90783e-692c-476e-86c9-0dff0318e10e</_hid>
 				</IHandle>
@@ -2349,7 +2403,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IRequirement</_hm2Class>
 					<_hfilename type="a">.\DerivedRequirements.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::DerivedRequirements</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::REQUIREMENTS::DerivedRequirements</_hsubsystem>
 					<_hname type="a">EliminateInterferenceFR</_hname>
 					<_hid type="a">GUID 182eec0c-fcbf-4eeb-b6c4-9b8969539051</_hid>
 				</IHandle>
@@ -2425,7 +2479,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IDependency</_hm2Class>
 					<_hfilename type="a">.\DerivedRequirements.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::DerivedRequirements</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::REQUIREMENTS::DerivedRequirements</_hsubsystem>
 					<_hname type="a">FilteringFR</_hname>
 					<_hid type="a">GUID 8896f58b-5595-48a2-a34d-65bc4fe40ecf</_hid>
 				</IHandle>
@@ -2720,7 +2774,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IRequirement</_hm2Class>
 					<_hfilename type="a">.\DerivedRequirements.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::DerivedRequirements</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::REQUIREMENTS::DerivedRequirements</_hsubsystem>
 					<_hname type="a">FirstHeadlightFR</_hname>
 					<_hid type="a">GUID db389c2b-efe6-4051-b417-c375ce635a66</_hid>
 				</IHandle>
@@ -2796,7 +2850,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IDependency</_hm2Class>
 					<_hfilename type="a">.\DerivedRequirements.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::DerivedRequirements</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::REQUIREMENTS::DerivedRequirements</_hsubsystem>
 					<_hname type="a">AccuracyNFR</_hname>
 					<_hid type="a">GUID 78cf1e04-e117-473a-abc7-64b066127437</_hid>
 				</IHandle>
@@ -2995,7 +3049,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IRequirement</_hm2Class>
 					<_hfilename type="a">.\DerivedRequirements.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::DerivedRequirements</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::REQUIREMENTS::DerivedRequirements</_hsubsystem>
 					<_hname type="a">WindingConditionFR</_hname>
 					<_hid type="a">GUID 867caf2c-e291-42d9-bf3b-258aacea72a2</_hid>
 				</IHandle>
@@ -3100,7 +3154,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IRequirement</_hm2Class>
 					<_hfilename type="a">.\DerivedRequirements.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::DerivedRequirements</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::REQUIREMENTS::DerivedRequirements</_hsubsystem>
 					<_hname type="a">FoggyConditionsFR</_hname>
 					<_hid type="a">GUID f9462ee4-7808-4e54-9e24-abeb99d86e4c</_hid>
 				</IHandle>
@@ -3227,7 +3281,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IRequirement</_hm2Class>
 					<_hfilename type="a">.\DerivedRequirements.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::DerivedRequirements</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::REQUIREMENTS::DerivedRequirements</_hsubsystem>
 					<_hname type="a">HighSpeedFR</_hname>
 					<_hid type="a">GUID 30db2e1f-7a1f-481b-92b6-0d2427a02ffe</_hid>
 				</IHandle>
@@ -3303,7 +3357,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IDependency</_hm2Class>
 					<_hfilename type="a">.\DerivedRequirements.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::DerivedRequirements</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::REQUIREMENTS::DerivedRequirements</_hsubsystem>
 					<_hname type="a">LightControlFR</_hname>
 					<_hid type="a">GUID 8ac86a56-15f5-4ee6-8b2d-620de6c35d90</_hid>
 				</IHandle>
@@ -3365,7 +3419,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IDependency</_hm2Class>
 					<_hfilename type="a">.\DerivedRequirements.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::DerivedRequirements</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::REQUIREMENTS::DerivedRequirements</_hsubsystem>
 					<_hname type="a">LightControlFR</_hname>
 					<_hid type="a">GUID 5cf5db58-059e-414d-ab4b-9201d1f605b5</_hid>
 				</IHandle>
@@ -3427,7 +3481,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IDependency</_hm2Class>
 					<_hfilename type="a">.\DerivedRequirements.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::DerivedRequirements</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::REQUIREMENTS::DerivedRequirements</_hsubsystem>
 					<_hname type="a">LightControlFR</_hname>
 					<_hid type="a">GUID ebf765e5-7f1c-4097-927a-aad7910d47ad</_hid>
 				</IHandle>
@@ -3642,7 +3696,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IRequirement</_hm2Class>
 					<_hfilename type="a">.\DerivedRequirements.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::DerivedRequirements</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::REQUIREMENTS::DerivedRequirements</_hsubsystem>
 					<_hname type="a">SecondHeadlightFR</_hname>
 					<_hid type="a">GUID 511bad10-fdab-41cd-aa3d-dc65593e41e7</_hid>
 				</IHandle>
@@ -3718,7 +3772,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IDependency</_hm2Class>
 					<_hfilename type="a">.\DerivedRequirements.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::DerivedRequirements</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::REQUIREMENTS::DerivedRequirements</_hsubsystem>
 					<_hname type="a">AccuracyNFR</_hname>
 					<_hid type="a">GUID d1d811f9-072c-4cee-b82f-6996fac00904</_hid>
 				</IHandle>
@@ -3831,7 +3885,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IRequirement</_hm2Class>
 					<_hfilename type="a">.\DerivedRequirements.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::DerivedRequirements</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::REQUIREMENTS::DerivedRequirements</_hsubsystem>
 					<_hname type="a">PrivacyNFR</_hname>
 					<_hid type="a">GUID da6734f8-2951-4bf4-ae54-5de048384bb2</_hid>
 				</IHandle>
@@ -3907,7 +3961,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IDependency</_hm2Class>
 					<_hfilename type="a">.\DerivedRequirements.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::DerivedRequirements</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::REQUIREMENTS::DerivedRequirements</_hsubsystem>
 					<_hname type="a">SafetyNFR</_hname>
 					<_hid type="a">GUID a8fc8d36-7684-4cb5-b7ff-0e3f7332c17a</_hid>
 				</IHandle>
@@ -4386,7 +4440,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IRequirement</_hm2Class>
 					<_hfilename type="a">.\DerivedRequirements.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::DerivedRequirements</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::REQUIREMENTS::DerivedRequirements</_hsubsystem>
 					<_hname type="a">VideoCameraNFR</_hname>
 					<_hid type="a">GUID 52a191a6-7b33-4a7c-9b96-20c1c08b1579</_hid>
 				</IHandle>
@@ -4462,7 +4516,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IDependency</_hm2Class>
 					<_hfilename type="a">.\DerivedRequirements.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::DerivedRequirements</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::REQUIREMENTS::DerivedRequirements</_hsubsystem>
 					<_hname type="a">AccuracyNFR</_hname>
 					<_hid type="a">GUID 279e055c-f746-4d2f-8ae5-1cb9fbda8ca0</_hid>
 				</IHandle>
@@ -4553,7 +4607,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IRequirement</_hm2Class>
 					<_hfilename type="a">.\DerivedRequirements.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::DerivedRequirements</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::REQUIREMENTS::DerivedRequirements</_hsubsystem>
 					<_hname type="a">MonitorScreenNFR</_hname>
 					<_hid type="a">GUID 318e4af1-961c-49c1-9410-3401fc474abc</_hid>
 				</IHandle>
@@ -4629,7 +4683,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IDependency</_hm2Class>
 					<_hfilename type="a">.\DerivedRequirements.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::DerivedRequirements</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::REQUIREMENTS::DerivedRequirements</_hsubsystem>
 					<_hname type="a">UsabilityNFR</_hname>
 					<_hid type="a">GUID 3072df5b-0ca6-4d9a-8c60-5b69355c5c47</_hid>
 				</IHandle>
@@ -4742,7 +4796,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IRequirement</_hm2Class>
 					<_hfilename type="a">.\DerivedRequirements.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::DerivedRequirements</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::REQUIREMENTS::DerivedRequirements</_hsubsystem>
 					<_hname type="a">UserInterfaceNFR</_hname>
 					<_hid type="a">GUID 6a646128-e652-4054-b6d3-76949562c726</_hid>
 				</IHandle>
@@ -4818,7 +4872,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IDependency</_hm2Class>
 					<_hfilename type="a">.\DerivedRequirements.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::DerivedRequirements</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::REQUIREMENTS::DerivedRequirements</_hsubsystem>
 					<_hname type="a">UsabilityNFR</_hname>
 					<_hid type="a">GUID 46eea267-7ed9-4bc5-a4e4-75d2d782ebff</_hid>
 				</IHandle>
@@ -4909,7 +4963,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IRequirement</_hm2Class>
 					<_hfilename type="a">.\DerivedRequirements.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::DerivedRequirements</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::REQUIREMENTS::DerivedRequirements</_hsubsystem>
 					<_hname type="a">MonitorScreenFR</_hname>
 					<_hid type="a">GUID 802000c9-ed6c-44b8-abcc-f1b93232e071</_hid>
 				</IHandle>
@@ -4985,7 +5039,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IDependency</_hm2Class>
 					<_hfilename type="a">.\DerivedRequirements.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::DerivedRequirements</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::REQUIREMENTS::DerivedRequirements</_hsubsystem>
 					<_hname type="a">UsabilityNFR</_hname>
 					<_hid type="a">GUID 31b9e634-bec9-4f6b-bd43-259b8a6eebba</_hid>
 				</IHandle>
@@ -5076,7 +5130,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IRequirement</_hm2Class>
 					<_hfilename type="a">.\DerivedRequirements.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::DerivedRequirements</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::REQUIREMENTS::DerivedRequirements</_hsubsystem>
 					<_hname type="a">CompatibilityNFR</_hname>
 					<_hid type="a">GUID 298f1f3c-7903-46d0-a080-a96b891f6745</_hid>
 				</IHandle>
@@ -5152,7 +5206,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IDependency</_hm2Class>
 					<_hfilename type="a">.\DerivedRequirements.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::DerivedRequirements</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::REQUIREMENTS::DerivedRequirements</_hsubsystem>
 					<_hname type="a">RepeatabilityNFR</_hname>
 					<_hid type="a">GUID 66c13651-4fbb-42e0-a5cd-ea8a88f2c0a3</_hid>
 				</IHandle>
@@ -5243,7 +5297,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IRequirement</_hm2Class>
 					<_hfilename type="a">.\DerivedRequirements.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::DerivedRequirements</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::REQUIREMENTS::DerivedRequirements</_hsubsystem>
 					<_hname type="a">DurabilityNFR</_hname>
 					<_hid type="a">GUID a1ae41c1-5a24-4cbd-b8a4-2bfb0a3c247d</_hid>
 				</IHandle>
@@ -5319,7 +5373,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IDependency</_hm2Class>
 					<_hfilename type="a">.\DerivedRequirements.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::DerivedRequirements</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::REQUIREMENTS::DerivedRequirements</_hsubsystem>
 					<_hname type="a">SafetyNFR</_hname>
 					<_hid type="a">GUID 13c21112-55dd-4f53-bd5b-4fed9c32af07</_hid>
 				</IHandle>
@@ -5410,7 +5464,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IRequirement</_hm2Class>
 					<_hfilename type="a">.\DerivedRequirements.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::DerivedRequirements</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::REQUIREMENTS::DerivedRequirements</_hsubsystem>
 					<_hname type="a">FunctionalReliabilityNFR</_hname>
 					<_hid type="a">GUID bfd6b723-f4e1-48a1-902b-cb437d585fc3</_hid>
 				</IHandle>
@@ -5486,7 +5540,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IDependency</_hm2Class>
 					<_hfilename type="a">.\DerivedRequirements.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::DerivedRequirements</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::REQUIREMENTS::DerivedRequirements</_hsubsystem>
 					<_hname type="a">DurabilityNFR</_hname>
 					<_hid type="a">GUID 650d9408-c0af-4b78-bdb6-75006b2eb123</_hid>
 				</IHandle>
@@ -5599,7 +5653,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IRequirement</_hm2Class>
 					<_hfilename type="a">.\DerivedRequirements.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::DerivedRequirements</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::REQUIREMENTS::DerivedRequirements</_hsubsystem>
 					<_hname type="a">CapabilityNFR</_hname>
 					<_hid type="a">GUID bc4b9a21-e5b8-452d-ace5-7e8d5e494401</_hid>
 				</IHandle>
@@ -5675,7 +5729,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IDependency</_hm2Class>
 					<_hfilename type="a">.\DerivedRequirements.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::DerivedRequirements</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::REQUIREMENTS::DerivedRequirements</_hsubsystem>
 					<_hname type="a">DurabilityNFR</_hname>
 					<_hid type="a">GUID bc3a2470-6ac4-4fc4-b226-1b2739dbd78a</_hid>
 				</IHandle>
@@ -5922,7 +5976,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IRequirement</_hm2Class>
 					<_hfilename type="a">.\DerivedRequirements.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::DerivedRequirements</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::REQUIREMENTS::DerivedRequirements</_hsubsystem>
 					<_hname type="a">CoordinationFR</_hname>
 					<_hid type="a">GUID 64744297-2756-4987-8c92-7eb29a211680</_hid>
 				</IHandle>
@@ -5998,7 +6052,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IDependency</_hm2Class>
 					<_hfilename type="a">.\DerivedRequirements.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::DerivedRequirements</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::REQUIREMENTS::DerivedRequirements</_hsubsystem>
 					<_hname type="a">ControlFR</_hname>
 					<_hid type="a">GUID ab43b4bd-3a19-4972-b6dd-c57d6feeb7eb</_hid>
 				</IHandle>
@@ -6089,7 +6143,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IRequirement</_hm2Class>
 					<_hfilename type="a">.\DerivedRequirements.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::DerivedRequirements</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::REQUIREMENTS::DerivedRequirements</_hsubsystem>
 					<_hname type="a">RealTimeNFR</_hname>
 					<_hid type="a">GUID a7c9a716-7823-4df3-bfed-7d3d2f0701db</_hid>
 				</IHandle>
@@ -6165,7 +6219,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IDependency</_hm2Class>
 					<_hfilename type="a">.\DerivedRequirements.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::DerivedRequirements</_hsubsystem>
+					<_hsubsystem type="a">System_Analysis::REQUIREMENTS::DerivedRequirements</_hsubsystem>
 					<_hname type="a">ControlFR</_hname>
 					<_hid type="a">GUID 0b743742-ff08-4566-9d56-f4a2069a7cd5</_hid>
 				</IHandle>
@@ -6220,14 +6274,740 @@
 			<m_ShowName type="a">0</m_ShowName>
 			<m_ShowStereotype type="a">1</m_ShowStereotype>
 		</CGIInheritance>
+		<CGIObjectInstance type="e">
+			<_id type="a">GUID a9d210e7-bfff-4815-a81b-90d65f7b9c3c</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">Format</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Object</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">Fill.FillColor</_Name>
+													<_Value type="a">255,251,240</_Value>
+													<_Type type="a">Color</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Graphics</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">FitBoxToItsTextuals</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">ShowLabels</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+						<IPropertySubject type="e">
+							<_Name type="a">ObjectModelGe</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Object</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">ShowRedefinesLabel</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<m_type type="a">106</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IPart</_hm2Class>
+					<_hfilename type="a">.\NVIS_Operating_Environment.sbsx</_hfilename>
+					<_hsubsystem type="a">System_Analysis::NVIS_Operating_Environment</_hsubsystem>
+					<_hclass type="a">TopLevel</_hclass>
+					<_hname type="a">itsHighResVideoCam</_hname>
+					<_hid type="a">GUID f9bb83d7-61a6-4f1c-97d4-77f8176431de</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s">GUID 782ff8f3-707b-4a66-9e07-8ade1e864300</m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">:HighResVideoCam</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">533256</m_drawBehavior>
+			<m_transform type="a">0.140699 0 0 0.131907 1698.72 765.602 </m_transform>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_AdditionalLabel type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_AdditionalLabel>
+			<m_polygon type="a">4 2 329  2 1451  1061 1451  1061 329  </m_polygon>
+			<m_nNameFormat type="a">0</m_nNameFormat>
+			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
+			<frameset type="a">&lt;frameset rows=50%25,50%25&gt;
+&lt;frame name=AttributeListCompartment&gt;
+&lt;frame name=OperationListCompartment&gt;</frameset>
+			<Attrs type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Attrs>
+			<Operations type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Operations>
+			<m_multiplicity type="p">
+				<CGIText type="e">
+					<m_str type="a">1</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_multiplicity>
+			<AggregatesList type="e">
+				<value>GUID fc9a6a61-5897-494b-b0f5-082651ce692e</value>
+				<value>GUID 22b2cb0f-409d-4b83-8093-6d8f4c86e69a</value>
+			</AggregatesList>
+		</CGIObjectInstance>
+		<CGICompartment type="e">
+			<_id type="a">GUID fc9a6a61-5897-494b-b0f5-082651ce692e</_id>
+			<m_name type="a">Attribute</m_name>
+			<m_displayOption type="a">Public</m_displayOption>
+			<m_bShowInherited type="a">0</m_bShowInherited>
+			<m_bOrdered type="a">0</m_bOrdered>
+		</CGICompartment>
+		<CGICompartment type="e">
+			<_id type="a">GUID 22b2cb0f-409d-4b83-8093-6d8f4c86e69a</_id>
+			<m_name type="a">Operation</m_name>
+			<m_displayOption type="a">Public</m_displayOption>
+			<m_bShowInherited type="a">0</m_bShowInherited>
+			<m_bOrdered type="a">0</m_bOrdered>
+		</CGICompartment>
+		<CGIInheritance type="e">
+			<_id type="a">GUID bba0a7b5-b155-436f-bb7f-39c40dcd699e</_id>
+			<m_type type="a">128</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDependency</_hm2Class>
+					<_hfilename type="a">.\NVIS_Operating_Environment.sbsx</_hfilename>
+					<_hsubsystem type="a">System_Analysis::NVIS_Operating_Environment</_hsubsystem>
+					<_hclass type="a">TopLevel</_hclass>
+					<_hname type="a">itsHighResVideoCam.AccuracyNFR</_hname>
+					<_hid type="a">GUID 560a430d-3c96-4790-a67a-a60bd6e431be</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s"></m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">AccuracyNFR</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4104</m_drawBehavior>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_pSource type="s">GUID a9d210e7-bfff-4815-a81b-90d65f7b9c3c</m_pSource>
+			<m_sourceType type="a">'F'</m_sourceType>
+			<m_pTarget type="s">GUID 4280fb21-f5bc-4859-b66a-615d81e7b3a1</m_pTarget>
+			<m_targetType type="a">'T'</m_targetType>
+			<m_direction type="a">' '</m_direction>
+			<m_rpn type="p">
+				<CGIText type="e">
+					<m_str type="a">satisfy</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_rpn>
+			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
+			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
+			<m_line_style type="a">0</m_line_style>
+			<m_SourcePort type="a">-5 405 </m_SourcePort>
+			<m_TargetPort type="a">1084 629 </m_TargetPort>
+			<m_ShowName type="a">0</m_ShowName>
+			<m_ShowStereotype type="a">1</m_ShowStereotype>
+		</CGIInheritance>
+		<CGIObjectInstance type="e">
+			<_id type="a">GUID 82f75f4d-bca8-48cb-b975-f8b2225f8406</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">Format</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Object</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">Fill.FillColor</_Name>
+													<_Value type="a">255,251,240</_Value>
+													<_Type type="a">Color</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Graphics</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">FitBoxToItsTextuals</_Name>
+													<_Value type="a">True</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">ShowLabels</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+						<IPropertySubject type="e">
+							<_Name type="a">ObjectModelGe</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Object</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">ShowRedefinesLabel</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<m_type type="a">106</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IPart</_hm2Class>
+					<_hfilename type="a">.\NVIS_Operating_Environment.sbsx</_hfilename>
+					<_hsubsystem type="a">System_Analysis::NVIS_Operating_Environment</_hsubsystem>
+					<_hclass type="a">TopLevel</_hclass>
+					<_hname type="a">itsHeadlights</_hname>
+					<_hid type="a">GUID f866d630-965f-43a2-b724-ecd7566cd399</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s">GUID 782ff8f3-707b-4a66-9e07-8ade1e864300</m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">:Headlights</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">533256</m_drawBehavior>
+			<m_transform type="a">0.108593 0 0 0.131907 1222.78 765.602 </m_transform>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_AdditionalLabel type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_AdditionalLabel>
+			<m_polygon type="a">4 2 329  2 1451  1061 1451  1061 329  </m_polygon>
+			<m_nNameFormat type="a">0</m_nNameFormat>
+			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
+			<frameset type="a">&lt;frameset rows=50%25,50%25&gt;
+&lt;frame name=AttributeListCompartment&gt;
+&lt;frame name=OperationListCompartment&gt;</frameset>
+			<Attrs type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Attrs>
+			<Operations type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Operations>
+			<m_multiplicity type="p">
+				<CGIText type="e">
+					<m_str type="a">2</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_multiplicity>
+			<AggregatesList type="e">
+				<value>GUID 4ae394fe-dc3d-443e-9f76-ad42449f493f</value>
+				<value>GUID 72876749-94f2-4420-a7f7-2d070fdedee4</value>
+			</AggregatesList>
+		</CGIObjectInstance>
+		<CGICompartment type="e">
+			<_id type="a">GUID 4ae394fe-dc3d-443e-9f76-ad42449f493f</_id>
+			<m_name type="a">Attribute</m_name>
+			<m_displayOption type="a">Public</m_displayOption>
+			<m_bShowInherited type="a">0</m_bShowInherited>
+			<m_bOrdered type="a">0</m_bOrdered>
+		</CGICompartment>
+		<CGICompartment type="e">
+			<_id type="a">GUID 72876749-94f2-4420-a7f7-2d070fdedee4</_id>
+			<m_name type="a">Operation</m_name>
+			<m_displayOption type="a">Public</m_displayOption>
+			<m_bShowInherited type="a">0</m_bShowInherited>
+			<m_bOrdered type="a">0</m_bOrdered>
+		</CGICompartment>
+		<CGIInheritance type="e">
+			<_id type="a">GUID 784ed485-da9c-4d55-a8ec-d6f003c78f0a</_id>
+			<m_type type="a">128</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDependency</_hm2Class>
+					<_hfilename type="a">.\NVIS_Operating_Environment.sbsx</_hfilename>
+					<_hsubsystem type="a">System_Analysis::NVIS_Operating_Environment</_hsubsystem>
+					<_hclass type="a">TopLevel</_hclass>
+					<_hname type="a">itsHeadlights.AccuracyNFR</_hname>
+					<_hid type="a">GUID 162ef7e3-4e3e-498d-ba1b-cb1f3e60fb16</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s"></m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">AccuracyNFR</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4104</m_drawBehavior>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_pSource type="s">GUID 82f75f4d-bca8-48cb-b975-f8b2225f8406</m_pSource>
+			<m_sourceType type="a">'F'</m_sourceType>
+			<m_pTarget type="s">GUID 4280fb21-f5bc-4859-b66a-615d81e7b3a1</m_pTarget>
+			<m_targetType type="a">'T'</m_targetType>
+			<m_direction type="a">' '</m_direction>
+			<m_rpn type="p">
+				<CGIText type="e">
+					<m_str type="a">satisfy</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_rpn>
+			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
+			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
+			<m_line_style type="a">0</m_line_style>
+			<m_SourcePort type="a">1061 678 </m_SourcePort>
+			<m_TargetPort type="a">-10 485 </m_TargetPort>
+			<m_ShowName type="a">0</m_ShowName>
+			<m_ShowStereotype type="a">1</m_ShowStereotype>
+		</CGIInheritance>
+		<CGIObjectInstance type="e">
+			<_id type="a">GUID 91405dba-e084-4575-ab67-05f8a6da5fe7</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">Format</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Object</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">Fill.FillColor</_Name>
+													<_Value type="a">255,251,240</_Value>
+													<_Type type="a">Color</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Graphics</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">FitBoxToItsTextuals</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">ShowLabels</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+						<IPropertySubject type="e">
+							<_Name type="a">ObjectModelGe</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Object</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">ShowRedefinesLabel</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<m_type type="a">106</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IPart</_hm2Class>
+					<_hfilename type="a">.\NVIS_Operating_Environment.sbsx</_hfilename>
+					<_hsubsystem type="a">System_Analysis::NVIS_Operating_Environment</_hsubsystem>
+					<_hclass type="a">TopLevel</_hclass>
+					<_hname type="a">itsMonitoringDevice</_hname>
+					<_hid type="a">GUID 7131b7d1-2404-469e-83e5-492b77b5d8c3</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s">GUID 782ff8f3-707b-4a66-9e07-8ade1e864300</m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">:MonitoringDevice</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">533256</m_drawBehavior>
+			<m_transform type="a">0.146364 0 0 0.131907 643.707 736.602 </m_transform>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_AdditionalLabel type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_AdditionalLabel>
+			<m_polygon type="a">4 2 329  2 1451  1061 1451  1061 329  </m_polygon>
+			<m_nNameFormat type="a">0</m_nNameFormat>
+			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
+			<frameset type="a">&lt;frameset rows=50%25,50%25&gt;
+&lt;frame name=AttributeListCompartment&gt;
+&lt;frame name=OperationListCompartment&gt;</frameset>
+			<Attrs type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Attrs>
+			<Operations type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Operations>
+			<m_multiplicity type="p">
+				<CGIText type="e">
+					<m_str type="a">1</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_multiplicity>
+			<AggregatesList type="e">
+				<value>GUID 3ba62b2b-3063-48f4-b830-fe3a7316b891</value>
+				<value>GUID fc3aab8f-0f74-44e7-8950-85dec9886136</value>
+			</AggregatesList>
+		</CGIObjectInstance>
+		<CGICompartment type="e">
+			<_id type="a">GUID 3ba62b2b-3063-48f4-b830-fe3a7316b891</_id>
+			<m_name type="a">Attribute</m_name>
+			<m_displayOption type="a">Public</m_displayOption>
+			<m_bShowInherited type="a">0</m_bShowInherited>
+			<m_bOrdered type="a">0</m_bOrdered>
+		</CGICompartment>
+		<CGICompartment type="e">
+			<_id type="a">GUID fc3aab8f-0f74-44e7-8950-85dec9886136</_id>
+			<m_name type="a">Operation</m_name>
+			<m_displayOption type="a">Public</m_displayOption>
+			<m_bShowInherited type="a">0</m_bShowInherited>
+			<m_bOrdered type="a">0</m_bOrdered>
+		</CGICompartment>
+		<CGIInheritance type="e">
+			<_id type="a">GUID 51caaff2-9237-4352-b053-bbed5a44f995</_id>
+			<m_type type="a">128</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDependency</_hm2Class>
+					<_hfilename type="a">.\NVIS_Operating_Environment.sbsx</_hfilename>
+					<_hsubsystem type="a">System_Analysis::NVIS_Operating_Environment</_hsubsystem>
+					<_hclass type="a">TopLevel</_hclass>
+					<_hname type="a">itsMonitoringDevice.UsabilityNFR</_hname>
+					<_hid type="a">GUID 720798af-7b0b-4b52-b01e-54ed52868fdf</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s"></m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">UsabilityNFR</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4104</m_drawBehavior>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_pSource type="s">GUID 91405dba-e084-4575-ab67-05f8a6da5fe7</m_pSource>
+			<m_sourceType type="a">'F'</m_sourceType>
+			<m_pTarget type="s">GUID 64232e17-c649-4ebf-b571-78d978872bc3</m_pTarget>
+			<m_targetType type="a">'T'</m_targetType>
+			<m_direction type="a">' '</m_direction>
+			<m_rpn type="p">
+				<CGIText type="e">
+					<m_str type="a">satisfy</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_rpn>
+			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
+			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
+			<m_line_style type="a">0</m_line_style>
+			<m_SourcePort type="a">-5 943 </m_SourcePort>
+			<m_TargetPort type="a">1084 652 </m_TargetPort>
+			<m_ShowName type="a">0</m_ShowName>
+			<m_ShowStereotype type="a">1</m_ShowStereotype>
+		</CGIInheritance>
 		<IClass type="e">
 			<_id type="a">GUID 2338ea0e-eae4-4fad-a0e1-816ea4b88068</_id>
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
-			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
-			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_modifiedTimeWeak type="a">4.16.2024::14:55:44</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">4.16.2024::14:55:44</weakCGTime>
+			<strongCGTime type="a">4.16.2024::14:55:44</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
