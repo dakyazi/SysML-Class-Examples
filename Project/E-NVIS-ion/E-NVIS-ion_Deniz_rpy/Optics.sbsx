@@ -12,13 +12,13 @@
 			<_id type="a">GUID c255a7b1-05cf-4d64-b2f0-737a7c9e8d4e</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Optics</_name>
-			<_modifiedTimeWeak type="a">4.16.2024::14:49:14</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.16.2024::14:55:39</_modifiedTimeWeak>
 			<_modifiedTime type="a">4.16.2024::14:49:14</_modifiedTime>
-			<weakCGTime type="a">4.16.2024::14:49:14</weakCGTime>
-			<strongCGTime type="a">4.16.2024::14:37:4</strongCGTime>
+			<weakCGTime type="a">4.16.2024::14:55:39</weakCGTime>
+			<strongCGTime type="a">4.16.2024::14:55:39</strongCGTime>
 			<_defaultComposite type="s">GUID 5637a282-be89-47b1-b724-9a23a176b02c</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
-			<_configurationRelatedTime type="a">1.1.1970::1:0:0</_configurationRelatedTime>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
 			<AggregatesList type="e">
 				<value>GUID 83876182-f21a-495a-92ae-4807b6b7079e</value>
 				<value>GUID 5637a282-be89-47b1-b724-9a23a176b02c</value>
@@ -36,10 +36,10 @@
 			<_id type="a">GUID 5637a282-be89-47b1-b724-9a23a176b02c</_id>
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
-			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
-			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_modifiedTimeWeak type="a">4.16.2024::14:55:39</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">4.16.2024::14:55:39</weakCGTime>
+			<strongCGTime type="a">4.16.2024::14:55:39</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>

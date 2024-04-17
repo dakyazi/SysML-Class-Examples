@@ -1,10 +1,10 @@
 /********************************************************************
 	Rhapsody	: 9.0 
-	Login		: 20235613
+	Login		: 20235604
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: TMS
-//!	Generated Date	: Mon, 15, Apr 2024  
+//!	Generated Date	: Wed, 17, Apr 2024  
 	File Path	: DefaultComponent\DefaultConfig\TMS.cpp
 *********************************************************************/
 
@@ -38,18 +38,269 @@
 #include "TempSensor.h"
 //#[ ignore
 #define System_Analysis_System_Context_TMS_TMS_SERIALIZE OM_NO_OP
+
+#define OMAnim_System_Analysis_System_Context_TMS_setSetTmpMax_int_UNSERIALIZE_ARGS OP_UNSER(OMDestructiveString2X,p_setTmpMax)
+
+#define OMAnim_System_Analysis_System_Context_TMS_setSetTmpMax_int_SERIALIZE_RET_VAL
+
+#define OMAnim_System_Analysis_System_Context_TMS_setSetTmpMin_int_UNSERIALIZE_ARGS OP_UNSER(OMDestructiveString2X,p_setTmpMin)
+
+#define OMAnim_System_Analysis_System_Context_TMS_setSetTmpMin_int_SERIALIZE_RET_VAL
 //#]
 
 //## package System_Analysis::System_Context
 
 //## class TMS
-TMS::TMS(void) : itsCarOccupant(NULL), itsCommunicationSystem(NULL), itsConstraints(NULL), itsCoolingSystem(NULL), itsHeatingSystem(NULL), itsNaturalEnvironment(NULL), itsPowerSource(NULL), itsPresenceSensor(NULL), itsStakeholder(NULL), itsStandard(NULL), itsTempSensor(NULL) {
+//#[ ignore
+TMS::p_PowerSource_C::p_PowerSource_C(void) : int_voltage_ProxyFlowPropertyInterface(), _p_(0), itsInt_voltage_ProxyFlowPropertyInterface(NULL) {
+}
+
+TMS::p_PowerSource_C::~p_PowerSource_C(void) {
+    cleanUpRelations();
+}
+
+void TMS::p_PowerSource_C::connectTMS(TMS* part) {
+    setItsInt_voltage_ProxyFlowPropertyInterface(part);
+    
+}
+
+int_voltage_ProxyFlowPropertyInterface* TMS::p_PowerSource_C::getItsInt_voltage_ProxyFlowPropertyInterface(void) {
+    return this;
+}
+
+void TMS::p_PowerSource_C::setVoltage(int p_voltage) {
+    
+    if (itsInt_voltage_ProxyFlowPropertyInterface != NULL) {
+        itsInt_voltage_ProxyFlowPropertyInterface->setVoltage(p_voltage);
+    }
+    
+}
+
+void TMS::p_PowerSource_C::setItsInt_voltage_ProxyFlowPropertyInterface(int_voltage_ProxyFlowPropertyInterface* const p_int_voltage_ProxyFlowPropertyInterface) {
+    itsInt_voltage_ProxyFlowPropertyInterface = p_int_voltage_ProxyFlowPropertyInterface;
+}
+
+void TMS::p_PowerSource_C::cleanUpRelations(void) {
+    if(itsInt_voltage_ProxyFlowPropertyInterface != NULL)
+        {
+            itsInt_voltage_ProxyFlowPropertyInterface = NULL;
+        }
+}
+
+TMS::p_TempSensor_C::InBound_C::InBound_C(void) : int_currentTmp_ProxyFlowPropertyInterface(), itsInt_currentTmp_ProxyFlowPropertyInterface(NULL), port(NULL) {
+}
+
+TMS::p_TempSensor_C::InBound_C::~InBound_C(void) {
+    cleanUpRelations();
+}
+
+void TMS::p_TempSensor_C::InBound_C::setCurrentTmp(int p_currentTmp) {
+    
+    if (itsInt_currentTmp_ProxyFlowPropertyInterface != NULL) {
+        itsInt_currentTmp_ProxyFlowPropertyInterface->setCurrentTmp(p_currentTmp);
+    }
+    
+}
+
+void TMS::p_TempSensor_C::InBound_C::setItsInt_currentTmp_ProxyFlowPropertyInterface(int_currentTmp_ProxyFlowPropertyInterface* const p_int_currentTmp_ProxyFlowPropertyInterface) {
+    itsInt_currentTmp_ProxyFlowPropertyInterface = p_int_currentTmp_ProxyFlowPropertyInterface;
+}
+
+TMS::p_TempSensor_C* TMS::p_TempSensor_C::InBound_C::getPort(void) const {
+    return port;
+}
+
+void TMS::p_TempSensor_C::InBound_C::setPort(TMS::p_TempSensor_C* const p_p_TempSensor_C) {
+    _setPort(p_p_TempSensor_C);
+}
+
+void TMS::p_TempSensor_C::InBound_C::cleanUpRelations(void) {
+    if(itsInt_currentTmp_ProxyFlowPropertyInterface != NULL)
+        {
+            itsInt_currentTmp_ProxyFlowPropertyInterface = NULL;
+        }
+    if(port != NULL)
+        {
+            port = NULL;
+        }
+}
+
+void TMS::p_TempSensor_C::InBound_C::__setPort(TMS::p_TempSensor_C* const p_p_TempSensor_C) {
+    port = p_p_TempSensor_C;
+}
+
+void TMS::p_TempSensor_C::InBound_C::_setPort(TMS::p_TempSensor_C* const p_p_TempSensor_C) {
+    __setPort(p_p_TempSensor_C);
+}
+
+void TMS::p_TempSensor_C::InBound_C::_clearPort(void) {
+    port = NULL;
+}
+
+TMS::p_TempSensor_C::OutBound_C::OutBound_C(void) : int_setTmpMax_ProxyFlowPropertyInterface(), int_setTmpMin_ProxyFlowPropertyInterface(), itsInt_setTmpMax_ProxyFlowPropertyInterface(NULL), itsInt_setTmpMin_ProxyFlowPropertyInterface(NULL) {
+}
+
+TMS::p_TempSensor_C::OutBound_C::~OutBound_C(void) {
+    cleanUpRelations();
+}
+
+void TMS::p_TempSensor_C::OutBound_C::setSetTmpMax(int p_setTmpMax) {
+    
+    if (itsInt_setTmpMax_ProxyFlowPropertyInterface != NULL) {
+        itsInt_setTmpMax_ProxyFlowPropertyInterface->setSetTmpMax(p_setTmpMax);
+    }
+    
+}
+
+void TMS::p_TempSensor_C::OutBound_C::setSetTmpMin(int p_setTmpMin) {
+    
+    if (itsInt_setTmpMin_ProxyFlowPropertyInterface != NULL) {
+        itsInt_setTmpMin_ProxyFlowPropertyInterface->setSetTmpMin(p_setTmpMin);
+    }
+    
+}
+
+void TMS::p_TempSensor_C::OutBound_C::setItsInt_setTmpMax_ProxyFlowPropertyInterface(int_setTmpMax_ProxyFlowPropertyInterface* const p_int_setTmpMax_ProxyFlowPropertyInterface) {
+    itsInt_setTmpMax_ProxyFlowPropertyInterface = p_int_setTmpMax_ProxyFlowPropertyInterface;
+}
+
+void TMS::p_TempSensor_C::OutBound_C::setItsInt_setTmpMin_ProxyFlowPropertyInterface(int_setTmpMin_ProxyFlowPropertyInterface* const p_int_setTmpMin_ProxyFlowPropertyInterface) {
+    itsInt_setTmpMin_ProxyFlowPropertyInterface = p_int_setTmpMin_ProxyFlowPropertyInterface;
+}
+
+void TMS::p_TempSensor_C::OutBound_C::cleanUpRelations(void) {
+    if(itsInt_setTmpMax_ProxyFlowPropertyInterface != NULL)
+        {
+            itsInt_setTmpMax_ProxyFlowPropertyInterface = NULL;
+        }
+    if(itsInt_setTmpMin_ProxyFlowPropertyInterface != NULL)
+        {
+            itsInt_setTmpMin_ProxyFlowPropertyInterface = NULL;
+        }
+}
+
+TMS::p_TempSensor_C::p_TempSensor_C(void) : _p_(0) {
+    initRelations();
+}
+
+TMS::p_TempSensor_C::~p_TempSensor_C(void) {
+}
+
+void TMS::p_TempSensor_C::connectTMS(TMS* part) {
+    InBound.setItsInt_currentTmp_ProxyFlowPropertyInterface(part);
+    InBound.setPort(this); // for IS_PORT macro support
+    
+}
+
+int_currentTmp_ProxyFlowPropertyInterface* TMS::p_TempSensor_C::getItsInt_currentTmp_ProxyFlowPropertyInterface(void) {
+    return &InBound;
+}
+
+int_setTmpMax_ProxyFlowPropertyInterface* TMS::p_TempSensor_C::getItsInt_setTmpMax_ProxyFlowPropertyInterface(void) {
+    return &OutBound;
+}
+
+int_setTmpMin_ProxyFlowPropertyInterface* TMS::p_TempSensor_C::getItsInt_setTmpMin_ProxyFlowPropertyInterface(void) {
+    return &OutBound;
+}
+
+void TMS::p_TempSensor_C::setItsInt_currentTmp_ProxyFlowPropertyInterface(int_currentTmp_ProxyFlowPropertyInterface* const p_int_currentTmp_ProxyFlowPropertyInterface) {
+    InBound.setItsInt_currentTmp_ProxyFlowPropertyInterface(p_int_currentTmp_ProxyFlowPropertyInterface);
+}
+
+void TMS::p_TempSensor_C::setItsInt_setTmpMax_ProxyFlowPropertyInterface(int_setTmpMax_ProxyFlowPropertyInterface* const p_int_setTmpMax_ProxyFlowPropertyInterface) {
+    OutBound.setItsInt_setTmpMax_ProxyFlowPropertyInterface(p_int_setTmpMax_ProxyFlowPropertyInterface);
+}
+
+void TMS::p_TempSensor_C::setItsInt_setTmpMin_ProxyFlowPropertyInterface(int_setTmpMin_ProxyFlowPropertyInterface* const p_int_setTmpMin_ProxyFlowPropertyInterface) {
+    OutBound.setItsInt_setTmpMin_ProxyFlowPropertyInterface(p_int_setTmpMin_ProxyFlowPropertyInterface);
+}
+
+TMS::p_TempSensor_C::InBound_C* TMS::p_TempSensor_C::getInBound(void) const {
+    return (TMS::p_TempSensor_C::InBound_C*) &InBound;
+}
+
+TMS::p_TempSensor_C::OutBound_C* TMS::p_TempSensor_C::getOutBound(void) const {
+    return (TMS::p_TempSensor_C::OutBound_C*) &OutBound;
+}
+
+void TMS::p_TempSensor_C::initRelations(void) {
+    InBound._setPort(this);
+}
+//#]
+
+TMS::TMS(void) : int_voltage_ProxyFlowPropertyInterface(), int_currentTmp_ProxyFlowPropertyInterface(), currentTmp(0), setTmpMax(0), setTmpMin(0), voltage(0), itsCarOccupant(NULL), itsCommunicationSystem(NULL), itsConstraints(NULL), itsCoolingSystem(NULL), itsHeatingSystem(NULL), itsNaturalEnvironment(NULL), itsPowerSource(NULL), itsPresenceSensor(NULL), itsStakeholder(NULL), itsStandard(NULL), itsTempSensor(NULL) {
     NOTIFY_CONSTRUCTOR(TMS, TMS(), 0, System_Analysis_System_Context_TMS_TMS_SERIALIZE);
+    initRelations();
 }
 
 TMS::~TMS(void) {
     NOTIFY_DESTRUCTOR(~TMS, true);
     cleanUpRelations();
+}
+
+//#[ ignore
+void TMS::setCurrentTmp(int p_currentTmp) {
+    if (currentTmp != p_currentTmp) {
+        currentTmp = p_currentTmp;
+        FLOW_DATA_RECEIVE("currentTmp", currentTmp, x2String);
+    }
+    
+}
+
+void TMS::setSetTmpMax(int p_setTmpMax) {
+    if (setTmpMax != p_setTmpMax)  {
+        setTmpMax = p_setTmpMax;
+        FLOW_DATA_SEND(setTmpMax, p_TempSensor, setSetTmpMax, x2String);
+    }
+}
+
+void TMS::setSetTmpMin(int p_setTmpMin) {
+    if (setTmpMin != p_setTmpMin)  {
+        setTmpMin = p_setTmpMin;
+        FLOW_DATA_SEND(setTmpMin, p_TempSensor, setSetTmpMin, x2String);
+    }
+}
+
+void TMS::setVoltage(int p_voltage) {
+    if (voltage != p_voltage) {
+        voltage = p_voltage;
+        FLOW_DATA_RECEIVE("voltage", voltage, x2String);
+    }
+    
+}
+//#]
+
+TMS::p_PowerSource_C* TMS::getP_PowerSource(void) const {
+    return (TMS::p_PowerSource_C*) &p_PowerSource;
+}
+
+TMS::p_PowerSource_C* TMS::get_p_PowerSource(void) const {
+    return (TMS::p_PowerSource_C*) &p_PowerSource;
+}
+
+TMS::p_TempSensor_C* TMS::getP_TempSensor(void) const {
+    return (TMS::p_TempSensor_C*) &p_TempSensor;
+}
+
+TMS::p_TempSensor_C* TMS::get_p_TempSensor(void) const {
+    return (TMS::p_TempSensor_C*) &p_TempSensor;
+}
+
+const int TMS::getCurrentTmp(void) const {
+    return currentTmp;
+}
+
+const int TMS::getSetTmpMax(void) const {
+    return setTmpMax;
+}
+
+const int TMS::getSetTmpMin(void) const {
+    return setTmpMin;
+}
+
+const int TMS::getVoltage(void) const {
+    return voltage;
 }
 
 const CarOccupant* TMS::getItsCarOccupant(void) const {
@@ -182,6 +433,15 @@ void TMS::setItsTempSensor(TempSensor* const p_TempSensor) {
             p_TempSensor->_setItsTMS(this);
         }
     _setItsTempSensor(p_TempSensor);
+}
+
+void TMS::initRelations(void) {
+    if (get_p_PowerSource() != NULL) {
+        get_p_PowerSource()->connectTMS(this);
+    }
+    if (get_p_TempSensor() != NULL) {
+        get_p_TempSensor()->connectTMS(this);
+    }
 }
 
 void TMS::cleanUpRelations(void) {
@@ -574,6 +834,13 @@ void TMS::_clearItsTempSensor(void) {
 
 #ifdef _OMINSTRUMENT
 //#[ ignore
+void OMAnimatedTMS::serializeAttributes(AOMSAttributes* aomsAttributes) const {
+    aomsAttributes->addAttribute("voltage", x2String(myReal->voltage));
+    aomsAttributes->addAttribute("currentTmp", x2String(myReal->currentTmp));
+    aomsAttributes->addAttribute("setTmpMax", x2String(myReal->setTmpMax));
+    aomsAttributes->addAttribute("setTmpMin", x2String(myReal->setTmpMin));
+}
+
 void OMAnimatedTMS::serializeRelations(AOMSRelations* aomsRelations) const {
     aomsRelations->addRelation("itsStakeholder", false, true);
     if(myReal->itsStakeholder)
@@ -634,6 +901,14 @@ void OMAnimatedTMS::serializeRelations(AOMSRelations* aomsRelations) const {
 //#]
 
 IMPLEMENT_META_P(TMS, System_Analysis_System_Context, System_Analysis::System_Context, false, OMAnimatedTMS)
+
+IMPLEMENT_META_OP(OMAnimatedTMS, System_Analysis_System_Context_TMS_setSetTmpMax_int, "setSetTmpMax", FALSE, "setSetTmpMax(int)", 1)
+
+IMPLEMENT_OP_CALL(System_Analysis_System_Context_TMS_setSetTmpMax_int, TMS, setSetTmpMax(p_setTmpMax), NO_OP())
+
+IMPLEMENT_META_OP(OMAnimatedTMS, System_Analysis_System_Context_TMS_setSetTmpMin_int, "setSetTmpMin", FALSE, "setSetTmpMin(int)", 1)
+
+IMPLEMENT_OP_CALL(System_Analysis_System_Context_TMS_setSetTmpMin_int, TMS, setSetTmpMin(p_setTmpMin), NO_OP())
 #endif // _OMINSTRUMENT
 
 /*********************************************************************

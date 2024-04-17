@@ -1,10 +1,10 @@
 /*********************************************************************
 	Rhapsody	: 9.0 
-	Login		: 20235613
+	Login		: 20235604
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: TMS_Operating_Environment
-//!	Generated Date	: Mon, 15, Apr 2024  
+//!	Generated Date	: Wed, 17, Apr 2024  
 	File Path	: DefaultComponent\DefaultConfig\TMS_Operating_Environment.h
 *********************************************************************/
 
@@ -30,11 +30,17 @@ class NaturalEnvironment;
 //## classInstance itsPresenceSensor
 class PresenceSensor;
 
-//## classInstance itsTMS
+//## classInstance itsTMS_1
 class TMS;
 
-//## classInstance itsTempSensor
+//## auto_generated
+class TMS_1;
+
+//## classInstance itsTempSensor_1
 class TempSensor;
+
+//## auto_generated
+class TempSensor_1;
 
 //## package System_Analysis::TMS_Operating_Environment
 
@@ -54,11 +60,11 @@ extern NaturalEnvironment itsNaturalEnvironment;
 //## classInstance itsPresenceSensor
 extern PresenceSensor itsPresenceSensor;
 
-//## classInstance itsTMS
-extern TMS itsTMS;
+//## classInstance itsTMS_1
+extern TMS itsTMS_1;
 
-//## classInstance itsTempSensor
-extern TempSensor itsTempSensor;
+//## classInstance itsTempSensor_1
+extern TempSensor itsTempSensor_1;
 
 //## auto_generated
 void TMS_Operating_Environment_initRelations(void);
