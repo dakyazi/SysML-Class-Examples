@@ -1,0 +1,90 @@
+I-Logix-RPY-Archive version 8.15.0 * 202002261110
+
+- m_fileModifyTime = { IRPYRawContainer 
+	- size = 14;
+	- value = "DefaultComponent\\DefaultConfig\\Cooler.cpp" 4.18.2024::8:51:52
+	"DefaultComponent\\DefaultConfig\\Cooler.h" 4.18.2024::8:51:52
+	"DefaultComponent\\DefaultConfig\\HVAC.cpp" 4.18.2024::9:51:27
+	"DefaultComponent\\DefaultConfig\\HVAC.h" 4.18.2024::9:51:27
+	"DefaultComponent\\DefaultConfig\\Heater.cpp" 4.18.2024::9:51:27
+	"DefaultComponent\\DefaultConfig\\Heater.h" 4.18.2024::9:51:27
+	"DefaultComponent\\DefaultConfig\\IB_Cooler.cpp" 4.18.2024::8:35:41
+	"DefaultComponent\\DefaultConfig\\IB_Cooler.h" 4.18.2024::8:35:41
+	"DefaultComponent\\DefaultConfig\\IB_Heater.cpp" 4.18.2024::8:35:41
+	"DefaultComponent\\DefaultConfig\\IB_Heater.h" 4.18.2024::8:35:41
+	"DefaultComponent\\DefaultConfig\\Logical_Architecture.cpp" 4.18.2024::9:51:27
+	"DefaultComponent\\DefaultConfig\\Logical_Architecture.h" 4.18.2024::8:51:52
+	"DefaultComponent\\DefaultConfig\\TMS.cpp" 4.18.2024::9:51:27
+	"DefaultComponent\\DefaultConfig\\TMS.h" 4.18.2024::8:35:41
+	
+}
+- m_saveUnitAndOwnerSaveUnit = { IRPYRawContainer 
+	- size = 2;
+	- value = "GUID 107a364e-54b1-4dc8-8f48-5c54f5256b26" "GUID ac27b110-e48e-4a3a-8770-9273a1ceb296"
+	"GUID ff589ed6-535a-4b53-91c5-9c0ef6fde231" "GUID ac27b110-e48e-4a3a-8770-9273a1ceb296"
+	
+}
+- size = 8;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = ".\\..\\..\\TEST_PORT_2024_V1_rpy\\Logical_Architecture.sbsx";
+	- _name = "Logical_Architecture";
+	- _id = GUID 107a364e-54b1-4dc8-8f48-5c54f5256b26;
+}
+- genTime = 4.18.2024::9:51:27;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\TEST_PORT_2024_V1_rpy\\Logical_Architecture.sbsx";
+	- _subsystem = "Logical_Architecture";
+	- _name = "Heater";
+	- _id = GUID 3774dbe5-c234-4035-8108-71954109a585;
+}
+- genTime = 4.18.2024::9:51:27;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\TEST_PORT_2024_V1_rpy\\Logical_Architecture.sbsx";
+	- _subsystem = "Logical_Architecture";
+	- _name = "HVAC";
+	- _id = GUID 070c37a4-1e6f-47aa-a932-8f5c02a474bc;
+}
+- genTime = 4.18.2024::9:51:27;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\TEST_PORT_2024_V1_rpy\\Logical_Architecture.sbsx";
+	- _subsystem = "Logical_Architecture";
+	- _name = "Cooler";
+	- _id = GUID 1d9f944f-782b-47a0-8675-bd823b0594e7;
+}
+- genTime = 4.18.2024::8:51:52;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\TEST_PORT_2024_V1_rpy\\Logical_Architecture.sbsx";
+	- _subsystem = "Logical_Architecture";
+	- _name = "TMS";
+	- _id = GUID dce31997-f72c-4861-9aa4-1d4fedffae8f;
+}
+- genTime = 4.18.2024::9:51:27;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\TEST_PORT_2024_V1_rpy\\Logical_Architecture.sbsx";
+	- _subsystem = "Logical_Architecture";
+	- _name = "IB_Heater";
+	- _id = GUID 09e2f3b8-2d1f-4328-a090-6e31dd0cbdde;
+}
+- genTime = 4.18.2024::8:35:41;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\TEST_PORT_2024_V1_rpy\\Logical_Architecture.sbsx";
+	- _subsystem = "Logical_Architecture";
+	- _name = "IB_Cooler";
+	- _id = GUID a3236c46-8b59-4630-a67b-3b1ec0dc109f;
+}
+- genTime = 4.18.2024::8:35:41;
+- hElement = { IHandle 
+	- _m2Class = "ICodeGenConfigInfo";
+	- _filename = ".\\..\\..\\TEST_PORT_2024_V1_rpy\\DefaultComponent.cmpx";
+	- _name = "DefaultComponent\\DefaultConfig";
+	- _id = GUID 4cf51197-fd97-45fe-8a61-9d37ef88064d;
+}
+- genTime = 4.18.2024::9:51:27;
+

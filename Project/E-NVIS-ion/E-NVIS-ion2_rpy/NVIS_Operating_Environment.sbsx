@@ -12,10 +12,10 @@
 			<_id type="a">GUID 59fb556d-890b-4003-aefe-02fcbbcda1a5</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">NVIS_Operating_Environment</_name>
-			<_modifiedTimeWeak type="a">4.17.2024::12:15:33</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::12:43:6</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.18.2024::11:49:29</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::12:15:46</_modifiedTime>
 			<_lastID type="a">1</_lastID>
-			<weakCGTime type="a">4.17.2024::12:15:33</weakCGTime>
+			<weakCGTime type="a">4.18.2024::11:49:29</weakCGTime>
 			<strongCGTime type="a">4.16.2024::14:48:36</strongCGTime>
 			<_defaultComposite type="s">GUID 66afdb0f-05d2-4101-b84f-c928741319f3</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -356,8 +356,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::12:23:10</_modifiedTime>
-			<_lastModifiedTime type="a">4.17.2024::12:23:10</_lastModifiedTime>
+			<_modifiedTime type="a">4.18.2024::11:49:29</_modifiedTime>
+			<_lastModifiedTime type="a">4.18.2024::11:49:29</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -1632,7 +1632,7 @@
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hfilename type="a">.\System_Context.sbsx</_hfilename>
 					<_hsubsystem type="a">System_Analysis::System_Context</_hsubsystem>
-					<_hclass type="a">MonitoringDevice</_hclass>
+					<_hclass type="a">Car</_hclass>
 					<_hname type="a">itsNVIS</_hname>
 					<_hid type="a">GUID b064ef4e-d1b4-4956-8d19-b1ca11d1efb2</_hid>
 				</IHandle>
@@ -1689,7 +1689,7 @@
 					<_hfilename type="a">.\System_Context.sbsx</_hfilename>
 					<_hsubsystem type="a">System_Analysis::System_Context</_hsubsystem>
 					<_hclass type="a">NVIS</_hclass>
-					<_hname type="a">itsMonitoringDevice</_hname>
+					<_hname type="a">itsCar</_hname>
 					<_hid type="a">GUID d359c078-b486-4ea3-b6f4-92d17401cd1a</_hid>
 				</IAssociationEndHandle>
 			</m_pInverseModelObject>
@@ -2778,7 +2778,7 @@
 			<m_pParent type="s">GUID d37fcea5-bb01-4406-934f-c4b8f32d139c</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">itsMonitoringDevice:MonitoringDevice</m_str>
+					<m_str type="a">itsMonitoringDevice:Car</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -3275,7 +3275,7 @@
 					<_hm2Class type="a">IClass</_hm2Class>
 					<_hfilename type="a">.\System_Context.sbsx</_hfilename>
 					<_hsubsystem type="a">System_Analysis::System_Context</_hsubsystem>
-					<_hname type="a">MonitoringDevice</_hname>
+					<_hname type="a">Car</_hname>
 					<_hid type="a">GUID 9e42b075-31f8-4ff6-b8d9-ad718eed25fb</_hid>
 				</IClassifierHandle>
 			</_otherClass>

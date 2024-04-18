@@ -9,31 +9,26 @@
 	
 	<RHAPSODY-MODEL>
 	<ISubsystem type="e">
-			<_id type="a">GUID f9a598db-131c-42aa-9503-547b16a908dd</_id>
+			<_id type="a">GUID 5b6d4820-e237-4786-98b9-e42855550858</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">Use_Cases</_name>
-			<_modifiedTimeWeak type="a">4.18.2024::11:48:1</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.18.2024::12:15:46</_modifiedTime>
-			<weakCGTime type="a">4.18.2024::11:48:1</weakCGTime>
-			<strongCGTime type="a">4.16.2024::13:54:20</strongCGTime>
-			<_defaultComposite type="s">GUID 5d47dcb5-3a0e-4494-92da-563f05a6f46a</_defaultComposite>
+			<_name type="a">Default</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_defaultComposite type="s">GUID 9c0daf19-06e2-4c15-9660-7e6f26da9193</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
-			<_configurationRelatedTime type="a">4.18.2024::11:47:53</_configurationRelatedTime>
+			<_configurationRelatedTime type="a">1.1.1970::1:0:0</_configurationRelatedTime>
 			<AggregatesList type="e">
-				<value>GUID 84c9f1e4-6b9d-4f2b-bafc-1212a695b6be</value>
-				<value>GUID 5d47dcb5-3a0e-4494-92da-563f05a6f46a</value>
+				<value>GUID 9c0daf19-06e2-4c15-9660-7e6f26da9193</value>
 			</AggregatesList>
 		</ISubsystem>
-		<ISubsystem type="e">
-			<fileName type="a">NVIS_Use_Case</fileName>
-			<_id type="a">GUID 84c9f1e4-6b9d-4f2b-bafc-1212a695b6be</_id>
-		</ISubsystem>
 		<IClass type="e">
-			<_id type="a">GUID 5d47dcb5-3a0e-4494-92da-563f05a6f46a</_id>
+			<_id type="a">GUID 9c0daf19-06e2-4c15-9660-7e6f26da9193</_id>
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
