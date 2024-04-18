@@ -12,8 +12,8 @@
 			<_id type="a">GUID 84361d71-235e-405a-90cd-c34d94db83be</_id>
 			<_myState type="a">139264</_myState>
 			<_name type="a">DefaultComponent</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.16.2024::11:44:56</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.18.2024::14:17:21</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::14:39:57</_modifiedTime>
 			<m_buildType type="a">Executable</m_buildType>
 			<m_configActive type="r">
 				<ICodeGenConfigInfoHandle type="e">
@@ -217,6 +217,15 @@
 							<_hid type="a">GUID 23d6fe5a-c791-4e09-b9ca-94bf03e72dfa</_hid>
 						</IHandle>
 					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\User_Models.sbsx</_hfilename>
+							<_hsubsystem type="a">System_Analysis</_hsubsystem>
+							<_hname type="a">User_Models</_hname>
+							<_hid type="a">GUID d5c3cf7c-70b7-4146-bc73-c41454e4598d</_hid>
+						</IHandle>
+					
 				</IRPYRawContainer>
 			</HandlesInMe>
 			<VariationPoints type="c">
@@ -227,7 +236,7 @@
 				<IRPYRawContainer type="e">
 				</IRPYRawContainer>
 			</SelectedVariants>
-			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<weakCGTime type="a">4.18.2024::14:17:21</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<AggregatesList type="e">
 				<value>GUID 8cbfe5fe-d742-43bd-8e1d-6f15facfc4dc</value>
@@ -253,10 +262,10 @@
 			<_id type="a">GUID 56ae7456-8005-4528-9f12-610549d0778a</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">DefaultConfig</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.16.2024::11:44:56</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.18.2024::14:17:21</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::14:17:21</_modifiedTime>
 			<_scopeType type="a">Explicit</_scopeType>
-			<_instrumentation type="a">None</_instrumentation>
+			<_instrumentation type="a">Animation</_instrumentation>
 			<_timeModel type="a">RealTime</_timeModel>
 			<m_generateActors type="a">1</m_generateActors>
 			<_statechartImplementation type="a">Flat</_statechartImplementation>
@@ -270,8 +279,8 @@
 				<IRPYRawContainer type="e">
 				</IRPYRawContainer>
 			</InitialInstances>
-			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
-			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<weakCGTime type="a">4.18.2024::14:17:21</weakCGTime>
+			<strongCGTime type="a">4.18.2024::14:17:21</strongCGTime>
 			<AnimScopeElements type="c">
 				<IRPYRawContainer type="e">
 				</IRPYRawContainer>
@@ -279,9 +288,37 @@
 			<m_allInAnimScope type="a">1</m_allInAnimScope>
 			<m_generateUsecases type="a">0</m_generateUsecases>
 			<AggregatesList type="e">
+				<value>GUID b23cc876-2a23-43d1-b251-d8f8a3e930bd</value>
+				<value>GUID 5dfebe2f-73dd-43b9-9576-b242e92f123a</value>
 				<value>GUID bd58fe8c-956a-4d25-bcbc-2bc8bb27e02c</value>
 			</AggregatesList>
 		</ICodeGenConfigInfo>
+		<IMHyperLink type="e">
+			<_id type="a">GUID b23cc876-2a23-43d1-b251-d8f8a3e930bd</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::14:17:5</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</_dependsOn>
+			<_linkDispName type="a">Edit Makefile</_linkDispName>
+			<_linkType type="a">FREE</_linkType>
+			<_linkTarget type="a">DefaultComponent.mak</_linkTarget>
+			<isConfigurationFileHyperLink type="a">1</isConfigurationFileHyperLink>
+		</IMHyperLink>
+		<IMHyperLink type="e">
+			<_id type="a">GUID 5dfebe2f-73dd-43b9-9576-b242e92f123a</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::14:17:5</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</_dependsOn>
+			<_linkDispName type="a">Edit Main File</_linkDispName>
+			<_linkType type="a">FREE</_linkType>
+			<_linkTarget type="a">MainDefaultComponent</_linkTarget>
+			<isConfigurationFileHyperLink type="a">1</isConfigurationFileHyperLink>
+		</IMHyperLink>
 		<IFolder type="e">
 			<_id type="a">GUID bd58fe8c-956a-4d25-bcbc-2bc8bb27e02c</_id>
 			<_myState type="a">8192</_myState>
