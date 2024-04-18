@@ -12,10 +12,10 @@
 			<_id type="a">GUID 67b6c24d-6004-43fc-91e4-c7950994ffb1</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">System_Context</_name>
-			<_modifiedTimeWeak type="a">4.18.2024::11:49:29</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.18.2024::12:15:46</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.18.2024::12:42:56</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::12:42:56</_modifiedTime>
 			<_lastID type="a">25</_lastID>
-			<weakCGTime type="a">4.18.2024::11:49:29</weakCGTime>
+			<weakCGTime type="a">4.18.2024::12:42:56</weakCGTime>
 			<strongCGTime type="a">4.16.2024::14:48:36</strongCGTime>
 			<_defaultComposite type="s">GUID 6fcc6462-dbe9-4bb6-8319-ef9ec4afb330</_defaultComposite>
 			<_eventsBaseID type="a">10001</_eventsBaseID>
@@ -5060,16 +5060,16 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.18.2024::12:19:37</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.18.2024::12:44:15</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID eba12fa9-f292-4b60-8360-982a294ee5a8</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">4.18.2024::11:50:25</_modifiedTime>
-			<_lastID type="a">1</_lastID>
-			<weakCGTime type="a">4.18.2024::12:19:37</weakCGTime>
+			<_modifiedTime type="a">4.18.2024::12:42:56</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<weakCGTime type="a">4.18.2024::12:44:15</weakCGTime>
 			<strongCGTime type="a">4.17.2024::12:15:33</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -5135,10 +5135,10 @@
 			<_id type="a">GUID e0a82fa5-9e6f-4428-a065-de32d1eb7b6a</_id>
 			<_myState type="a">10240</_myState>
 			<_name type="a">statechart_0</_name>
-			<_modifiedTimeWeak type="a">4.18.2024::12:19:37</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.18.2024::12:18:53</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.18.2024::12:44:15</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::12:44:15</_modifiedTime>
 			<_lastID type="a">92</_lastID>
-			<weakCGTime type="a">4.18.2024::12:19:37</weakCGTime>
+			<weakCGTime type="a">4.18.2024::12:44:15</weakCGTime>
 			<strongCGTime type="a">4.17.2024::12:15:33</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -5146,7 +5146,7 @@
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<_defNumber type="a">62</_defNumber>
-			<_version type="a">4.18.2024::14:19:50</_version>
+			<_version type="a">4.18.2024::14:44:15</_version>
 			<_baseVersion type="a">1.2.1990::0:0:0</_baseVersion>
 			<_diagram type="s">GUID 7ff21182-d1d5-41ab-a810-6c43c0ff56b2</_diagram>
 			<AggregatesList type="e">
@@ -5606,8 +5606,8 @@ getSpeedFromCar();</_body>
 			<_id type="a">GUID 818cdd9f-c99b-49fc-bf02-5bbe42323e88</_id>
 			<_myState type="a">2048</_myState>
 			<_name type="a">transition_27</_name>
-			<_modifiedTimeWeak type="a">4.17.2024::15:1:48</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::14:55:31</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.18.2024::12:43:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::12:43:23</_modifiedTime>
 			<_itsTarget type="s">GUID 8017190c-b234-4040-90fc-0885c065420b</_itsTarget>
 			<_staticReaction type="a">0</_staticReaction>
 			<_itsSource type="s">GUID 6708899d-74b7-4fb7-88ce-1c910faf9be6</_itsSource>
@@ -5617,8 +5617,8 @@ getSpeedFromCar();</_body>
 		</ITransition>
 		<ILabel type="e">
 			<_id type="a">GUID 8d9e4b3a-3682-4095-91da-be6c73c9d1dc</_id>
-			<_modifiedTimeWeak type="a">4.17.2024::14:18:50</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::14:18:50</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.18.2024::12:43:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::12:43:23</_modifiedTime>
 			<_itsTrigger>NULL</_itsTrigger>
 			<_itsAction>NULL</_itsAction>
 			<AggregatesList type="e">
@@ -5627,16 +5627,16 @@ getSpeedFromCar();</_body>
 		</ILabel>
 		<IGuard type="e">
 			<_id type="a">GUID 3e9dc093-74c2-463b-9129-1faa7cb33c82</_id>
-			<_modifiedTimeWeak type="a">4.17.2024::14:18:50</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::14:18:50</_modifiedTime>
-			<_body type="a">FogLamp = true</_body>
+			<_modifiedTimeWeak type="a">4.18.2024::12:43:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::12:43:23</_modifiedTime>
+			<_body type="a">fogLamp = true</_body>
 		</IGuard>
 		<ITransition type="e">
 			<_id type="a">GUID 38eb8cf1-8e8a-4cf4-ba08-4880064e5177</_id>
 			<_myState type="a">2048</_myState>
 			<_name type="a">transition_35</_name>
-			<_modifiedTimeWeak type="a">4.17.2024::15:1:48</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::14:55:31</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.18.2024::12:43:13</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::12:43:13</_modifiedTime>
 			<_itsTarget type="s">GUID 4076a0ed-2703-4a8b-93ee-49bad5b74d21</_itsTarget>
 			<_staticReaction type="a">0</_staticReaction>
 			<_itsSource type="s">GUID 6708899d-74b7-4fb7-88ce-1c910faf9be6</_itsSource>
@@ -5646,8 +5646,8 @@ getSpeedFromCar();</_body>
 		</ITransition>
 		<ILabel type="e">
 			<_id type="a">GUID 8d999286-845c-44f6-8ddc-317b38c8afeb</_id>
-			<_modifiedTimeWeak type="a">4.17.2024::14:27:46</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::14:27:46</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.18.2024::12:43:13</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::12:43:13</_modifiedTime>
 			<_itsTrigger>NULL</_itsTrigger>
 			<AggregatesList type="e">
 				<value>GUID 4f113c11-0dff-42d0-9375-6fe99fb319df</value>
@@ -5656,9 +5656,9 @@ getSpeedFromCar();</_body>
 		</ILabel>
 		<IGuard type="e">
 			<_id type="a">GUID 4f113c11-0dff-42d0-9375-6fe99fb319df</_id>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
-			<_body type="a">FogLamp = False</_body>
+			<_modifiedTimeWeak type="a">4.18.2024::12:43:13</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::12:43:13</_modifiedTime>
+			<_body type="a">fogLamp = false</_body>
 		</IGuard>
 		<IAction type="e">
 			<_id type="a">GUID 16f39016-1c88-4419-b3c3-54b2e66b432e</_id>
@@ -5692,8 +5692,8 @@ turnOffFogMode();</_body>
 			<_id type="a">GUID c283b39b-d541-4e8c-8992-9dd76fc9f609</_id>
 			<_myState type="a">2048</_myState>
 			<_name type="a">transition_24</_name>
-			<_modifiedTimeWeak type="a">4.17.2024::15:1:48</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::14:55:31</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.18.2024::12:42:56</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::12:42:56</_modifiedTime>
 			<_itsTarget type="s">GUID bd784477-4331-488d-9a70-c85d31a5059c</_itsTarget>
 			<_staticReaction type="a">0</_staticReaction>
 			<_itsSource type="s">GUID e7164743-59ff-4e61-bf55-f5ab47d63edd</_itsSource>
@@ -5703,8 +5703,8 @@ turnOffFogMode();</_body>
 		</ITransition>
 		<ILabel type="e">
 			<_id type="a">GUID 4458a5ee-ff07-48c9-a3f1-deb2d3c5a285</_id>
-			<_modifiedTimeWeak type="a">4.17.2024::14:18:36</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::14:18:36</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.18.2024::12:42:56</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::12:42:56</_modifiedTime>
 			<_itsTrigger>NULL</_itsTrigger>
 			<_itsAction>NULL</_itsAction>
 			<AggregatesList type="e">
@@ -5713,16 +5713,16 @@ turnOffFogMode();</_body>
 		</ILabel>
 		<IGuard type="e">
 			<_id type="a">GUID c9f40bd8-7729-42d0-adb3-3077aae27a2f</_id>
-			<_modifiedTimeWeak type="a">4.17.2024::14:18:36</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::14:18:36</_modifiedTime>
-			<_body type="a">FogMode = true</_body>
+			<_modifiedTimeWeak type="a">4.18.2024::12:42:56</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::12:42:56</_modifiedTime>
+			<_body type="a">fogMode = true</_body>
 		</IGuard>
 		<ITransition type="e">
 			<_id type="a">GUID c391b679-68f5-4ea1-b9e6-b69827ec449a</_id>
 			<_myState type="a">2048</_myState>
 			<_name type="a">transition_30</_name>
-			<_modifiedTimeWeak type="a">4.17.2024::15:1:48</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::14:55:31</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.18.2024::12:43:2</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::12:43:2</_modifiedTime>
 			<_itsTarget type="s">GUID 4076a0ed-2703-4a8b-93ee-49bad5b74d21</_itsTarget>
 			<_staticReaction type="a">0</_staticReaction>
 			<_itsSource type="s">GUID e7164743-59ff-4e61-bf55-f5ab47d63edd</_itsSource>
@@ -5732,8 +5732,8 @@ turnOffFogMode();</_body>
 		</ITransition>
 		<ILabel type="e">
 			<_id type="a">GUID 51cd1c6e-b99b-4cf5-aacc-852c14593a37</_id>
-			<_modifiedTimeWeak type="a">4.17.2024::14:20:4</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::14:20:4</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.18.2024::12:43:2</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::12:43:2</_modifiedTime>
 			<_itsTrigger>NULL</_itsTrigger>
 			<_itsAction>NULL</_itsAction>
 			<AggregatesList type="e">
@@ -5742,9 +5742,9 @@ turnOffFogMode();</_body>
 		</ILabel>
 		<IGuard type="e">
 			<_id type="a">GUID a4cb4a3e-dc30-4360-9051-04e2b41f370d</_id>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
-			<_body type="a">FogMode = false</_body>
+			<_modifiedTimeWeak type="a">4.18.2024::12:43:2</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::12:43:2</_modifiedTime>
+			<_body type="a">fogMode = false</_body>
 		</IGuard>
 		<ITransition type="e">
 			<_id type="a">GUID 34b230fd-a915-4ba4-8c64-53651b91db14</_id>
@@ -6135,8 +6135,8 @@ turnOffFogMode();</_body>
 			<_id type="a">GUID 52c36dbc-d822-44ce-a280-9253123f9f89</_id>
 			<_myState type="a">2048</_myState>
 			<_name type="a">transition_71</_name>
-			<_modifiedTimeWeak type="a">4.17.2024::15:1:48</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::14:56:37</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.18.2024::12:44:15</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::12:44:15</_modifiedTime>
 			<_itsTarget type="s">GUID a4d7ae75-a19c-40c8-81a5-7f30a2051be4</_itsTarget>
 			<_staticReaction type="a">0</_staticReaction>
 			<_itsSource type="s">GUID 22dfab65-69ee-45b1-b75a-618e5c557d40</_itsSource>
@@ -6146,8 +6146,8 @@ turnOffFogMode();</_body>
 		</ITransition>
 		<ILabel type="e">
 			<_id type="a">GUID 6c6d55b8-d3e6-42ac-9cd3-a3944b9450d1</_id>
-			<_modifiedTimeWeak type="a">4.17.2024::14:56:37</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::14:56:37</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.18.2024::12:44:15</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::12:44:15</_modifiedTime>
 			<_itsTrigger>NULL</_itsTrigger>
 			<_itsAction>NULL</_itsAction>
 			<AggregatesList type="e">
@@ -6156,9 +6156,9 @@ turnOffFogMode();</_body>
 		</ILabel>
 		<IGuard type="e">
 			<_id type="a">GUID a70ee9e2-2be9-42a4-9ed5-4a53eb3478df</_id>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
-			<_body type="a">FogLamp = true</_body>
+			<_modifiedTimeWeak type="a">4.18.2024::12:44:15</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::12:44:15</_modifiedTime>
+			<_body type="a">fogLamp = true</_body>
 		</IGuard>
 		<ITransition type="e">
 			<_id type="a">GUID eb40124d-15fe-4af6-b8c8-0a6bff8c350a</_id>
@@ -6264,8 +6264,8 @@ turnOffFogMode();</_body>
 			<_id type="a">GUID 0a16e68f-97f0-4e8c-aab7-219ddc4a7762</_id>
 			<_myState type="a">2048</_myState>
 			<_name type="a">transition_78</_name>
-			<_modifiedTimeWeak type="a">4.17.2024::15:3:13</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::15:3:13</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.18.2024::12:44:10</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::12:44:10</_modifiedTime>
 			<_itsTarget type="s">GUID a4d7ae75-a19c-40c8-81a5-7f30a2051be4</_itsTarget>
 			<_staticReaction type="a">0</_staticReaction>
 			<_itsSource type="s">GUID c84c5c72-3e17-4246-a552-a25bc8da5f9c</_itsSource>
@@ -6275,8 +6275,8 @@ turnOffFogMode();</_body>
 		</ITransition>
 		<ILabel type="e">
 			<_id type="a">GUID 8ca81365-3c1d-4b8c-aeac-2df1c56fc664</_id>
-			<_modifiedTimeWeak type="a">4.17.2024::15:3:13</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::15:3:13</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.18.2024::12:44:10</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::12:44:10</_modifiedTime>
 			<_itsTrigger>NULL</_itsTrigger>
 			<_itsAction>NULL</_itsAction>
 			<AggregatesList type="e">
@@ -6285,9 +6285,9 @@ turnOffFogMode();</_body>
 		</ILabel>
 		<IGuard type="e">
 			<_id type="a">GUID c76cd3be-b998-42e5-89b6-beaa65015844</_id>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
-			<_body type="a">FogLamp = true</_body>
+			<_modifiedTimeWeak type="a">4.18.2024::12:44:10</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::12:44:10</_modifiedTime>
+			<_body type="a">fogLamp = true</_body>
 		</IGuard>
 		<ITransition type="e">
 			<_id type="a">GUID ea227bd5-4bdb-4bb4-ab85-d4ac26c76103</_id>
@@ -6364,7 +6364,7 @@ turnOffFogMode();</_body>
 		<ILabel type="e">
 			<_id type="a">GUID 2b0a46e6-1e2f-4d21-9b1e-c18e8b644b62</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_itsTrigger>NULL</_itsTrigger>
 			<_itsGuard>NULL</_itsGuard>
 			<_itsAction>NULL</_itsAction>
@@ -6385,7 +6385,7 @@ turnOffFogMode();</_body>
 		<ILabel type="e">
 			<_id type="a">GUID 95e088d5-09dd-43ff-b668-889b17a116c2</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_itsTrigger>NULL</_itsTrigger>
 			<_itsGuard>NULL</_itsGuard>
 			<_itsAction>NULL</_itsAction>
@@ -6406,7 +6406,7 @@ turnOffFogMode();</_body>
 		<ILabel type="e">
 			<_id type="a">GUID 5d761620-d35c-4153-b57b-38dd9cf65bd0</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_itsTrigger>NULL</_itsTrigger>
 			<_itsGuard>NULL</_itsGuard>
 			<_itsAction>NULL</_itsAction>
@@ -6427,7 +6427,7 @@ turnOffFogMode();</_body>
 		<ILabel type="e">
 			<_id type="a">GUID 3fe51a7d-0e20-41d4-a20a-9135c419a39c</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_itsTrigger>NULL</_itsTrigger>
 			<_itsGuard>NULL</_itsGuard>
 			<_itsAction>NULL</_itsAction>
@@ -7084,9 +7084,9 @@ turnOffFogMode();</_body>
 			</IPropertyContainer>
 			</_properties>
 			<_name type="a">statechartdiagram_0</_name>
-			<_modifiedTimeWeak type="a">4.18.2024::11:57:6</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.18.2024::12:42:56</_modifiedTimeWeak>
 			<_modifiedTime type="a">4.18.2024::12:18:53</_modifiedTime>
-			<_lastModifiedTime type="a">4.18.2024::12:19:50</_lastModifiedTime>
+			<_lastModifiedTime type="a">4.18.2024::12:44:15</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -10721,7 +10721,7 @@ getSpeedFromCar();</m_str>
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">[FogLamp = true]</m_str>
+					<m_str type="a">[fogLamp = true]</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -10787,7 +10787,7 @@ getSpeedFromCar();</m_str>
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">[FogLamp = False]/%0D
+					<m_str type="a">[fogLamp = false]/%0D
 turnOffFogMode();</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
@@ -10916,7 +10916,7 @@ turnOffFogMode();</m_str>
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">[FogMode = true]</m_str>
+					<m_str type="a">[fogMode = true]</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -10982,7 +10982,7 @@ turnOffFogMode();</m_str>
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">[FogMode = false]</m_str>
+					<m_str type="a">[fogMode = false]</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -12039,7 +12039,7 @@ turnOffFogMode();</m_str>
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">[FogLamp = true]</m_str>
+					<m_str type="a">[fogLamp = true]</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -12551,7 +12551,7 @@ turnOffFogMode();</m_str>
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">[FogLamp = true]</m_str>
+					<m_str type="a">[fogLamp = true]</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">

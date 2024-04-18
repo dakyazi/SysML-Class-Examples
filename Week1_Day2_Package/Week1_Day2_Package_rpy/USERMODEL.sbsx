@@ -12,10 +12,10 @@
 			<_id type="a">GUID 9f4c72b6-6f80-4982-83dc-293f7c4a2668</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">USERMODEL</_name>
-			<_modifiedTimeWeak type="a">4.17.2024::10:6:10</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::10:23:55</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.18.2024::12:40:43</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::12:40:43</_modifiedTime>
 			<_lastID type="a">5</_lastID>
-			<weakCGTime type="a">4.17.2024::10:6:10</weakCGTime>
+			<weakCGTime type="a">4.18.2024::12:40:43</weakCGTime>
 			<strongCGTime type="a">4.17.2024::9:1:8</strongCGTime>
 			<_defaultComposite type="s">GUID 3816d7d7-c04c-4cfe-9ff2-788ae9c0e37e</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -817,8 +817,8 @@
 			</_properties>
 			<_name type="a">GUI</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.16.2024::8:50:55</_modifiedTime>
-			<_lastModifiedTime type="a">4.16.2024::8:50:55</_lastModifiedTime>
+			<_modifiedTime type="a">4.18.2024::12:41:27</_modifiedTime>
+			<_lastModifiedTime type="a">4.18.2024::12:41:27</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -5151,7 +5151,7 @@
 			<m_pParent type="s">GUID 9cd1eb1e-0cb9-4870-ae5c-6eebbacb9985</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">itsTMS</m_str>
+					<m_str type="a">itsTMS:TMS</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -5281,7 +5281,7 @@
 			<m_pParent type="s">GUID 9cd1eb1e-0cb9-4870-ae5c-6eebbacb9985</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">itsTempSensor</m_str>
+					<m_str type="a">itsTempSensor:TempSensor</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -5410,7 +5410,7 @@
 			<m_pParent type="s">GUID 9cd1eb1e-0cb9-4870-ae5c-6eebbacb9985</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">itsPowerSource_1</m_str>
+					<m_str type="a">itsPowerSource_1:PowerSource</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">

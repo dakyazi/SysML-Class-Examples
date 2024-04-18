@@ -1,8 +1,3 @@
 [Op Calls]
 [Events]
-itsPowerSource_1->GEN(reqPowerOn())`PowerSource
-itsPowerSource->GEN(reqPowerOn())`PowerSource
-itsPowerSource->GEN(reqHighPower())`PowerSource
-itsPowerSource->GEN(evFaultCleared())`PowerSource
-itsPowerSource->GEN(reqPowerOff())`PowerSource
 [Breakpoints]
