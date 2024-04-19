@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: NVIS
-//!	Generated Date	: Thu, 18, Apr 2024  
+//!	Generated Date	: Fri, 19, Apr 2024  
 	File Path	: DefaultComponent\DefaultConfig\NVIS.h
 *********************************************************************/
 
@@ -83,6 +83,9 @@ public :
     
     ////    Operations    ////
     
+    //## operation clearFault()
+    virtual void clearFault(void);
+    
     //## operation getSpeedFromCar()
     virtual void getSpeedFromCar(void);
     
@@ -106,6 +109,9 @@ public :
     
     //## operation runSpeedCheck()
     virtual void runSpeedCheck(void);
+    
+    //## operation runSpeedCheckFog()
+    virtual void runSpeedCheckFog(void);
     
     //## operation runSystemCheck()
     virtual void runSystemCheck(void);
@@ -161,6 +167,12 @@ public :
     void setHeadLights(const bool p_headLights);
     
     //## auto_generated
+    const bool getNormalMode(void) const;
+    
+    //## auto_generated
+    void setNormalMode(const bool p_normalMode);
+    
+    //## auto_generated
     const int getSpeed(void) const;
     
     //## auto_generated
@@ -173,10 +185,28 @@ public :
     void setSystemOk(const bool p_systemOk);
     
     //## auto_generated
+    const bool getTrack1Mode(void) const;
+    
+    //## auto_generated
+    void setTrack1Mode(const bool p_track1Mode);
+    
+    //## auto_generated
+    const bool getTrack2Mode(void) const;
+    
+    //## auto_generated
+    void setTrack2Mode(const bool p_track2Mode);
+    
+    //## auto_generated
     const bool getWinding(void) const;
     
     //## auto_generated
     void setWinding(const bool p_winding);
+    
+    //## auto_generated
+    const bool getWindingMode(void) const;
+    
+    //## auto_generated
+    void setWindingMode(const bool p_windingMode);
     
     //## auto_generated
     const AutoLightControlUnit* getItsAutoLightControlUnit(void) const;
@@ -273,11 +303,19 @@ private :
     
     bool headLights;		//## attribute headLights
     
+    bool normalMode;		//## attribute normalMode
+    
     int speed;		//## attribute speed
     
     bool systemOk;		//## attribute systemOk
     
+    bool track1Mode;		//## attribute track1Mode
+    
+    bool track2Mode;		//## attribute track2Mode
+    
     bool winding;		//## attribute winding
+    
+    bool windingMode;		//## attribute windingMode
     
     ////    Relations and components    ////
     

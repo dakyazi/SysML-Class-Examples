@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: NVIS
-//!	Generated Date	: Thu, 18, Apr 2024  
+//!	Generated Date	: Fri, 19, Apr 2024  
 	File Path	: DefaultComponent\DefaultConfig\NVIS.cpp
 *********************************************************************/
 
@@ -43,6 +43,8 @@
 //#[ ignore
 #define System_Analysis_System_Context_NVIS_NVIS_SERIALIZE OM_NO_OP
 
+#define System_Analysis_System_Context_NVIS_clearFault_SERIALIZE OM_NO_OP
+
 #define System_Analysis_System_Context_NVIS_getSpeedFromCar_SERIALIZE OM_NO_OP
 
 #define System_Analysis_System_Context_NVIS_indicateHeadlightoff_SERIALIZE OM_NO_OP
@@ -58,6 +60,8 @@
 #define System_Analysis_System_Context_NVIS_runHeadlightCheck_SERIALIZE OM_NO_OP
 
 #define System_Analysis_System_Context_NVIS_runSpeedCheck_SERIALIZE OM_NO_OP
+
+#define System_Analysis_System_Context_NVIS_runSpeedCheckFog_SERIALIZE OM_NO_OP
 
 #define System_Analysis_System_Context_NVIS_runSystemCheck_SERIALIZE OM_NO_OP
 
@@ -81,7 +85,7 @@
 //## package System_Analysis::System_Context
 
 //## class NVIS
-NVIS::NVIS(IOxfActive* const theActiveContext) : OMReactive(), activeMode(4), fogLamp(false), fogMode(false), headLights(false), speed(80), systemOk(true), winding(false), itsAutoLightControlUnit(NULL), itsCar(NULL), itsCentralProcessingUnit(NULL), itsCommunicationSystem(NULL), itsConstraints(NULL), itsHeadlights(NULL), itsHighResVideoCam(NULL), itsInfraredFilter(NULL), itsMonitoringScreen(NULL), itsNaturalEnvironment(NULL), itsStakeholder(NULL), itsStandards(NULL) {
+NVIS::NVIS(IOxfActive* const theActiveContext) : OMReactive(), activeMode(4), fogLamp(true), fogMode(true), headLights(false), normalMode(false), speed(120), systemOk(false), track1Mode(false), track2Mode(false), winding(false), windingMode(false), itsAutoLightControlUnit(NULL), itsCar(NULL), itsCentralProcessingUnit(NULL), itsCommunicationSystem(NULL), itsConstraints(NULL), itsHeadlights(NULL), itsHighResVideoCam(NULL), itsInfraredFilter(NULL), itsMonitoringScreen(NULL), itsNaturalEnvironment(NULL), itsStakeholder(NULL), itsStandards(NULL) {
     NOTIFY_REACTIVE_CONSTRUCTOR(NVIS, NVIS(), 0, System_Analysis_System_Context_NVIS_NVIS_SERIALIZE);
     setActiveContext(theActiveContext, false);
     initStatechart();
@@ -92,12 +96,20 @@ NVIS::~NVIS(void) {
     cleanUpRelations();
 }
 
+void NVIS::clearFault(void) {
+    NOTIFY_OPERATION(clearFault, clearFault(), 0, System_Analysis_System_Context_NVIS_clearFault_SERIALIZE);
+    //#[ operation clearFault()
+    systemOk = true;
+    std::cout<<"System is OK. \n";
+    //#]
+}
+
 void NVIS::getSpeedFromCar(void) {
     NOTIFY_OPERATION(getSpeedFromCar, getSpeedFromCar(), 0, System_Analysis_System_Context_NVIS_getSpeedFromCar_SERIALIZE);
     //#[ operation getSpeedFromCar()
     std::cout << "Requesting speed\n";
     std::cout << "Request accepted\n";
-    speed = 80;
+    speed = 110;
     //#]
 }
 
@@ -132,7 +144,6 @@ void NVIS::runFogLampCheck(void) {
 void NVIS::runFogModeCheck(void) {
     NOTIFY_OPERATION(runFogModeCheck, runFogModeCheck(), 0, System_Analysis_System_Context_NVIS_runFogModeCheck_SERIALIZE);
     //#[ operation runFogModeCheck()
-    fogMode = true;
     //#]
 }
 
@@ -154,12 +165,23 @@ void NVIS::runSpeedCheck(void) {
     //#]
 }
 
+void NVIS::runSpeedCheckFog(void) {
+    NOTIFY_OPERATION(runSpeedCheckFog, runSpeedCheckFog(), 0, System_Analysis_System_Context_NVIS_runSpeedCheckFog_SERIALIZE);
+    //#[ operation runSpeedCheckFog()
+    if (rand() % 2){
+    speed = speed + 2;}
+    else {
+    speed = speed - 2;
+    }
+    
+    fogMode = false;
+    //#]
+}
+
 void NVIS::runSystemCheck(void) {
     NOTIFY_OPERATION(runSystemCheck, runSystemCheck(), 0, System_Analysis_System_Context_NVIS_runSystemCheck_SERIALIZE);
     //#[ operation runSystemCheck()
     std::cout<<"Running system check.\n";
-    systemOk = true;
-    std::cout<<"System is OK. \n";
     //#]
 }
 
@@ -185,9 +207,11 @@ void NVIS::turnMonitorOn(void) {
 void NVIS::turnOnFogMode(void) {
     NOTIFY_OPERATION(turnOnFogMode, turnOnFogMode(), 0, System_Analysis_System_Context_NVIS_turnOnFogMode_SERIALIZE);
     //#[ operation turnOnFogMode()
-    fogMode = true;
+    
     std::cout<<"Activating fog mode.\n";
-    activeMode = 5;
+    
+    fogMode = true;
+    
     //#]
 }
 
@@ -195,8 +219,11 @@ void NVIS::turnOnNormalMode(void) {
     NOTIFY_OPERATION(turnOnNormalMode, turnOnNormalMode(), 0, System_Analysis_System_Context_NVIS_turnOnNormalMode_SERIALIZE);
     //#[ operation turnOnNormalMode()
     std::cout<<"Activating normal mode.\n";
-    activeMode = 4;
-    fogMode = false;
+    windingMode = false;
+    normalMode = true;
+    track1Mode = false;
+    track2Mode = false;
+    
     //#]
 }
 
@@ -204,8 +231,11 @@ void NVIS::turnOnTrackMode1(void) {
     NOTIFY_OPERATION(turnOnTrackMode1, turnOnTrackMode1(), 0, System_Analysis_System_Context_NVIS_turnOnTrackMode1_SERIALIZE);
     //#[ operation turnOnTrackMode1()
     std::cout<<"Activating track mode 1.\n";
-    activeMode = 1;
-    fogMode = false;
+    windingMode = false;
+    normalMode = false;
+    track1Mode = true;
+    track2Mode = false;
+    
     //#]
 }
 
@@ -213,8 +243,11 @@ void NVIS::turnOnTrackMode2(void) {
     NOTIFY_OPERATION(turnOnTrackMode2, turnOnTrackMode2(), 0, System_Analysis_System_Context_NVIS_turnOnTrackMode2_SERIALIZE);
     //#[ operation turnOnTrackMode2()
     std::cout<<"Activating track mode 2.\n";
-    activeMode = 2;
-    fogMode = false;
+    windingMode = false;
+    normalMode = false;
+    track1Mode = false;
+    track2Mode = true;
+    
     //#]
 }
 
@@ -222,8 +255,11 @@ void NVIS::turnOnWindingMode(void) {
     NOTIFY_OPERATION(turnOnWindingMode, turnOnWindingMode(), 0, System_Analysis_System_Context_NVIS_turnOnWindingMode_SERIALIZE);
     //#[ operation turnOnWindingMode()
     std::cout<<"Activating winding mode.\n";
-    activeMode = 3;
-    fogMode = false;
+    windingMode = true;
+    normalMode = false;
+    track1Mode = false;
+    track2Mode = false;
+    
     //#]
 }
 
@@ -249,6 +285,7 @@ const bool NVIS::getFogMode(void) const {
 
 void NVIS::setFogMode(const bool p_fogMode) {
     fogMode = p_fogMode;
+    NOTIFY_SET_OPERATION;
 }
 
 const bool NVIS::getHeadLights(void) const {
@@ -259,12 +296,22 @@ void NVIS::setHeadLights(const bool p_headLights) {
     headLights = p_headLights;
 }
 
+const bool NVIS::getNormalMode(void) const {
+    return normalMode;
+}
+
+void NVIS::setNormalMode(const bool p_normalMode) {
+    normalMode = p_normalMode;
+    NOTIFY_SET_OPERATION;
+}
+
 const int NVIS::getSpeed(void) const {
     return speed;
 }
 
 void NVIS::setSpeed(const int p_speed) {
     speed = p_speed;
+    NOTIFY_SET_OPERATION;
 }
 
 const bool NVIS::getSystemOk(void) const {
@@ -273,6 +320,25 @@ const bool NVIS::getSystemOk(void) const {
 
 void NVIS::setSystemOk(const bool p_systemOk) {
     systemOk = p_systemOk;
+    NOTIFY_SET_OPERATION;
+}
+
+const bool NVIS::getTrack1Mode(void) const {
+    return track1Mode;
+}
+
+void NVIS::setTrack1Mode(const bool p_track1Mode) {
+    track1Mode = p_track1Mode;
+    NOTIFY_SET_OPERATION;
+}
+
+const bool NVIS::getTrack2Mode(void) const {
+    return track2Mode;
+}
+
+void NVIS::setTrack2Mode(const bool p_track2Mode) {
+    track2Mode = p_track2Mode;
+    NOTIFY_SET_OPERATION;
 }
 
 const bool NVIS::getWinding(void) const {
@@ -281,6 +347,15 @@ const bool NVIS::getWinding(void) const {
 
 void NVIS::setWinding(const bool p_winding) {
     winding = p_winding;
+}
+
+const bool NVIS::getWindingMode(void) const {
+    return windingMode;
+}
+
+void NVIS::setWindingMode(const bool p_windingMode) {
+    windingMode = p_windingMode;
+    NOTIFY_SET_OPERATION;
 }
 
 const AutoLightControlUnit* NVIS::getItsAutoLightControlUnit(void) const {
@@ -1213,7 +1288,8 @@ IOxfReactive::TakeEventStatus NVIS::checkSpeed90_handleEvent(void) {
                     On_subState = checkSpeed110;
                     rootState_active = checkSpeed110;
                     //#[ state On.checkSpeed110.(Entry) 
-                    runSpeedCheck();
+                    runSpeedCheckFog();
+                    
                     //#]
                     NOTIFY_TRANSITION_TERMINATED("10");
                     NOTIFY_TRANSITION_TERMINATED("9");
@@ -1405,7 +1481,8 @@ IOxfReactive::TakeEventStatus NVIS::checkSpeed100_handleEvent(void) {
                     On_subState = checkSpeed110;
                     rootState_active = checkSpeed110;
                     //#[ state On.checkSpeed110.(Entry) 
-                    runSpeedCheck();
+                    runSpeedCheckFog();
+                    
                     //#]
                     NOTIFY_TRANSITION_TERMINATED("28");
                     NOTIFY_TRANSITION_TERMINATED("26");
@@ -1485,6 +1562,7 @@ IOxfReactive::TakeEventStatus NVIS::checkFogLampOn_handleEvent(void) {
                     rootState_active = checkSpeed100;
                     //#[ state On.checkSpeed100.(Entry) 
                     runSpeedCheck();
+                    
                     //#]
                     NOTIFY_TRANSITION_TERMINATED("13");
                     NOTIFY_TRANSITION_TERMINATED("12");
@@ -1742,7 +1820,7 @@ IOxfReactive::TakeEventStatus NVIS::rootState_processEvent(void) {
             if(IS_EVENT_TYPE_OF(OMNullEventId) == 1)
                 {
                     //## transition 6 
-                    if(systemOk = true)
+                    if(systemOk)
                         {
                             NOTIFY_TRANSITION_STARTED("2");
                             NOTIFY_TRANSITION_STARTED("6");
@@ -1771,6 +1849,9 @@ IOxfReactive::TakeEventStatus NVIS::rootState_processEvent(void) {
                             NOTIFY_STATE_ENTERED("ROOT.SystemFault");
                             rootState_subState = SystemFault;
                             rootState_active = SystemFault;
+                            //#[ state SystemFault.(Entry) 
+                            clearFault();
+                            //#]
                             NOTIFY_TRANSITION_TERMINATED("4");
                             NOTIFY_TRANSITION_TERMINATED("2");
                             res = eventConsumed;
@@ -1854,6 +1935,10 @@ void OMAnimatedNVIS::serializeAttributes(AOMSAttributes* aomsAttributes) const {
     aomsAttributes->addAttribute("fogMode", x2String(myReal->fogMode));
     aomsAttributes->addAttribute("headLights", x2String(myReal->headLights));
     aomsAttributes->addAttribute("activeMode", x2String(myReal->activeMode));
+    aomsAttributes->addAttribute("normalMode", x2String(myReal->normalMode));
+    aomsAttributes->addAttribute("track1Mode", x2String(myReal->track1Mode));
+    aomsAttributes->addAttribute("track2Mode", x2String(myReal->track2Mode));
+    aomsAttributes->addAttribute("windingMode", x2String(myReal->windingMode));
 }
 
 void OMAnimatedNVIS::serializeRelations(AOMSRelations* aomsRelations) const {

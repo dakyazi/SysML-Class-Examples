@@ -12,10 +12,10 @@
 			<_id type="a">GUID 67b6c24d-6004-43fc-91e4-c7950994ffb1</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">System_Context</_name>
-			<_modifiedTimeWeak type="a">4.18.2024::14:43:13</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.18.2024::14:43:13</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.19.2024::9:16:54</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::9:39:42</_modifiedTime>
 			<_lastID type="a">29</_lastID>
-			<weakCGTime type="a">4.18.2024::14:43:13</weakCGTime>
+			<weakCGTime type="a">4.19.2024::9:16:54</weakCGTime>
 			<strongCGTime type="a">4.16.2024::14:48:36</strongCGTime>
 			<_defaultComposite type="s">GUID 6fcc6462-dbe9-4bb6-8319-ef9ec4afb330</_defaultComposite>
 			<_eventsBaseID type="a">10001</_eventsBaseID>
@@ -5063,16 +5063,16 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.18.2024::14:43:13</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.19.2024::9:16:54</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID eba12fa9-f292-4b60-8360-982a294ee5a8</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">4.18.2024::14:43:13</_modifiedTime>
-			<_lastID type="a">28</_lastID>
-			<weakCGTime type="a">4.18.2024::14:43:13</weakCGTime>
+			<_modifiedTime type="a">4.19.2024::8:59:40</_modifiedTime>
+			<_lastID type="a">34</_lastID>
+			<weakCGTime type="a">4.19.2024::9:16:54</weakCGTime>
 			<strongCGTime type="a">4.17.2024::12:15:33</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -5102,6 +5102,8 @@
 				<value>GUID d706a926-8a85-4181-96bc-e38aa0b1a05e</value>
 				<value>GUID 9a080810-7e10-4cc4-8d38-0ad05a87a322</value>
 				<value>GUID a15526bd-b7ae-445d-8d03-d003b618e06c</value>
+				<value>GUID 9791ed2c-22b2-40a5-ae1e-088b96c76755</value>
+				<value>GUID df8787ab-d5b6-4d52-bb8b-2980164b5ba7</value>
 				<value>GUID 9feb5e2f-b899-41e3-9d23-5cce9f216dcd</value>
 				<value>GUID 05d453b9-a480-4481-8dee-f65243fa74bc</value>
 				<value>GUID c8652dc6-eacc-45a2-ace6-f198028fcc7c</value>
@@ -5109,6 +5111,10 @@
 				<value>GUID cc0c86f2-73c3-46e7-8912-007cc2f165dd</value>
 				<value>GUID f65c0498-f807-4b9c-8e8f-dfb0f91aee04</value>
 				<value>GUID b6720e06-6ec7-4125-aeeb-3184a5bdaa23</value>
+				<value>GUID c19d128a-c148-44d7-8fb3-6f41e73d08a4</value>
+				<value>GUID 0a087ceb-d5cf-4bef-9eed-726196478eea</value>
+				<value>GUID 61add0e3-c0c1-4e98-b40a-7d1b0e2f8a90</value>
+				<value>GUID 5d98c2d6-ab64-4dcd-b6a6-766b8255252e</value>
 				<value>GUID e0a82fa5-9e6f-4428-a065-de32d1eb7b6a</value>
 				<value>GUID c3055bb3-fc22-42ba-bed4-b6e5fbd7a9d5</value>
 				<value>GUID a546f4bc-99f6-4580-8d16-60f2e1b79e0d</value>
@@ -5162,8 +5168,8 @@
 			<_id type="a">GUID 64b50d30-85e7-4b90-bc57-685d0bf1d577</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">runSystemCheck</_name>
-			<_modifiedTimeWeak type="a">4.18.2024::13:41:20</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.18.2024::13:41:20</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.19.2024::8:46:12</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:46:12</_modifiedTime>
 			<_virtual type="a">1</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">
@@ -5184,9 +5190,7 @@
 			<_static type="a">0</_static>
 			<_constant type="a">0</_constant>
 			<_itsBody type="p"><IBody type="e">
-				<_bodyData type="a">std::cout&lt;&lt;&quot;Running system check.\n&quot;;%0D
-systemOk = true;%0D
-std::cout&lt;&lt;&quot;System is OK. \n&quot;;</_bodyData>
+				<_bodyData type="a">std::cout&lt;&lt;&quot;Running system check.\n&quot;;</_bodyData>
 			</IBody>
 			</_itsBody>
 		</IPrimitiveOperation>
@@ -5306,8 +5310,8 @@ std::cout&lt;&lt;&quot;System is OK. \n&quot;;</_bodyData>
 			<_id type="a">GUID 99dd8afc-43a2-4dc9-91e0-c0a4b2936278</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">getSpeedFromCar</_name>
-			<_modifiedTimeWeak type="a">4.18.2024::13:41:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.18.2024::13:41:14</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.19.2024::8:40:18</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:40:18</_modifiedTime>
 			<_virtual type="a">1</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">
@@ -5330,7 +5334,7 @@ std::cout&lt;&lt;&quot;System is OK. \n&quot;;</_bodyData>
 			<_itsBody type="p"><IBody type="e">
 				<_bodyData type="a">std::cout &lt;&lt; &quot;Requesting speed\n&quot;;%0D
 std::cout &lt;&lt; &quot;Request accepted\n&quot;;%0D
-speed = 80;</_bodyData>
+speed = 110;</_bodyData>
 			</IBody>
 			</_itsBody>
 		</IPrimitiveOperation>
@@ -5338,8 +5342,8 @@ speed = 80;</_bodyData>
 			<_id type="a">GUID bf7a2cf8-07f3-4690-9b66-e0499b4f55cb</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">runFogModeCheck</_name>
-			<_modifiedTimeWeak type="a">4.18.2024::14:37:49</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.18.2024::14:37:49</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.19.2024::8:10:10</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:10:10</_modifiedTime>
 			<_virtual type="a">1</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">
@@ -5360,7 +5364,6 @@ speed = 80;</_bodyData>
 			<_static type="a">0</_static>
 			<_constant type="a">0</_constant>
 			<_itsBody type="p"><IBody type="e">
-				<_bodyData type="a">fogMode = true;</_bodyData>
 			</IBody>
 			</_itsBody>
 		</IPrimitiveOperation>
@@ -5432,8 +5435,8 @@ speed = speed - 2;%0D
 			<_id type="a">GUID e9b567f9-eba4-439d-8fb8-cf8e08aa54e9</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">turnOnTrackMode1</_name>
-			<_modifiedTimeWeak type="a">4.18.2024::13:51:28</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.18.2024::13:51:28</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.19.2024::8:32:54</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:32:54</_modifiedTime>
 			<_virtual type="a">1</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">
@@ -5455,8 +5458,11 @@ speed = speed - 2;%0D
 			<_constant type="a">0</_constant>
 			<_itsBody type="p"><IBody type="e">
 				<_bodyData type="a">std::cout&lt;&lt;&quot;Activating track mode 1.\n&quot;;%0D
-activeMode = 1;%0D
-fogMode = false;</_bodyData>
+windingMode = false;%0D
+normalMode = false;%0D
+track1Mode = true;%0D
+track2Mode = false;%0D
+</_bodyData>
 			</IBody>
 			</_itsBody>
 		</IPrimitiveOperation>
@@ -5464,8 +5470,8 @@ fogMode = false;</_bodyData>
 			<_id type="a">GUID dcf9e669-1212-41c5-8912-bf6f2e3e3827</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">turnOnTrackMode2</_name>
-			<_modifiedTimeWeak type="a">4.18.2024::13:51:42</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.18.2024::13:51:42</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.19.2024::8:33:1</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:33:1</_modifiedTime>
 			<_virtual type="a">1</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">
@@ -5487,8 +5493,11 @@ fogMode = false;</_bodyData>
 			<_constant type="a">0</_constant>
 			<_itsBody type="p"><IBody type="e">
 				<_bodyData type="a">std::cout&lt;&lt;&quot;Activating track mode 2.\n&quot;;%0D
-activeMode = 2;%0D
-fogMode = false;</_bodyData>
+windingMode = false;%0D
+normalMode = false;%0D
+track1Mode = false;%0D
+track2Mode = true;%0D
+</_bodyData>
 			</IBody>
 			</_itsBody>
 		</IPrimitiveOperation>
@@ -5526,8 +5535,8 @@ fogMode = false;</_bodyData>
 			<_id type="a">GUID a204f48a-68f8-49b4-bd1a-434a5b3f87ea</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">turnOnWindingMode</_name>
-			<_modifiedTimeWeak type="a">4.18.2024::13:51:56</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.18.2024::13:51:56</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.19.2024::8:32:48</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:32:48</_modifiedTime>
 			<_virtual type="a">1</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">
@@ -5549,8 +5558,11 @@ fogMode = false;</_bodyData>
 			<_constant type="a">0</_constant>
 			<_itsBody type="p"><IBody type="e">
 				<_bodyData type="a">std::cout&lt;&lt;&quot;Activating winding mode.\n&quot;;%0D
-activeMode = 3;%0D
-fogMode = false;</_bodyData>
+windingMode = true;%0D
+normalMode = false;%0D
+track1Mode = false;%0D
+track2Mode = false;%0D
+</_bodyData>
 			</IBody>
 			</_itsBody>
 		</IPrimitiveOperation>
@@ -5558,8 +5570,8 @@ fogMode = false;</_bodyData>
 			<_id type="a">GUID a5973eca-60de-465c-835f-da763903d7b3</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">turnOnNormalMode</_name>
-			<_modifiedTimeWeak type="a">4.18.2024::13:52:6</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.18.2024::13:52:6</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.19.2024::8:33:9</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:33:9</_modifiedTime>
 			<_virtual type="a">1</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">
@@ -5581,8 +5593,11 @@ fogMode = false;</_bodyData>
 			<_constant type="a">0</_constant>
 			<_itsBody type="p"><IBody type="e">
 				<_bodyData type="a">std::cout&lt;&lt;&quot;Activating normal mode.\n&quot;;%0D
-activeMode = 4;%0D
-fogMode = false;</_bodyData>
+windingMode = false;%0D
+normalMode = true;%0D
+track1Mode = false;%0D
+track2Mode = false;%0D
+</_bodyData>
 			</IBody>
 			</_itsBody>
 		</IPrimitiveOperation>
@@ -5650,8 +5665,8 @@ fogMode = false;</_bodyData>
 			<_id type="a">GUID 9a080810-7e10-4cc4-8d38-0ad05a87a322</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">turnOnFogMode</_name>
-			<_modifiedTimeWeak type="a">4.18.2024::13:51:17</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.18.2024::13:51:17</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.19.2024::8:5:47</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:5:47</_modifiedTime>
 			<_virtual type="a">1</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">
@@ -5672,9 +5687,11 @@ fogMode = false;</_bodyData>
 			<_static type="a">0</_static>
 			<_constant type="a">0</_constant>
 			<_itsBody type="p"><IBody type="e">
-				<_bodyData type="a">fogMode = true;%0D
+				<_bodyData type="a">%0D
 std::cout&lt;&lt;&quot;Activating fog mode.\n&quot;;%0D
-activeMode = 5;</_bodyData>
+%0D
+fogMode = true;%0D
+</_bodyData>
 			</IBody>
 			</_itsBody>
 		</IPrimitiveOperation>
@@ -5682,7 +5699,7 @@ activeMode = 5;</_bodyData>
 			<_id type="a">GUID a15526bd-b7ae-445d-8d03-d003b618e06c</_id>
 			<_myState type="a">8192</_myState>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_virtual type="a">0</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">
@@ -5695,6 +5712,73 @@ activeMode = 5;</_bodyData>
 				</IHandle>
 			</_event>
 		</IReception>
+		<IPrimitiveOperation type="e">
+			<_id type="a">GUID 9791ed2c-22b2-40a5-ae1e-088b96c76755</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">runSpeedCheckFog</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::8:32:38</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:32:38</_modifiedTime>
+			<_virtual type="a">1</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+			<_returnType type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
+					<_hname type="a">void</_hname>
+					<_hid type="a">GUID c6b70728-b655-45a0-abb7-8ea5d3da94be</_hid>
+				</IHandle>
+			</_returnType>
+			<_abstract type="a">0</_abstract>
+			<_final type="a">0</_final>
+			<_concurrency type="a">Sequential</_concurrency>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_constant type="a">0</_constant>
+			<_itsBody type="p"><IBody type="e">
+				<_bodyData type="a">if (rand() %25 2){%0D
+speed = speed + 2;}%0D
+else {%0D
+speed = speed - 2;%0D
+}%0D
+%0D
+fogMode = false;</_bodyData>
+			</IBody>
+			</_itsBody>
+		</IPrimitiveOperation>
+		<IPrimitiveOperation type="e">
+			<_id type="a">GUID df8787ab-d5b6-4d52-bb8b-2980164b5ba7</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">clearFault</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::8:47:47</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:47:47</_modifiedTime>
+			<_virtual type="a">1</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+			<_returnType type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
+					<_hname type="a">void</_hname>
+					<_hid type="a">GUID c6b70728-b655-45a0-abb7-8ea5d3da94be</_hid>
+				</IHandle>
+			</_returnType>
+			<_abstract type="a">0</_abstract>
+			<_final type="a">0</_final>
+			<_concurrency type="a">Sequential</_concurrency>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_constant type="a">0</_constant>
+			<_itsBody type="p"><IBody type="e">
+				<_bodyData type="a">systemOk = true;%0D
+std::cout&lt;&lt;&quot;System is OK. \n&quot;;</_bodyData>
+			</IBody>
+			</_itsBody>
+		</IPrimitiveOperation>
 		<IAttribute type="e">
 			<_id type="a">GUID 9feb5e2f-b899-41e3-9d23-5cce9f216dcd</_id>
 			<_myState type="a">8192</_myState>
@@ -5712,8 +5796,8 @@ activeMode = 5;</_bodyData>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.18.2024::14:9:31</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.18.2024::14:9:31</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.19.2024::8:51:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:51:3</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -5728,14 +5812,14 @@ activeMode = 5;</_bodyData>
 			<_isReferenceAttr type="a">0</_isReferenceAttr>
 			<_isConstant type="a">0</_isConstant>
 			<AggregatesList type="e">
-				<value>GUID a79e40b0-b809-44d6-8bc6-633927b520f3</value>
+				<value>GUID faca93ed-7223-4fbf-a0ff-eee027258b95</value>
 			</AggregatesList>
 		</IAttribute>
 		<ILiteralSpecification type="e">
-			<_id type="a">GUID a79e40b0-b809-44d6-8bc6-633927b520f3</_id>
-			<_modifiedTimeWeak type="a">4.18.2024::14:9:31</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.18.2024::14:9:31</_modifiedTime>
-			<_value type="a">true</_value>
+			<_id type="a">GUID faca93ed-7223-4fbf-a0ff-eee027258b95</_id>
+			<_modifiedTimeWeak type="a">4.19.2024::8:43:32</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:43:32</_modifiedTime>
+			<_value type="a">false</_value>
 		</ILiteralSpecification>
 		<IAttribute type="e">
 			<_id type="a">GUID 05d453b9-a480-4481-8dee-f65243fa74bc</_id>
@@ -5754,8 +5838,8 @@ activeMode = 5;</_bodyData>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.18.2024::14:9:37</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.18.2024::14:9:37</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.19.2024::7:46:16</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::7:46:16</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -5796,8 +5880,8 @@ activeMode = 5;</_bodyData>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.18.2024::14:9:42</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.18.2024::14:9:42</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.19.2024::8:59:40</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:59:40</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -5812,14 +5896,14 @@ activeMode = 5;</_bodyData>
 			<_isReferenceAttr type="a">0</_isReferenceAttr>
 			<_isConstant type="a">0</_isConstant>
 			<AggregatesList type="e">
-				<value>GUID 6a566a6f-2734-4f48-8d70-e54aadbcb7aa</value>
+				<value>GUID dd5abba4-465b-4518-9dcc-85f3916e1554</value>
 			</AggregatesList>
 		</IAttribute>
 		<ILiteralSpecification type="e">
-			<_id type="a">GUID 6a566a6f-2734-4f48-8d70-e54aadbcb7aa</_id>
-			<_modifiedTimeWeak type="a">4.18.2024::14:9:42</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.18.2024::14:9:42</_modifiedTime>
-			<_value type="a">80</_value>
+			<_id type="a">GUID dd5abba4-465b-4518-9dcc-85f3916e1554</_id>
+			<_modifiedTimeWeak type="a">4.19.2024::8:59:40</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:59:40</_modifiedTime>
+			<_value type="a">110</_value>
 		</ILiteralSpecification>
 		<IAttribute type="e">
 			<_id type="a">GUID 7a636fe8-47ca-409b-a86a-6bd74dd07cfc</_id>
@@ -5838,8 +5922,8 @@ activeMode = 5;</_bodyData>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.18.2024::14:9:52</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.18.2024::14:9:52</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.19.2024::8:27:24</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:27:24</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -5854,14 +5938,14 @@ activeMode = 5;</_bodyData>
 			<_isReferenceAttr type="a">0</_isReferenceAttr>
 			<_isConstant type="a">0</_isConstant>
 			<AggregatesList type="e">
-				<value>GUID 463b1a9e-6f1f-4261-ac24-9173d7d2557f</value>
+				<value>GUID 2a69f175-0e69-494f-b663-cde73442db1e</value>
 			</AggregatesList>
 		</IAttribute>
 		<ILiteralSpecification type="e">
-			<_id type="a">GUID 463b1a9e-6f1f-4261-ac24-9173d7d2557f</_id>
-			<_modifiedTimeWeak type="a">4.18.2024::14:9:52</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.18.2024::14:9:52</_modifiedTime>
-			<_value type="a">false</_value>
+			<_id type="a">GUID 2a69f175-0e69-494f-b663-cde73442db1e</_id>
+			<_modifiedTimeWeak type="a">4.19.2024::8:27:24</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:27:24</_modifiedTime>
+			<_value type="a">true</_value>
 		</ILiteralSpecification>
 		<IAttribute type="e">
 			<_id type="a">GUID cc0c86f2-73c3-46e7-8912-007cc2f165dd</_id>
@@ -5880,8 +5964,8 @@ activeMode = 5;</_bodyData>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.18.2024::14:9:57</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.18.2024::14:9:57</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.19.2024::8:10:21</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:10:21</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -5896,14 +5980,14 @@ activeMode = 5;</_bodyData>
 			<_isReferenceAttr type="a">0</_isReferenceAttr>
 			<_isConstant type="a">0</_isConstant>
 			<AggregatesList type="e">
-				<value>GUID 7c318a94-930c-41fa-9f8c-6717613c121d</value>
+				<value>GUID 1d8278b3-fd15-4f49-bdaf-c5886bfc0462</value>
 			</AggregatesList>
 		</IAttribute>
 		<ILiteralSpecification type="e">
-			<_id type="a">GUID 7c318a94-930c-41fa-9f8c-6717613c121d</_id>
-			<_modifiedTimeWeak type="a">4.18.2024::14:9:57</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.18.2024::14:9:57</_modifiedTime>
-			<_value type="a">false</_value>
+			<_id type="a">GUID 1d8278b3-fd15-4f49-bdaf-c5886bfc0462</_id>
+			<_modifiedTimeWeak type="a">4.19.2024::8:10:21</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:10:21</_modifiedTime>
+			<_value type="a">true</_value>
 		</ILiteralSpecification>
 		<IAttribute type="e">
 			<_id type="a">GUID f65c0498-f807-4b9c-8e8f-dfb0f91aee04</_id>
@@ -5964,8 +6048,8 @@ activeMode = 5;</_bodyData>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.18.2024::14:10:23</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.18.2024::14:10:23</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.19.2024::7:38:29</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::7:38:29</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -5989,14 +6073,182 @@ activeMode = 5;</_bodyData>
 			<_modifiedTime type="a">4.18.2024::14:10:23</_modifiedTime>
 			<_value type="a">4</_value>
 		</ILiteralSpecification>
+		<IAttribute type="e">
+			<_id type="a">GUID c19d128a-c148-44d7-8fb3-6f41e73d08a4</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">normalMode</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">ValueProperty</_hname>
+							<_hid type="a">GUID 04164f8c-01a3-4eab-b4a4-c37aae7a46e9</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.19.2024::7:51:58</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::7:51:58</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
+					<_hname type="a">bool</_hname>
+					<_hid type="a">GUID e6c263cc-4bc5-4a11-b32d-02148c93add0</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_isReferenceAttr type="a">0</_isReferenceAttr>
+			<_isConstant type="a">0</_isConstant>
+			<AggregatesList type="e">
+				<value>GUID 6936974b-095b-483c-9413-1975025c38b8</value>
+			</AggregatesList>
+		</IAttribute>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 6936974b-095b-483c-9413-1975025c38b8</_id>
+			<_modifiedTimeWeak type="a">4.19.2024::7:48:25</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::7:48:25</_modifiedTime>
+			<_value type="a">false</_value>
+		</ILiteralSpecification>
+		<IAttribute type="e">
+			<_id type="a">GUID 0a087ceb-d5cf-4bef-9eed-726196478eea</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">track1Mode</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">ValueProperty</_hname>
+							<_hid type="a">GUID 04164f8c-01a3-4eab-b4a4-c37aae7a46e9</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.19.2024::7:52:29</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::7:52:29</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
+					<_hname type="a">bool</_hname>
+					<_hid type="a">GUID e6c263cc-4bc5-4a11-b32d-02148c93add0</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_isReferenceAttr type="a">0</_isReferenceAttr>
+			<_isConstant type="a">0</_isConstant>
+			<AggregatesList type="e">
+				<value>GUID 07e637f4-f442-4ff5-a48d-4fc53fce3b3c</value>
+			</AggregatesList>
+		</IAttribute>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 07e637f4-f442-4ff5-a48d-4fc53fce3b3c</_id>
+			<_modifiedTimeWeak type="a">4.19.2024::7:48:28</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::7:48:28</_modifiedTime>
+			<_value type="a">false</_value>
+		</ILiteralSpecification>
+		<IAttribute type="e">
+			<_id type="a">GUID 61add0e3-c0c1-4e98-b40a-7d1b0e2f8a90</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">track2Mode</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">ValueProperty</_hname>
+							<_hid type="a">GUID 04164f8c-01a3-4eab-b4a4-c37aae7a46e9</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.19.2024::7:52:35</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::7:52:35</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
+					<_hname type="a">bool</_hname>
+					<_hid type="a">GUID e6c263cc-4bc5-4a11-b32d-02148c93add0</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_isReferenceAttr type="a">0</_isReferenceAttr>
+			<_isConstant type="a">0</_isConstant>
+			<AggregatesList type="e">
+				<value>GUID 82ac892f-e858-45d8-be90-79e51e0f7199</value>
+			</AggregatesList>
+		</IAttribute>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 82ac892f-e858-45d8-be90-79e51e0f7199</_id>
+			<_modifiedTimeWeak type="a">4.19.2024::7:48:31</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::7:48:31</_modifiedTime>
+			<_value type="a">false</_value>
+		</ILiteralSpecification>
+		<IAttribute type="e">
+			<_id type="a">GUID 5d98c2d6-ab64-4dcd-b6a6-766b8255252e</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">windingMode</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">ValueProperty</_hname>
+							<_hid type="a">GUID 04164f8c-01a3-4eab-b4a4-c37aae7a46e9</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.19.2024::7:52:15</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::7:52:15</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
+					<_hname type="a">bool</_hname>
+					<_hid type="a">GUID e6c263cc-4bc5-4a11-b32d-02148c93add0</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_isReferenceAttr type="a">0</_isReferenceAttr>
+			<_isConstant type="a">0</_isConstant>
+			<AggregatesList type="e">
+				<value>GUID 19f19fc4-1d77-4ffa-b657-b3ffb45e281f</value>
+			</AggregatesList>
+		</IAttribute>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 19f19fc4-1d77-4ffa-b657-b3ffb45e281f</_id>
+			<_modifiedTimeWeak type="a">4.19.2024::7:48:35</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::7:48:35</_modifiedTime>
+			<_value type="a">false</_value>
+		</ILiteralSpecification>
 		<IStateChart type="e">
 			<_id type="a">GUID e0a82fa5-9e6f-4428-a065-de32d1eb7b6a</_id>
 			<_myState type="a">10240</_myState>
 			<_name type="a">statechart_0</_name>
-			<_modifiedTimeWeak type="a">4.18.2024::14:43:13</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.18.2024::14:43:13</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.19.2024::9:16:54</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:49:10</_modifiedTime>
 			<_lastID type="a">93</_lastID>
-			<weakCGTime type="a">4.18.2024::14:43:13</weakCGTime>
+			<weakCGTime type="a">4.19.2024::9:16:54</weakCGTime>
 			<strongCGTime type="a">4.17.2024::12:15:33</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -6004,7 +6256,7 @@ activeMode = 5;</_bodyData>
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<_defNumber type="a">62</_defNumber>
-			<_version type="a">4.18.2024::16:43:24</_version>
+			<_version type="a">4.19.2024::11:16:54</_version>
 			<_baseVersion type="a">1.2.1990::0:0:0</_baseVersion>
 			<_diagram type="s">GUID 7ff21182-d1d5-41ab-a810-6c43c0ff56b2</_diagram>
 			<AggregatesList type="e">
@@ -6280,8 +6532,8 @@ getSpeedFromCar();</_body>
 			<_id type="a">GUID 5f9eda73-cca0-4071-be6a-ee9e13ac368a</_id>
 			<_myState type="a">2048</_myState>
 			<_name type="a">transition_13</_name>
-			<_modifiedTimeWeak type="a">4.18.2024::13:33:22</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.18.2024::13:33:22</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.19.2024::8:49:10</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:49:10</_modifiedTime>
 			<_itsTarget type="s">GUID 37d0dd46-074c-450e-bc26-a8edfbacef3b</_itsTarget>
 			<_staticReaction type="a">0</_staticReaction>
 			<_itsSource type="s">GUID 452095f7-97f1-4f50-baee-2fdc95bdc388</_itsSource>
@@ -6291,8 +6543,8 @@ getSpeedFromCar();</_body>
 		</ITransition>
 		<ILabel type="e">
 			<_id type="a">GUID c840f87a-e572-4eb4-856a-af79fcd261ad</_id>
-			<_modifiedTimeWeak type="a">4.18.2024::13:33:22</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.18.2024::13:33:22</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.19.2024::8:49:10</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:49:10</_modifiedTime>
 			<_itsTrigger>NULL</_itsTrigger>
 			<_itsAction>NULL</_itsAction>
 			<AggregatesList type="e">
@@ -6301,9 +6553,9 @@ getSpeedFromCar();</_body>
 		</ILabel>
 		<IGuard type="e">
 			<_id type="a">GUID 68314ff9-f742-419b-9731-9abe3535d079</_id>
-			<_modifiedTimeWeak type="a">4.18.2024::13:33:22</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.18.2024::13:33:22</_modifiedTime>
-			<_body type="a">systemOk = true</_body>
+			<_modifiedTimeWeak type="a">4.19.2024::8:49:10</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:49:10</_modifiedTime>
+			<_body type="a">systemOk</_body>
 		</IGuard>
 		<ITransition type="e">
 			<_id type="a">GUID 9c72c2b7-2f5d-4d1e-b8b1-fcc066e3c8fa</_id>
@@ -7304,7 +7556,7 @@ getSpeedFromCar();</_body>
 		<IInterfaceItemTrigger type="e">
 			<_id type="a">GUID 6dae96bb-a64d-41e8-b34e-0dbe0dbb8011</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_body type="a">reqNVISoff</_body>
 			<_itsInterfaceItem type="r">
 				<IHandle type="e">
@@ -7451,10 +7703,18 @@ getSpeedFromCar();</_body>
 		<IState type="e">
 			<_id type="a">GUID cca816f9-1f0b-48f0-9908-3a2d6ab651d5</_id>
 			<_name type="a">SystemFault</_name>
-			<_modifiedTimeWeak type="a">4.17.2024::15:1:48</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::12:35:30</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.19.2024::8:47:12</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:47:12</_modifiedTime>
 			<_parent type="s">GUID 2edcc035-ddb5-4934-9c4b-c8b41cd2a4fc</_parent>
 			<_defaultTrans type="s"></_defaultTrans>
+			<_entryAction type="p"><IAction type="e">
+				<_id type="a">GUID 424be787-7edd-4468-8999-ef32fc2dce60</_id>
+				<_myState type="a">4096</_myState>
+				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+				<_body type="a">clearFault();</_body>
+			</IAction>
+			</_entryAction>
 		</IState>
 		<IState type="e">
 			<_id type="a">GUID 37d0dd46-074c-450e-bc26-a8edfbacef3b</_id>
@@ -7507,32 +7767,34 @@ getSpeedFromCar();</_body>
 		<IState type="e">
 			<_id type="a">GUID 8017190c-b234-4040-90fc-0885c065420b</_id>
 			<_name type="a">checkSpeed100</_name>
-			<_modifiedTimeWeak type="a">4.17.2024::15:1:48</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::14:55:31</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.19.2024::8:8:51</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:8:51</_modifiedTime>
 			<_parent type="s">GUID a02b8dea-5aa8-47c9-97d2-993be60617aa</_parent>
 			<_defaultTrans type="s"></_defaultTrans>
 			<_entryAction type="p"><IAction type="e">
 				<_id type="a">GUID c716b5f1-4c40-43e1-8734-7dc277932cf5</_id>
 				<_myState type="a">4096</_myState>
-				<_modifiedTimeWeak type="a">4.17.2024::13:47:48</_modifiedTimeWeak>
-				<_modifiedTime type="a">4.17.2024::13:47:48</_modifiedTime>
-				<_body type="a">runSpeedCheck();</_body>
+				<_modifiedTimeWeak type="a">4.19.2024::8:8:51</_modifiedTimeWeak>
+				<_modifiedTime type="a">4.19.2024::8:8:51</_modifiedTime>
+				<_body type="a">runSpeedCheck();%0D
+</_body>
 			</IAction>
 			</_entryAction>
 		</IState>
 		<IState type="e">
 			<_id type="a">GUID 0c31948b-b4ec-4818-9b1c-202a94ebdfe7</_id>
 			<_name type="a">checkSpeed110</_name>
-			<_modifiedTimeWeak type="a">4.17.2024::15:1:48</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::14:55:31</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.19.2024::8:31:48</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:31:48</_modifiedTime>
 			<_parent type="s">GUID a02b8dea-5aa8-47c9-97d2-993be60617aa</_parent>
 			<_defaultTrans type="s"></_defaultTrans>
 			<_entryAction type="p"><IAction type="e">
 				<_id type="a">GUID ffaf293f-8647-4f6d-94c8-0b9344a02f56</_id>
 				<_myState type="a">4096</_myState>
-				<_modifiedTimeWeak type="a">4.17.2024::13:47:48</_modifiedTimeWeak>
-				<_modifiedTime type="a">4.17.2024::13:47:48</_modifiedTime>
-				<_body type="a">runSpeedCheck();</_body>
+				<_modifiedTimeWeak type="a">4.19.2024::8:31:48</_modifiedTimeWeak>
+				<_modifiedTime type="a">4.19.2024::8:31:48</_modifiedTime>
+				<_body type="a">runSpeedCheckFog();%0D
+</_body>
 			</IAction>
 			</_entryAction>
 		</IState>
@@ -7965,9 +8227,9 @@ getSpeedFromCar();</_body>
 			</IPropertyContainer>
 			</_properties>
 			<_name type="a">statechartdiagram_0</_name>
-			<_modifiedTimeWeak type="a">4.18.2024::14:36:15</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.19.2024::9:16:54</_modifiedTimeWeak>
 			<_modifiedTime type="a">4.18.2024::14:43:0</_modifiedTime>
-			<_lastModifiedTime type="a">4.18.2024::14:43:24</_lastModifiedTime>
+			<_lastModifiedTime type="a">4.19.2024::9:16:54</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -8342,11 +8604,11 @@ getSpeedFromCar();</_body>
 					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">1 83 64  </m_arrow>
+			<m_arrow type="a">1 40 141  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">51 64 </m_SourcePort>
+			<m_SourcePort type="a">40 114 </m_SourcePort>
 			<m_TargetPort type="a">519 0 </m_TargetPort>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
@@ -8799,6 +9061,57 @@ getSpeedFromCar();</m_str>
 		</CGITrans>
 		<CGIState type="e">
 			<_id type="a">GUID 349363e3-a6fa-4b47-a349-7aa30119c0a2</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Graphics</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">FitBoxToItsTextuals</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+						<IPropertySubject type="e">
+							<_Name type="a">StatechartDiagram</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">State</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">ShowReactions</_Name>
+													<_Value type="a">True</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
 			<m_type type="a">8</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
@@ -8825,7 +9138,7 @@ getSpeedFromCar();</m_str>
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.0875912 0 0 0.0566038 406 168 </m_transform>
+			<m_transform type="a">0.103102 0 0 0.0801887 406 168 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -8846,6 +9159,8 @@ getSpeedFromCar();</m_str>
 			<m_polygon type="a">4 0 0  0 1060  1096 1060  1096 0  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
+			<frameset type="a">&lt;frameset rows=100%25&gt;
+&lt;frame name=ReactionsListCompartment&gt;</frameset>
 			<nAndLineCount type="a">0</nAndLineCount>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
@@ -8853,7 +9168,19 @@ getSpeedFromCar();</m_str>
 			</m_pInheritsFrom>
 			<m_nInheritanceMask type="a">0</m_nInheritanceMask>
 			<m_pDefaultComponentRelation type="s"></m_pDefaultComponentRelation>
+			<AggregatesList type="e">
+				<value>GUID 9815ed57-41ca-497f-b3f8-9a7e7daa324a</value>
+			</AggregatesList>
 		</CGIState>
+		<CGICompartment type="e">
+			<_id type="a">GUID 9815ed57-41ca-497f-b3f8-9a7e7daa324a</_id>
+			<m_name type="a">Reactions</m_name>
+			<m_displayOption type="a">All</m_displayOption>
+			<m_bShowInherited type="a">0</m_bShowInherited>
+			<m_bOrdered type="a">0</m_bOrdered>
+			<_itemValueOfFontPropertiesMapCount type="a">1</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+		</CGICompartment>
 		<CGITrans type="e">
 			<_id type="a">GUID 4e038585-2306-47e9-82ec-fd0a4ff51565</_id>
 			<m_type type="a">28</m_type>
@@ -8907,12 +9234,12 @@ getSpeedFromCar();</m_str>
 					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 347 290  452 290  </m_arrow>
+			<m_arrow type="a">2 347 290  460 290  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
 			<m_SourcePort type="a">9 0 </m_SourcePort>
-			<m_TargetPort type="a">525 1060 </m_TargetPort>
+			<m_TargetPort type="a">524 1060 </m_TargetPort>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -8970,11 +9297,11 @@ getSpeedFromCar();</m_str>
 					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">1 454 151  </m_arrow>
+			<m_arrow type="a">1 462 151  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">548 0 </m_SourcePort>
+			<m_SourcePort type="a">543 0 </m_SourcePort>
 			<m_TargetPort type="a">1096 221 </m_TargetPort>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
@@ -9178,7 +9505,7 @@ getSpeedFromCar();</m_str>
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">[systemOk = true]</m_str>
+					<m_str type="a">[systemOk]</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -9904,7 +10231,7 @@ getSpeedFromCar();</m_str>
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.109879 0 0 0.075078 320.747 202.419 </m_transform>
+			<m_transform type="a">0.109879 0 0 0.075078 320.747 215.517 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -11687,7 +12014,7 @@ getSpeedFromCar();</m_str>
 					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 1093 684  1093 607  </m_arrow>
+			<m_arrow type="a">2 1093 684  1093 621  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
@@ -15383,7 +15710,7 @@ getSpeedFromCar();</m_str>
 			<_myState type="a">8192</_myState>
 			<_name type="a">reqNVISoff</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_virtual type="a">0</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">

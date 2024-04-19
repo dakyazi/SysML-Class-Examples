@@ -1,5 +1,3 @@
 [Op Calls]
 [Events]
-itsNVIS->GEN(reqNVISon())`NVIS
-itsNVIS->GEN(reqNVISoff())`NVIS
 [Breakpoints]
