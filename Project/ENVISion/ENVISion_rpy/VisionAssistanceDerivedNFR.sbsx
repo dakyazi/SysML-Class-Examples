@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0</version>
+	<lang>C++</lang>
+	<BuildNo>202002261110</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID b9abbe7b-6d4c-4a8b-9c9e-48c6c54e7720</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">VisionAssistanceDerivedNFR</_name>
+			<_modifiedTimeWeak type="a">4.23.2024::8:12:33</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\NVIS_Requirements.sbsx</_hfilename>
+					<_hsubsystem type="a">System_Analysis::NVIS_Requirements</_hsubsystem>
+					<_hname type="a">Requirements_High_Level</_hname>
+					<_hid type="a">GUID 403dc545-fbad-415f-b132-750d41bb0721</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">4.23.2024::8:12:33</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<weakCGTime type="a">4.23.2024::8:12:33</weakCGTime>
+			<strongCGTime type="a">4.23.2024::8:12:33</strongCGTime>
+			<_defaultComposite type="s">GUID b706c3cd-e9f4-4f5e-a9c4-2a1aef8a71c7</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.1.1970::1:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 681be7f6-719c-4fec-92a2-291fd26bd8ec</value>
+				<value>GUID a7c9a716-7823-4df3-bfed-7d3d2f0701db</value>
+				<value>GUID 3642ac9d-dc49-40d2-abef-3e06defae562</value>
+				<value>GUID b706c3cd-e9f4-4f5e-a9c4-2a1aef8a71c7</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IDependency type="e">
+			<_id type="a">GUID 681be7f6-719c-4fec-92a2-291fd26bd8ec</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">VisionAssistanceFR</_name>
+			<_modifiedTimeWeak type="a">4.23.2024::8:12:33</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.23.2024::8:12:33</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\GeneralRequirements.sbsx</_hfilename>
+					<_hsubsystem type="a">System_Analysis::NVIS_Requirements::GeneralRequirements</_hsubsystem>
+					<_hname type="a">VisionAssistanceFR</_hname>
+					<_hid type="a">GUID d7e16c58-87ee-4251-90f9-dc0ed1f3126d</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">ISubsystem</_hm2Class>
+					<_hid type="a">GUID b9abbe7b-6d4c-4a8b-9c9e-48c6c54e7720</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IRequirement type="e">
+			<_id type="a">GUID a7c9a716-7823-4df3-bfed-7d3d2f0701db</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">RealTimeNFR</_name>
+			<_modifiedTimeWeak type="a">4.23.2024::8:11:18</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.23.2024::8:11:18</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The control unit shall process signals in real-time, with minimal latency, to ensure timely obstacle detection and response.\par%0D
+}%0D
+</_body>
+			<reqID type="a">2.4.2</reqID>
+			<AggregatesList type="e">
+				<value>GUID 0b743742-ff08-4566-9d56-f4a2069a7cd5</value>
+			</AggregatesList>
+		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID 0b743742-ff08-4566-9d56-f4a2069a7cd5</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">ControlFR</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">derive</_hname>
+							<_hid type="a">GUID 77e51128-5c12-48fa-9a18-d782ae0ec76a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.16.2024::14:2:36</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::14:2:36</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\GeneralRequirements.sbsx</_hfilename>
+					<_hsubsystem type="a">System_Analysis::NVIS_Requirements::GeneralRequirements</_hsubsystem>
+					<_hname type="a">ControlFR</_hname>
+					<_hid type="a">GUID eddf5bb3-5152-44d6-8e57-0fbbb43bb483</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID a7c9a716-7823-4df3-bfed-7d3d2f0701db</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IRequirement type="e">
+			<_id type="a">GUID 3642ac9d-dc49-40d2-abef-3e06defae562</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">IRFilterSize</_name>
+			<_modifiedTimeWeak type="a">4.23.2024::8:11:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.23.2024::8:11:22</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The infrared filter shall resemble a small screen for a camera lens and shall be integrated into the system's optical components.\par%0D
+}%0D
+</_body>
+			<reqID type="a">2.2.1</reqID>
+			<AggregatesList type="e">
+				<value>GUID 5d90783e-692c-476e-86c9-0dff0318e10e</value>
+			</AggregatesList>
+		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID 5d90783e-692c-476e-86c9-0dff0318e10e</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">FilteringFR</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">derive</_hname>
+							<_hid type="a">GUID 77e51128-5c12-48fa-9a18-d782ae0ec76a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.16.2024::12:57:54</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::12:57:54</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\GeneralRequirements.sbsx</_hfilename>
+					<_hsubsystem type="a">System_Analysis::NVIS_Requirements::GeneralRequirements</_hsubsystem>
+					<_hname type="a">FilteringFR</_hname>
+					<_hid type="a">GUID 121433dc-5353-4e34-8336-3649803e288b</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 3642ac9d-dc49-40d2-abef-3e06defae562</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IClass type="e">
+			<_id type="a">GUID b706c3cd-e9f4-4f5e-a9c4-2a1aef8a71c7</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

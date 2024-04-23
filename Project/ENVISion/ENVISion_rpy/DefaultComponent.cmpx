@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0</version>
+	<lang>C++</lang>
+	<BuildNo>202002261110</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<IComponent type="e">
+			<_id type="a">GUID 84361d71-235e-405a-90cd-c34d94db83be</_id>
+			<_myState type="a">139264</_myState>
+			<_name type="a">DefaultComponent</_name>
+			<_modifiedTimeWeak type="a">4.18.2024::14:17:21</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::14:39:57</_modifiedTime>
+			<m_buildType type="a">Executable</m_buildType>
+			<m_configActive type="r">
+				<ICodeGenConfigInfoHandle type="e">
+					<_hm2Class type="a">ICodeGenConfigInfo</_hm2Class>
+					<_hid type="a">GUID 56ae7456-8005-4528-9f12-610549d0778a</_hid>
+				</ICodeGenConfigInfoHandle>
+			</m_configActive>
+			<HandlesInMe type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IProfile</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hname type="a">SysML</_hname>
+							<_hid type="a">GUID d9689b73-885e-44c4-896b-de43defa0a33</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IProfile</_hm2Class>
+							<_hfilename type="a">$OMROOT\Settings\MISRA\MISRAC++.sbs</_hfilename>
+							<_hname type="a">MISRAC++</_hname>
+							<_hid type="a">GUID 5717d983-7bb5-4aba-bdc8-41bcb977f568</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\Default.sbsx</_hfilename>
+							<_hname type="a">Default</_hname>
+							<_hid type="a">GUID 62bebe2f-0e43-4949-a74a-9285755591da</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\System_Analysis.sbsx</_hfilename>
+							<_hname type="a">System_Analysis</_hname>
+							<_hid type="a">GUID fd447564-b103-46c7-a2f2-b260d040a5b0</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\Project_Context.sbsx</_hfilename>
+							<_hsubsystem type="a">System_Analysis</_hsubsystem>
+							<_hname type="a">Project_Context</_hname>
+							<_hid type="a">GUID 12c7dce7-5c91-4f3d-ac31-0d4fe3720299</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\System_Context.sbsx</_hfilename>
+							<_hsubsystem type="a">System_Analysis</_hsubsystem>
+							<_hname type="a">System_Context</_hname>
+							<_hid type="a">GUID 67b6c24d-6004-43fc-91e4-c7950994ffb1</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\NVIS_Operating_Environment.sbsx</_hfilename>
+							<_hsubsystem type="a">System_Analysis</_hsubsystem>
+							<_hname type="a">NVIS_Operating_Environment</_hname>
+							<_hid type="a">GUID 59fb556d-890b-4003-aefe-02fcbbcda1a5</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\Use_Cases.sbsx</_hfilename>
+							<_hsubsystem type="a">System_Analysis</_hsubsystem>
+							<_hname type="a">Use_Cases</_hname>
+							<_hid type="a">GUID f9a598db-131c-42aa-9503-547b16a908dd</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\NVIS_Use_Case.sbsx</_hfilename>
+							<_hsubsystem type="a">System_Analysis::Use_Cases</_hsubsystem>
+							<_hname type="a">NVIS_Use_Case</_hname>
+							<_hid type="a">GUID 84c9f1e4-6b9d-4f2b-bafc-1212a695b6be</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\Problem_Definition.sbsx</_hfilename>
+							<_hsubsystem type="a">System_Analysis</_hsubsystem>
+							<_hname type="a">Problem_Definition</_hname>
+							<_hid type="a">GUID 0e23d000-78b2-49e1-a73f-19419cc8fe06</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\Problem_Domain_Context.sbsx</_hfilename>
+							<_hsubsystem type="a">System_Analysis</_hsubsystem>
+							<_hname type="a">Problem_Domain_Context</_hname>
+							<_hid type="a">GUID 4b1251e6-4067-495f-959a-08ac52eaf16d</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\Control.sbsx</_hfilename>
+							<_hsubsystem type="a">System_Analysis::Problem_Domain_Context</_hsubsystem>
+							<_hname type="a">Control</_hname>
+							<_hid type="a">GUID fd972c68-6f16-4bfa-a434-67255e6429b6</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\Optics.sbsx</_hfilename>
+							<_hsubsystem type="a">System_Analysis::Problem_Domain_Context</_hsubsystem>
+							<_hname type="a">Optics</_hname>
+							<_hid type="a">GUID c255a7b1-05cf-4d64-b2f0-737a7c9e8d4e</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\Image_Processing.sbsx</_hfilename>
+							<_hsubsystem type="a">System_Analysis::Problem_Domain_Context</_hsubsystem>
+							<_hname type="a">Image_Processing</_hname>
+							<_hid type="a">GUID 1ce4aa08-591e-4ce4-9911-70dfb7b692ab</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\Scope.sbsx</_hfilename>
+							<_hsubsystem type="a">System_Analysis::Problem_Domain_Context</_hsubsystem>
+							<_hname type="a">Scope</_hname>
+							<_hid type="a">GUID e484eccd-b62a-435b-84df-b24c1b8d12d7</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\Existing_Solutions.sbsx</_hfilename>
+							<_hsubsystem type="a">System_Analysis::Problem_Domain_Context::Scope</_hsubsystem>
+							<_hname type="a">Existing_Solutions</_hname>
+							<_hid type="a">GUID f14c6ebf-2644-4a73-923f-e1d88ac7c7ab</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\Nine_Boxes_Analysis.sbsx</_hfilename>
+							<_hsubsystem type="a">System_Analysis::Problem_Domain_Context::Scope</_hsubsystem>
+							<_hname type="a">Nine_Boxes_Analysis</_hname>
+							<_hid type="a">GUID e73613b3-6f4e-4734-833e-a6cebe677fea</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\UI.sbsx</_hfilename>
+							<_hsubsystem type="a">System_Analysis::Problem_Domain_Context</_hsubsystem>
+							<_hname type="a">UI</_hname>
+							<_hid type="a">GUID fda4efad-2961-47a2-af8c-13a1d3976080</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\Sensing.sbsx</_hfilename>
+							<_hsubsystem type="a">System_Analysis::Problem_Domain_Context</_hsubsystem>
+							<_hname type="a">Sensing</_hname>
+							<_hid type="a">GUID fd359472-f073-4dad-b316-b1e9fb4392dd</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\NVIS_Requirements.sbsx</_hfilename>
+							<_hsubsystem type="a">System_Analysis</_hsubsystem>
+							<_hname type="a">NVIS_Requirements</_hname>
+							<_hid type="a">GUID c9bc6776-5407-4098-b87c-5824c12cd48c</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\GeneralRequirements.sbsx</_hfilename>
+							<_hsubsystem type="a">System_Analysis::NVIS_Requirements</_hsubsystem>
+							<_hname type="a">GeneralRequirements</_hname>
+							<_hid type="a">GUID bcab5bfd-50a7-4bf9-8358-00b79d5b8288</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\DerivedRequirements.sbsx</_hfilename>
+							<_hsubsystem type="a">System_Analysis::NVIS_Requirements</_hsubsystem>
+							<_hname type="a">DerivedRequirements</_hname>
+							<_hid type="a">GUID 23d6fe5a-c791-4e09-b9ca-94bf03e72dfa</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\User_Models.sbsx</_hfilename>
+							<_hsubsystem type="a">System_Analysis</_hsubsystem>
+							<_hname type="a">User_Models</_hname>
+							<_hid type="a">GUID d5c3cf7c-70b7-4146-bc73-c41454e4598d</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</HandlesInMe>
+			<VariationPoints type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</VariationPoints>
+			<SelectedVariants type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</SelectedVariants>
+			<weakCGTime type="a">4.18.2024::14:17:21</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<AggregatesList type="e">
+				<value>GUID 8cbfe5fe-d742-43bd-8e1d-6f15facfc4dc</value>
+				<value>GUID 56ae7456-8005-4528-9f12-610549d0778a</value>
+			</AggregatesList>
+		</IComponent>
+		<IFolder type="e">
+			<_id type="a">GUID 8cbfe5fe-d742-43bd-8e1d-6f15facfc4dc</_id>
+			<_myState type="a">73728</_myState>
+			<_name type="a">Files</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::11:44:56</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::11:44:56</_modifiedTime>
+			<Elements type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Elements>
+			<Files type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Files>
+		</IFolder>
+		<ICodeGenConfigInfo type="e">
+			<_id type="a">GUID 56ae7456-8005-4528-9f12-610549d0778a</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">DefaultConfig</_name>
+			<_modifiedTimeWeak type="a">4.18.2024::14:17:21</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::14:17:21</_modifiedTime>
+			<_scopeType type="a">Explicit</_scopeType>
+			<_instrumentation type="a">Animation</_instrumentation>
+			<_timeModel type="a">RealTime</_timeModel>
+			<m_generateActors type="a">1</m_generateActors>
+			<_statechartImplementation type="a">Flat</_statechartImplementation>
+			<_checksList type="a">0 ,</_checksList>
+			<_checksList_Default type="a">1</_checksList_Default>
+			<ScopeElements type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</ScopeElements>
+			<InitialInstances type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</InitialInstances>
+			<weakCGTime type="a">4.18.2024::14:17:21</weakCGTime>
+			<strongCGTime type="a">4.18.2024::14:17:21</strongCGTime>
+			<AnimScopeElements type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</AnimScopeElements>
+			<m_allInAnimScope type="a">1</m_allInAnimScope>
+			<m_generateUsecases type="a">0</m_generateUsecases>
+			<AggregatesList type="e">
+				<value>GUID b23cc876-2a23-43d1-b251-d8f8a3e930bd</value>
+				<value>GUID 5dfebe2f-73dd-43b9-9576-b242e92f123a</value>
+				<value>GUID bd58fe8c-956a-4d25-bcbc-2bc8bb27e02c</value>
+			</AggregatesList>
+		</ICodeGenConfigInfo>
+		<IMHyperLink type="e">
+			<_id type="a">GUID b23cc876-2a23-43d1-b251-d8f8a3e930bd</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::14:17:5</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</_dependsOn>
+			<_linkDispName type="a">Edit Makefile</_linkDispName>
+			<_linkType type="a">FREE</_linkType>
+			<_linkTarget type="a">DefaultComponent.mak</_linkTarget>
+			<isConfigurationFileHyperLink type="a">1</isConfigurationFileHyperLink>
+		</IMHyperLink>
+		<IMHyperLink type="e">
+			<_id type="a">GUID 5dfebe2f-73dd-43b9-9576-b242e92f123a</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::14:17:5</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</_dependsOn>
+			<_linkDispName type="a">Edit Main File</_linkDispName>
+			<_linkType type="a">FREE</_linkType>
+			<_linkTarget type="a">MainDefaultComponent</_linkTarget>
+			<isConfigurationFileHyperLink type="a">1</isConfigurationFileHyperLink>
+		</IMHyperLink>
+		<IFolder type="e">
+			<_id type="a">GUID bd58fe8c-956a-4d25-bcbc-2bc8bb27e02c</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">DefaultConfig</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::11:44:56</_modifiedTime>
+			<Elements type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Elements>
+			<Files type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Files>
+		</IFolder>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

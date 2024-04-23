@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0</version>
+	<lang>C++</lang>
+	<BuildNo>202002261110</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 6859866a-84d6-43cd-a783-1fc926590f2b</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">VisionAssistanceDerivedFR</_name>
+			<_modifiedTimeWeak type="a">4.23.2024::8:12:29</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\NVIS_Requirements.sbsx</_hfilename>
+					<_hsubsystem type="a">System_Analysis::NVIS_Requirements</_hsubsystem>
+					<_hname type="a">Requirements_High_Level</_hname>
+					<_hid type="a">GUID 403dc545-fbad-415f-b132-750d41bb0721</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">4.23.2024::8:12:29</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<weakCGTime type="a">4.23.2024::8:12:29</weakCGTime>
+			<strongCGTime type="a">4.23.2024::8:12:29</strongCGTime>
+			<_defaultComposite type="s">GUID aab29e4f-e013-4919-95f6-6462ba8717e0</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.1.1970::1:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 311d677d-9c47-44a4-9f02-5c801098262b</value>
+				<value>GUID 7007db88-ffeb-4bca-97b5-7569f0c7e93d</value>
+				<value>GUID 09aede8e-4dc7-458a-9aaf-c8b0a4878bc6</value>
+				<value>GUID b1a5da76-8b21-4615-9539-4970ee5b1375</value>
+				<value>GUID 1a91ba59-eb32-45fd-a2b9-c5b0c37b6e4c</value>
+				<value>GUID 64744297-2756-4987-8c92-7eb29a211680</value>
+				<value>GUID 182eec0c-fcbf-4eeb-b6c4-9b8969539051</value>
+				<value>GUID f9462ee4-7808-4e54-9e24-abeb99d86e4c</value>
+				<value>GUID 30db2e1f-7a1f-481b-92b6-0d2427a02ffe</value>
+				<value>GUID 867caf2c-e291-42d9-bf3b-258aacea72a2</value>
+				<value>GUID aab29e4f-e013-4919-95f6-6462ba8717e0</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IDependency type="e">
+			<_id type="a">GUID 311d677d-9c47-44a4-9f02-5c801098262b</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">VisionAssistanceFR</_name>
+			<_modifiedTimeWeak type="a">4.23.2024::8:12:29</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.23.2024::8:12:29</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\GeneralRequirements.sbsx</_hfilename>
+					<_hsubsystem type="a">System_Analysis::NVIS_Requirements::GeneralRequirements</_hsubsystem>
+					<_hname type="a">VisionAssistanceFR</_hname>
+					<_hid type="a">GUID d7e16c58-87ee-4251-90f9-dc0ed1f3126d</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">ISubsystem</_hm2Class>
+					<_hid type="a">GUID 6859866a-84d6-43cd-a783-1fc926590f2b</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IRequirement type="e">
+			<_id type="a">GUID 7007db88-ffeb-4bca-97b5-7569f0c7e93d</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">100MetersResponseFR</_name>
+			<_modifiedTimeWeak type="a">4.23.2024::8:10:1</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.23.2024::8:10:1</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 At 100 meters, detected silhouettes may become almost invisible, particularly at higher speeds. However, the ENVISion shall continue to display detected obstacles on the device screen.\par%0D
+}%0D
+</_body>
+			<reqID type="a">2.1.2</reqID>
+			<AggregatesList type="e">
+				<value>GUID 93a78c5f-1c73-4222-ad6a-de8a9823e1bd</value>
+			</AggregatesList>
+		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID 93a78c5f-1c73-4222-ad6a-de8a9823e1bd</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">ObstacleDetectionFR</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">derive</_hname>
+							<_hid type="a">GUID 77e51128-5c12-48fa-9a18-d782ae0ec76a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.16.2024::12:51:41</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::12:51:41</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\GeneralRequirements.sbsx</_hfilename>
+					<_hsubsystem type="a">System_Analysis::NVIS_Requirements::GeneralRequirements</_hsubsystem>
+					<_hname type="a">ObstacleDetectionFR</_hname>
+					<_hid type="a">GUID e6733b69-eb30-4c4f-8e76-f0004af28c27</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 7007db88-ffeb-4bca-97b5-7569f0c7e93d</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IRequirement type="e">
+			<_id type="a">GUID 09aede8e-4dc7-458a-9aaf-c8b0a4878bc6</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">150MetersResponseFR</_name>
+			<_modifiedTimeWeak type="a">4.23.2024::8:10:1</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.23.2024::8:10:1</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 At 150 meters, obstacles may not be visible to the naked eye, requiring the driver to activate high beam headlights. The ENVISion shall maintain a clear display of the road surface and detected obstacles on the device screen.\par%0D
+}%0D
+</_body>
+			<reqID type="a">2.1.3</reqID>
+			<AggregatesList type="e">
+				<value>GUID 4e129ed8-0785-4bfc-a3a0-cf58cc255719</value>
+			</AggregatesList>
+		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID 4e129ed8-0785-4bfc-a3a0-cf58cc255719</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">ObstacleDetectionFR</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">derive</_hname>
+							<_hid type="a">GUID 77e51128-5c12-48fa-9a18-d782ae0ec76a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.16.2024::12:53:6</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::12:53:6</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\GeneralRequirements.sbsx</_hfilename>
+					<_hsubsystem type="a">System_Analysis::NVIS_Requirements::GeneralRequirements</_hsubsystem>
+					<_hname type="a">ObstacleDetectionFR</_hname>
+					<_hid type="a">GUID e6733b69-eb30-4c4f-8e76-f0004af28c27</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 09aede8e-4dc7-458a-9aaf-c8b0a4878bc6</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IRequirement type="e">
+			<_id type="a">GUID b1a5da76-8b21-4615-9539-4970ee5b1375</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">200MetersResponseFR</_name>
+			<_modifiedTimeWeak type="a">4.23.2024::8:10:1</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.23.2024::8:10:1</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 At the maximum distance of 200 meters, even high beam headlights may not help in detecting obstacles. However, the ENVISion shall continue to recognize objects using the infrared camera and display them on the device screen.\par%0D
+}%0D
+</_body>
+			<reqID type="a">2.1.4</reqID>
+			<AggregatesList type="e">
+				<value>GUID 54aeafaf-e7ae-46a9-9ad4-337ccb427a22</value>
+			</AggregatesList>
+		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID 54aeafaf-e7ae-46a9-9ad4-337ccb427a22</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">ObstacleDetectionFR</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">derive</_hname>
+							<_hid type="a">GUID 77e51128-5c12-48fa-9a18-d782ae0ec76a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.16.2024::12:54:26</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::12:54:26</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\GeneralRequirements.sbsx</_hfilename>
+					<_hsubsystem type="a">System_Analysis::NVIS_Requirements::GeneralRequirements</_hsubsystem>
+					<_hname type="a">ObstacleDetectionFR</_hname>
+					<_hid type="a">GUID e6733b69-eb30-4c4f-8e76-f0004af28c27</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID b1a5da76-8b21-4615-9539-4970ee5b1375</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IRequirement type="e">
+			<_id type="a">GUID 1a91ba59-eb32-45fd-a2b9-c5b0c37b6e4c</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">50MetersResponseFR</_name>
+			<_modifiedTimeWeak type="a">4.23.2024::8:10:1</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.23.2024::8:10:1</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 At a distance of 50 meters, the ENVISion shall display silhouettes of detected obstacles on the device screen, allowing the driver to notice them and take appropriate action.\par%0D
+}%0D
+</_body>
+			<reqID type="a">2.1.1</reqID>
+			<AggregatesList type="e">
+				<value>GUID 678ddab4-cdec-432d-8548-fe7a90f04241</value>
+			</AggregatesList>
+		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID 678ddab4-cdec-432d-8548-fe7a90f04241</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">ObstacleDetectionFR</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">derive</_hname>
+							<_hid type="a">GUID 77e51128-5c12-48fa-9a18-d782ae0ec76a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.16.2024::12:50:39</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::12:50:39</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\GeneralRequirements.sbsx</_hfilename>
+					<_hsubsystem type="a">System_Analysis::NVIS_Requirements::GeneralRequirements</_hsubsystem>
+					<_hname type="a">ObstacleDetectionFR</_hname>
+					<_hid type="a">GUID e6733b69-eb30-4c4f-8e76-f0004af28c27</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 1a91ba59-eb32-45fd-a2b9-c5b0c37b6e4c</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IRequirement type="e">
+			<_id type="a">GUID 64744297-2756-4987-8c92-7eb29a211680</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">CoordinationFR</_name>
+			<_modifiedTimeWeak type="a">4.23.2024::8:10:1</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.23.2024::8:10:1</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The control unit shall coordinate the operation of the NVIS components and implement algorithms for obstacle detection and response.\par%0D
+}%0D
+</_body>
+			<reqID type="a">2.4.1</reqID>
+			<AggregatesList type="e">
+				<value>GUID ab43b4bd-3a19-4972-b6dd-c57d6feeb7eb</value>
+			</AggregatesList>
+		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID ab43b4bd-3a19-4972-b6dd-c57d6feeb7eb</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">ControlFR</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">derive</_hname>
+							<_hid type="a">GUID 77e51128-5c12-48fa-9a18-d782ae0ec76a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.16.2024::14:1:51</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::14:1:51</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\GeneralRequirements.sbsx</_hfilename>
+					<_hsubsystem type="a">System_Analysis::NVIS_Requirements::GeneralRequirements</_hsubsystem>
+					<_hname type="a">ControlFR</_hname>
+					<_hid type="a">GUID eddf5bb3-5152-44d6-8e57-0fbbb43bb483</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 64744297-2756-4987-8c92-7eb29a211680</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IRequirement type="e">
+			<_id type="a">GUID 182eec0c-fcbf-4eeb-b6c4-9b8969539051</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">EliminateInterferenceFR</_name>
+			<_modifiedTimeWeak type="a">4.23.2024::8:10:1</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.23.2024::8:10:1</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The ENVISion shall use infrared filter to effectively eliminate interference without affecting the overall image quality or detection accuracy.\par%0D
+}%0D
+</_body>
+			<reqID type="a">2.2.2</reqID>
+			<AggregatesList type="e">
+				<value>GUID 8896f58b-5595-48a2-a34d-65bc4fe40ecf</value>
+			</AggregatesList>
+		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID 8896f58b-5595-48a2-a34d-65bc4fe40ecf</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">FilteringFR</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">derive</_hname>
+							<_hid type="a">GUID 77e51128-5c12-48fa-9a18-d782ae0ec76a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.16.2024::12:59:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::12:59:22</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\GeneralRequirements.sbsx</_hfilename>
+					<_hsubsystem type="a">System_Analysis::NVIS_Requirements::GeneralRequirements</_hsubsystem>
+					<_hname type="a">FilteringFR</_hname>
+					<_hid type="a">GUID 121433dc-5353-4e34-8336-3649803e288b</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 182eec0c-fcbf-4eeb-b6c4-9b8969539051</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IRequirement type="e">
+			<_id type="a">GUID f9462ee4-7808-4e54-9e24-abeb99d86e4c</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">FoggyConditionsFR</_name>
+			<_modifiedTimeWeak type="a">4.23.2024::8:10:1</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.23.2024::8:10:1</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 In foggy conditions, the ENVISion shall adjust the light based on driver actions, such as activating the rear fog lamp and adjusting the left xenon lamp to improve visibility of the road ahead. This setting shall deactivate when the vehicle accelerates above 100 km/h.\par%0D
+}%0D
+</_body>
+			<reqID type="a">2.3.3</reqID>
+			<AggregatesList type="e">
+				<value>GUID 5cf5db58-059e-414d-ab4b-9201d1f605b5</value>
+			</AggregatesList>
+		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID 5cf5db58-059e-414d-ab4b-9201d1f605b5</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">LightControlFR</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">derive</_hname>
+							<_hid type="a">GUID 77e51128-5c12-48fa-9a18-d782ae0ec76a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.16.2024::13:16:44</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::13:16:44</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\GeneralRequirements.sbsx</_hfilename>
+					<_hsubsystem type="a">System_Analysis::NVIS_Requirements::GeneralRequirements</_hsubsystem>
+					<_hname type="a">LightControlFR</_hname>
+					<_hid type="a">GUID e32dc9dd-51f1-4748-a9e6-bf77b0d4f1d6</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID f9462ee4-7808-4e54-9e24-abeb99d86e4c</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IRequirement type="e">
+			<_id type="a">GUID 30db2e1f-7a1f-481b-92b6-0d2427a02ffe</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">HighSpeedFR</_name>
+			<_modifiedTimeWeak type="a">4.23.2024::8:10:1</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.23.2024::8:10:1</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 At speeds exceeding 90 km/h, the ENVISion shall activate track mode with two settings. The first stage shall increase the power of the light source to 38 W, enhancing visibility up to 120 meters ahead of the vehicle. The second stage, triggered at speeds of 110 km/h, shall widen the light beam further.\par%0D
+}%0D
+</_body>
+			<reqID type="a">2.3.2</reqID>
+			<AggregatesList type="e">
+				<value>GUID ebf765e5-7f1c-4097-927a-aad7910d47ad</value>
+			</AggregatesList>
+		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID ebf765e5-7f1c-4097-927a-aad7910d47ad</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">LightControlFR</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">derive</_hname>
+							<_hid type="a">GUID 77e51128-5c12-48fa-9a18-d782ae0ec76a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.16.2024::13:16:48</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::13:16:48</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\GeneralRequirements.sbsx</_hfilename>
+					<_hsubsystem type="a">System_Analysis::NVIS_Requirements::GeneralRequirements</_hsubsystem>
+					<_hname type="a">LightControlFR</_hname>
+					<_hid type="a">GUID e32dc9dd-51f1-4748-a9e6-bf77b0d4f1d6</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 30db2e1f-7a1f-481b-92b6-0d2427a02ffe</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IRequirement type="e">
+			<_id type="a">GUID 867caf2c-e291-42d9-bf3b-258aacea72a2</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">WindingConditionFR</_name>
+			<_modifiedTimeWeak type="a">4.23.2024::8:11:26</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.23.2024::8:11:26</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 In winding road conditions with speeds below 90 km/h, the ENVISion shall lengthen and widen the light beam to provide enhanced visibility, aiding in timely detection of dangers on poorly visible shoulders.\par%0D
+}%0D
+</_body>
+			<reqID type="a">2.3.1</reqID>
+			<AggregatesList type="e">
+				<value>GUID 8ac86a56-15f5-4ee6-8b2d-620de6c35d90</value>
+			</AggregatesList>
+		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID 8ac86a56-15f5-4ee6-8b2d-620de6c35d90</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">LightControlFR</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">derive</_hname>
+							<_hid type="a">GUID 77e51128-5c12-48fa-9a18-d782ae0ec76a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.16.2024::13:16:39</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::13:16:39</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\GeneralRequirements.sbsx</_hfilename>
+					<_hsubsystem type="a">System_Analysis::NVIS_Requirements::GeneralRequirements</_hsubsystem>
+					<_hname type="a">LightControlFR</_hname>
+					<_hid type="a">GUID e32dc9dd-51f1-4748-a9e6-bf77b0d4f1d6</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 867caf2c-e291-42d9-bf3b-258aacea72a2</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IClass type="e">
+			<_id type="a">GUID aab29e4f-e013-4919-95f6-6462ba8717e0</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

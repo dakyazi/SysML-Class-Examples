@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0</version>
+	<lang>C++</lang>
+	<BuildNo>202002261110</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 4b1251e6-4067-495f-959a-08ac52eaf16d</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Problem_Domain_Context</_name>
+			<_modifiedTimeWeak type="a">4.17.2024::11:54:30</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.17.2024::11:54:30</_modifiedTime>
+			<weakCGTime type="a">4.17.2024::11:54:30</weakCGTime>
+			<strongCGTime type="a">4.17.2024::11:54:30</strongCGTime>
+			<_defaultComposite type="s">GUID 9211df01-e367-4bf2-bf60-fc14a2ce9ec3</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">4.16.2024::14:38:54</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID fd972c68-6f16-4bfa-a434-67255e6429b6</value>
+				<value>GUID c255a7b1-05cf-4d64-b2f0-737a7c9e8d4e</value>
+				<value>GUID 1ce4aa08-591e-4ce4-9911-70dfb7b692ab</value>
+				<value>GUID e484eccd-b62a-435b-84df-b24c1b8d12d7</value>
+				<value>GUID fda4efad-2961-47a2-af8c-13a1d3976080</value>
+				<value>GUID fd359472-f073-4dad-b316-b1e9fb4392dd</value>
+				<value>GUID 9211df01-e367-4bf2-bf60-fc14a2ce9ec3</value>
+			</AggregatesList>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">Control</fileName>
+			<_id type="a">GUID fd972c68-6f16-4bfa-a434-67255e6429b6</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">Optics</fileName>
+			<_id type="a">GUID c255a7b1-05cf-4d64-b2f0-737a7c9e8d4e</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">Image_Processing</fileName>
+			<_id type="a">GUID 1ce4aa08-591e-4ce4-9911-70dfb7b692ab</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">Scope</fileName>
+			<_id type="a">GUID e484eccd-b62a-435b-84df-b24c1b8d12d7</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">UI</fileName>
+			<_id type="a">GUID fda4efad-2961-47a2-af8c-13a1d3976080</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">Sensing</fileName>
+			<_id type="a">GUID fd359472-f073-4dad-b316-b1e9fb4392dd</_id>
+		</ISubsystem>
+		<IClass type="e">
+			<_id type="a">GUID 9211df01-e367-4bf2-bf60-fc14a2ce9ec3</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::14:55:39</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">4.16.2024::14:55:39</weakCGTime>
+			<strongCGTime type="a">4.16.2024::14:55:39</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

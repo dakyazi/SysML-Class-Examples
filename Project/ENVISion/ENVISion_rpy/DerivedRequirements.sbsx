@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0</version>
+	<lang>C++</lang>
+	<BuildNo>202002261110</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 23d6fe5a-c791-4e09-b9ca-94bf03e72dfa</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">DerivedRequirements</_name>
+			<Annotations type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Annotations>
+			<_modifiedTimeWeak type="a">4.23.2024::8:11:26</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\GeneralRequirements.sbsx</_hfilename>
+					<_hsubsystem type="a">System_Analysis::NVIS_Requirements::GeneralRequirements</_hsubsystem>
+					<_hname type="a">Requirements_High_Level</_hname>
+					<_hid type="a">GUID 403dc545-fbad-415f-b132-750d41bb0721</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">4.23.2024::8:11:26</_modifiedTime>
+			<_lastID type="a">4</_lastID>
+			<weakCGTime type="a">4.23.2024::8:11:26</weakCGTime>
+			<strongCGTime type="a">4.23.2024::7:44:28</strongCGTime>
+			<_defaultComposite type="s">GUID 2eef33ca-08ab-489c-9321-814700d48cc7</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 9b54a5d3-76e2-41fc-b7d6-8ef7f5b4b251</value>
+				<value>GUID 50aeb857-a2fc-4f88-917a-e8639f713721</value>
+				<value>GUID fa7d07b0-db93-4b72-b862-813a4535a0c7</value>
+				<value>GUID 6859866a-84d6-43cd-a783-1fc926590f2b</value>
+				<value>GUID b9abbe7b-6d4c-4a8b-9c9e-48c6c54e7720</value>
+				<value>GUID 2eef33ca-08ab-489c-9321-814700d48cc7</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IDependency type="e">
+			<_id type="a">GUID 9b54a5d3-76e2-41fc-b7d6-8ef7f5b4b251</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">GeneralRequirements</_name>
+			<_modifiedTimeWeak type="a">4.23.2024::7:44:28</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.23.2024::7:44:28</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">ISubsystem</_hm2Class>
+					<_hfilename type="a">.\GeneralRequirements.sbsx</_hfilename>
+					<_hsubsystem type="a">System_Analysis::NVIS_Requirements</_hsubsystem>
+					<_hname type="a">GeneralRequirements</_hname>
+					<_hid type="a">GUID bcab5bfd-50a7-4bf9-8358-00b79d5b8288</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">ISubsystem</_hm2Class>
+					<_hid type="a">GUID 23d6fe5a-c791-4e09-b9ca-94bf03e72dfa</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<ISubsystem type="e">
+			<fileName type="a">StandardsDerivedFR</fileName>
+			<_id type="a">GUID 50aeb857-a2fc-4f88-917a-e8639f713721</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">StandardsDerivedNFR</fileName>
+			<_id type="a">GUID fa7d07b0-db93-4b72-b862-813a4535a0c7</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">VisionAssistanceDerivedFR</fileName>
+			<_id type="a">GUID 6859866a-84d6-43cd-a783-1fc926590f2b</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">VisionAssistanceDerivedNFR</fileName>
+			<_id type="a">GUID b9abbe7b-6d4c-4a8b-9c9e-48c6c54e7720</_id>
+		</ISubsystem>
+		<IClass type="e">
+			<_id type="a">GUID 2eef33ca-08ab-489c-9321-814700d48cc7</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::14:55:44</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">4.16.2024::14:55:44</weakCGTime>
+			<strongCGTime type="a">4.16.2024::14:55:44</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+
