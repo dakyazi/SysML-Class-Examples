@@ -12,11 +12,11 @@
 			<_id type="a">GUID d5c3cf7c-70b7-4146-bc73-c41454e4598d</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">User_Models</_name>
-			<_modifiedTimeWeak type="a">4.19.2024::9:43:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.19.2024::9:43:0</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.25.2024::13:49:19</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.25.2024::13:49:19</_modifiedTime>
 			<_lastID type="a">2</_lastID>
-			<weakCGTime type="a">4.19.2024::9:43:0</weakCGTime>
-			<strongCGTime type="a">4.18.2024::14:11:0</strongCGTime>
+			<weakCGTime type="a">4.25.2024::13:49:19</weakCGTime>
+			<strongCGTime type="a">4.24.2024::7:47:53</strongCGTime>
 			<_defaultComposite type="s">GUID 8647ed5a-8675-4660-9c88-08d4b912ed6c</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
 			<_configurationRelatedTime type="a">4.18.2024::14:6:1</_configurationRelatedTime>
@@ -259,8 +259,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">4.19.2024::7:23:27</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.19.2024::7:23:12</_modifiedTime>
-			<_lastModifiedTime type="a">4.19.2024::7:23:12</_lastModifiedTime>
+			<_modifiedTime type="a">4.24.2024::7:47:53</_modifiedTime>
+			<_lastModifiedTime type="a">4.24.2024::7:47:53</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -466,7 +466,7 @@
 			<m_pParent type="s">GUID e799e739-8f48-45f6-8906-e3c9b188f8ba</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">itsNVIS_1:NVIS</m_str>
+					<m_str type="a">itsNVIS_2:NVIS</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -562,9 +562,7 @@
 			<m_displayOption type="a">Public</m_displayOption>
 			<m_bShowInherited type="a">0</m_bShowInherited>
 			<m_bOrdered type="a">0</m_bOrdered>
-			<_itemValueOfFontPropertiesMapCount type="a">22</_itemValueOfFontPropertiesMapCount>
-			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
-			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_itemValueOfFontPropertiesMapCount type="a">20</_itemValueOfFontPropertiesMapCount>
 			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
@@ -776,8 +774,8 @@
 			</_properties>
 			<_name type="a">GUI</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.19.2024::9:43:33</_modifiedTime>
-			<_lastModifiedTime type="a">4.19.2024::9:43:33</_lastModifiedTime>
+			<_modifiedTime type="a">4.25.2024::13:50:27</_modifiedTime>
+			<_lastModifiedTime type="a">4.25.2024::13:50:27</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -1083,7 +1081,7 @@
 			<m_polygon type="a">4 0 -1114  0 113628  102980 113628  102980 -1114  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<m_csModelObjPath type="a">System_Analysis.User_Models.itsNVIS_1.reqNVISon</m_csModelObjPath>
+			<m_csModelObjPath type="a">System_Analysis.User_Models.itsNVIS_2.reqNVISon</m_csModelObjPath>
 			<m_csName type="a">NVIS ON</m_csName>
 			<m_PartsArray type="c">
 				<IRPYRawContainer type="e">
@@ -1163,7 +1161,7 @@
 			<m_polygon type="a">4 0 -1114  0 113628  102980 113628  102980 -1114  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<m_csModelObjPath type="a">System_Analysis.User_Models.itsNVIS_1.reqNVISoff</m_csModelObjPath>
+			<m_csModelObjPath type="a">System_Analysis.User_Models.itsNVIS_2.reqNVISoff</m_csModelObjPath>
 			<m_csName type="a">NVIS OFF</m_csName>
 			<m_PartsArray type="c">
 				<IRPYRawContainer type="e">
@@ -1343,7 +1341,7 @@
 			<m_polygon type="a">4 0 -1114  0 113628  102980 113628  102980 -1114  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<m_csModelObjPath type="a">System_Analysis.User_Models.itsNVIS_1.normalMode</m_csModelObjPath>
+			<m_csModelObjPath type="a">System_Analysis.User_Models.itsNVIS_2.normalMode</m_csModelObjPath>
 			<m_csName type="a">Normal Mode ON</m_csName>
 			<m_PartsArray type="c">
 				<IRPYRawContainer type="e">
@@ -1436,7 +1434,7 @@
 			<m_polygon type="a">4 0 -1114  0 113628  102980 113628  102980 -1114  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<m_csModelObjPath type="a">System_Analysis.User_Models.itsNVIS_1.windingMode</m_csModelObjPath>
+			<m_csModelObjPath type="a">System_Analysis.User_Models.itsNVIS_2.windingMode</m_csModelObjPath>
 			<m_csName type="a">Winding Mode ON</m_csName>
 			<m_PartsArray type="c">
 				<IRPYRawContainer type="e">
@@ -1529,7 +1527,7 @@
 			<m_polygon type="a">4 0 -1114  0 113628  102980 113628  102980 -1114  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<m_csModelObjPath type="a">System_Analysis.User_Models.itsNVIS_1.track1Mode</m_csModelObjPath>
+			<m_csModelObjPath type="a">System_Analysis.User_Models.itsNVIS_2.track1Mode</m_csModelObjPath>
 			<m_csName type="a">Track Mode 1 ON</m_csName>
 			<m_PartsArray type="c">
 				<IRPYRawContainer type="e">
@@ -1622,7 +1620,7 @@
 			<m_polygon type="a">4 0 -1114  0 113628  102980 113628  102980 -1114  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<m_csModelObjPath type="a">System_Analysis.User_Models.itsNVIS_1.track2Mode</m_csModelObjPath>
+			<m_csModelObjPath type="a">System_Analysis.User_Models.itsNVIS_2.track2Mode</m_csModelObjPath>
 			<m_csName type="a">Track Mode 2 ON</m_csName>
 			<m_PartsArray type="c">
 				<IRPYRawContainer type="e">
@@ -1715,7 +1713,7 @@
 			<m_polygon type="a">4 0 -1114  0 113628  102980 113628  102980 -1114  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<m_csModelObjPath type="a">System_Analysis.User_Models.itsNVIS_1.fogMode</m_csModelObjPath>
+			<m_csModelObjPath type="a">System_Analysis.User_Models.itsNVIS_2.fogMode</m_csModelObjPath>
 			<m_csName type="a">Fog Mode ON</m_csName>
 			<m_PartsArray type="c">
 				<IRPYRawContainer type="e">
@@ -1779,9 +1777,9 @@
 					<_hm2Class type="a">IAttribute</_hm2Class>
 					<_hfilename type="a">.\System_Context.sbsx</_hfilename>
 					<_hsubsystem type="a">System_Analysis::System_Context</_hsubsystem>
-					<_hclass type="a">NVIS</_hclass>
+					<_hclass type="a">Car</_hclass>
 					<_hname type="a">speed</_hname>
-					<_hid type="a">GUID c8652dc6-eacc-45a2-ace6-f198028fcc7c</_hid>
+					<_hid type="a">GUID 4e242bab-2c8f-4785-873d-c13ead4c0a11</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s">GUID 344eb1be-d412-4205-95ac-3239bf83b0c2</m_pParent>
@@ -1807,13 +1805,16 @@
 			<m_polygon type="a">4 0 -1114  0 113628  102980 113628  102980 -1114  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<m_csModelObjPath type="a">System_Analysis.User_Models.itsNVIS_1.speed</m_csModelObjPath>
+			<m_csModelObjPath type="a">System_Analysis.System_Context.Car[0].speed</m_csModelObjPath>
 			<m_PartsArray type="c">
 				<IRPYRawContainer type="e">
 					
 						<IHandle type="e">
-							<_hm2Class type="a">IPart</_hm2Class>
-							<_hid type="a">GUID 061cfcd1-224b-4100-b9be-ffe9b21f55a9</_hid>
+							<_hm2Class type="a">IClass</_hm2Class>
+							<_hfilename type="a">.\System_Context.sbsx</_hfilename>
+							<_hsubsystem type="a">System_Analysis::System_Context</_hsubsystem>
+							<_hname type="a">Car</_hname>
+							<_hid type="a">GUID 07fbc612-2a68-4ca8-ab0f-56df1243a993</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
@@ -1870,9 +1871,9 @@
 					<_hm2Class type="a">IAttribute</_hm2Class>
 					<_hfilename type="a">.\System_Context.sbsx</_hfilename>
 					<_hsubsystem type="a">System_Analysis::System_Context</_hsubsystem>
-					<_hclass type="a">NVIS</_hclass>
+					<_hclass type="a">Car</_hclass>
 					<_hname type="a">speed</_hname>
-					<_hid type="a">GUID c8652dc6-eacc-45a2-ace6-f198028fcc7c</_hid>
+					<_hid type="a">GUID 4e242bab-2c8f-4785-873d-c13ead4c0a11</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s">GUID 344eb1be-d412-4205-95ac-3239bf83b0c2</m_pParent>
@@ -1899,14 +1900,17 @@
 			<m_polygon type="a">4 0 -1114  0 113628  102980 113628  102980 -1114  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<m_csModelObjPath type="a">System_Analysis.User_Models.itsNVIS_1.speed</m_csModelObjPath>
+			<m_csModelObjPath type="a">System_Analysis.System_Context.Car[0].speed</m_csModelObjPath>
 			<m_csName type="a">Speed Monitor</m_csName>
 			<m_PartsArray type="c">
 				<IRPYRawContainer type="e">
 					
 						<IHandle type="e">
-							<_hm2Class type="a">IPart</_hm2Class>
-							<_hid type="a">GUID 061cfcd1-224b-4100-b9be-ffe9b21f55a9</_hid>
+							<_hm2Class type="a">IClass</_hm2Class>
+							<_hfilename type="a">.\System_Context.sbsx</_hfilename>
+							<_hsubsystem type="a">System_Analysis::System_Context</_hsubsystem>
+							<_hname type="a">Car</_hname>
+							<_hid type="a">GUID 07fbc612-2a68-4ca8-ab0f-56df1243a993</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
@@ -1992,7 +1996,7 @@
 			<m_polygon type="a">4 0 -1114  0 113628  102980 113628  102980 -1114  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<m_csModelObjPath type="a">System_Analysis.User_Models.itsNVIS_1.systemOk</m_csModelObjPath>
+			<m_csModelObjPath type="a">System_Analysis.User_Models.itsNVIS_2.systemOk</m_csModelObjPath>
 			<m_csName type="a">ON</m_csName>
 			<m_PartsArray type="c">
 				<IRPYRawContainer type="e">
@@ -2071,7 +2075,7 @@
 			<m_polygon type="a">4 0 -1114  0 113628  102980 113628  102980 -1114  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<m_csModelObjPath type="a">System_Analysis.User_Models.itsNVIS_1.evFaultCleared</m_csModelObjPath>
+			<m_csModelObjPath type="a">System_Analysis.User_Models.itsNVIS_2.evFaultCleared</m_csModelObjPath>
 			<m_csName type="a">Clear Fault</m_csName>
 			<m_PartsArray type="c">
 				<IRPYRawContainer type="e">
@@ -2089,9 +2093,9 @@
 			<_id type="a">GUID 8647ed5a-8675-4660-9c88-08d4b912ed6c</_id>
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
-			<_modifiedTimeWeak type="a">4.19.2024::7:23:27</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.18.2024::14:11:0</_modifiedTime>
-			<weakCGTime type="a">4.19.2024::7:23:27</weakCGTime>
+			<_modifiedTimeWeak type="a">4.24.2024::7:47:53</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.24.2024::7:47:53</_modifiedTime>
+			<weakCGTime type="a">4.24.2024::7:47:53</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -2105,9 +2109,9 @@
 		<IPart type="e">
 			<_id type="a">GUID 061cfcd1-224b-4100-b9be-ffe9b21f55a9</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">itsNVIS_1</_name>
-			<_modifiedTimeWeak type="a">4.19.2024::7:23:27</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.18.2024::14:11:0</_modifiedTime>
+			<_name type="a">itsNVIS_2</_name>
+			<_modifiedTimeWeak type="a">4.24.2024::7:47:53</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.24.2024::7:47:53</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">

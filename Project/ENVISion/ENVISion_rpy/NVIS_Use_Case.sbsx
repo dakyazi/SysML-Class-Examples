@@ -12,10 +12,10 @@
 			<_id type="a">GUID 84c9f1e4-6b9d-4f2b-bafc-1212a695b6be</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">NVIS_Use_Case</_name>
-			<_modifiedTimeWeak type="a">4.18.2024::13:1:31</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.18.2024::13:1:31</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.24.2024::7:23:4</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.23.2024::10:1:53</_modifiedTime>
 			<_lastID type="a">11</_lastID>
-			<weakCGTime type="a">4.18.2024::13:1:31</weakCGTime>
+			<weakCGTime type="a">4.24.2024::7:23:4</weakCGTime>
 			<strongCGTime type="a">4.18.2024::11:48:1</strongCGTime>
 			<_defaultComposite type="s">GUID 241a90e6-d078-4f93-a433-00af6fa0661d</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -387,8 +387,8 @@
 			</_properties>
 			<_name type="a">NVIS_Use_Case_Diagram</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.18.2024::13:5:46</_modifiedTime>
-			<_lastModifiedTime type="a">4.18.2024::13:5:46</_lastModifiedTime>
+			<_modifiedTime type="a">4.23.2024::9:47:34</_modifiedTime>
+			<_lastModifiedTime type="a">4.23.2024::9:47:34</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -4486,7 +4486,7 @@
 				<_text type="a">This use case turns on ENVISion.</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">4.17.2024::12:46:13</_modifiedTime>
+			<_modifiedTime type="a">4.23.2024::9:39:17</_modifiedTime>
 			<_lastID type="a">1</_lastID>
 			<weakCGTime type="a">4.17.2024::12:46:13</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
@@ -4502,7 +4502,6 @@
 			<AggregatesList type="e">
 				<value>GUID 713f512e-abc9-4d0c-aabf-9271160a02a1</value>
 				<value>GUID 8bfc382d-2bd3-417b-b6aa-273551ec3cf7</value>
-				<value>GUID 1198e836-dd1b-4f86-ba0b-9862c7173b5b</value>
 			</AggregatesList>
 		</IUseCase>
 		<IDependency type="e">
@@ -4558,35 +4557,6 @@
 			<_linkType type="a">Assoc</_linkType>
 			<_navigability type="a">Navigable</_navigability>
 		</IAssociationEnd>
-		<IAssociationEnd type="e">
-			<_id type="a">GUID 1198e836-dd1b-4f86-ba0b-9862c7173b5b</_id>
-			<_myState type="a">10240</_myState>
-			<_name type="a">itsCentralProcessingUnit</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.16.2024::14:33:38</_modifiedTime>
-			<_multiplicity type="a">1</_multiplicity>
-			<_otherClass type="r">
-				<IClassifierHandle type="e">
-					<_hm2Class type="a">IClass</_hm2Class>
-					<_hfilename type="a">.\System_Context.sbsx</_hfilename>
-					<_hsubsystem type="a">System_Analysis::System_Context</_hsubsystem>
-					<_hname type="a">CentralProcessingUnit</_hname>
-					<_hid type="a">GUID a5238308-2897-464c-b4b8-7f7f18bd69aa</_hid>
-				</IClassifierHandle>
-			</_otherClass>
-			<_inverse type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hfilename type="a">.\System_Context.sbsx</_hfilename>
-					<_hsubsystem type="a">System_Analysis::System_Context</_hsubsystem>
-					<_hclass type="a">CentralProcessingUnit</_hclass>
-					<_hname type="a">itsTurn On NVIS</_hname>
-					<_hid type="a">GUID 871c6146-56ce-4e57-8076-bab484525d11</_hid>
-				</IHandle>
-			</_inverse>
-			<_linkType type="a">Assoc</_linkType>
-			<_navigability type="a">Navigable</_navigability>
-		</IAssociationEnd>
 		<IUseCase type="e">
 			<_id type="a">GUID c3a58a9c-ab6a-4bb1-b38c-bee3ebf65511</_id>
 			<_myState type="a">8192</_myState>
@@ -4596,7 +4566,7 @@
 				<_text type="a">This use case turns off the ENVISion.</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">4.17.2024::12:10:11</_modifiedTime>
+			<_modifiedTime type="a">4.23.2024::9:39:17</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
@@ -4610,7 +4580,6 @@
 			</_EntryPoints>
 			<AggregatesList type="e">
 				<value>GUID 624b01b4-edef-4b21-8bab-24f79bab0142</value>
-				<value>GUID ceaa3f8e-aa0f-4c0c-9e3c-63d1c539a55c</value>
 			</AggregatesList>
 		</IUseCase>
 		<IAssociationEnd type="e">
@@ -4630,35 +4599,6 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hid type="a">GUID 9fdb16dc-1dbc-4e54-95cb-9f6be0bec791</_hid>
-				</IHandle>
-			</_inverse>
-			<_linkType type="a">Assoc</_linkType>
-			<_navigability type="a">Navigable</_navigability>
-		</IAssociationEnd>
-		<IAssociationEnd type="e">
-			<_id type="a">GUID ceaa3f8e-aa0f-4c0c-9e3c-63d1c539a55c</_id>
-			<_myState type="a">10240</_myState>
-			<_name type="a">itsCentralProcessingUnit</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.16.2024::15:0:53</_modifiedTime>
-			<_multiplicity type="a">1</_multiplicity>
-			<_otherClass type="r">
-				<IClassifierHandle type="e">
-					<_hm2Class type="a">IClass</_hm2Class>
-					<_hfilename type="a">.\System_Context.sbsx</_hfilename>
-					<_hsubsystem type="a">System_Analysis::System_Context</_hsubsystem>
-					<_hname type="a">CentralProcessingUnit</_hname>
-					<_hid type="a">GUID a5238308-2897-464c-b4b8-7f7f18bd69aa</_hid>
-				</IClassifierHandle>
-			</_otherClass>
-			<_inverse type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hfilename type="a">.\System_Context.sbsx</_hfilename>
-					<_hsubsystem type="a">System_Analysis::System_Context</_hsubsystem>
-					<_hclass type="a">CentralProcessingUnit</_hclass>
-					<_hname type="a">itsTurn Off NVIS</_hname>
-					<_hid type="a">GUID 8dc3f40b-39cf-4c2e-a95b-7b67dcbb0a9e</_hid>
 				</IHandle>
 			</_inverse>
 			<_linkType type="a">Assoc</_linkType>
@@ -4873,7 +4813,7 @@
 				<_text type="a">This use case turns on the fog lamp.</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">4.18.2024::13:5:33</_modifiedTime>
+			<_modifiedTime type="a">4.23.2024::9:39:17</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
@@ -4887,7 +4827,6 @@
 			</_EntryPoints>
 			<AggregatesList type="e">
 				<value>GUID 58ca07a0-db5c-4093-b318-4a75d2bb5696</value>
-				<value>GUID bd009d88-eb66-4975-8101-232eced80c88</value>
 				<value>GUID 4c2f9365-3b34-49ac-95b3-e7c8c5ad9c4b</value>
 				<value>GUID 2997b3ab-9d4f-49dc-b242-ae38af8af07a</value>
 			</AggregatesList>
@@ -4909,35 +4848,6 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hid type="a">GUID 98dab349-8081-4e2b-b3b9-1a05cf71f10f</_hid>
-				</IHandle>
-			</_inverse>
-			<_linkType type="a">Assoc</_linkType>
-			<_navigability type="a">Navigable</_navigability>
-		</IAssociationEnd>
-		<IAssociationEnd type="e">
-			<_id type="a">GUID bd009d88-eb66-4975-8101-232eced80c88</_id>
-			<_myState type="a">10240</_myState>
-			<_name type="a">itsCentralProcessingUnit</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.16.2024::14:41:23</_modifiedTime>
-			<_multiplicity type="a">1</_multiplicity>
-			<_otherClass type="r">
-				<IClassifierHandle type="e">
-					<_hm2Class type="a">IClass</_hm2Class>
-					<_hfilename type="a">.\System_Context.sbsx</_hfilename>
-					<_hsubsystem type="a">System_Analysis::System_Context</_hsubsystem>
-					<_hname type="a">CentralProcessingUnit</_hname>
-					<_hid type="a">GUID a5238308-2897-464c-b4b8-7f7f18bd69aa</_hid>
-				</IClassifierHandle>
-			</_otherClass>
-			<_inverse type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hfilename type="a">.\System_Context.sbsx</_hfilename>
-					<_hsubsystem type="a">System_Analysis::System_Context</_hsubsystem>
-					<_hclass type="a">CentralProcessingUnit</_hclass>
-					<_hname type="a">itsTurn On Fog Lamp</_hname>
-					<_hid type="a">GUID ffd9735c-7210-4bfa-a0d9-ae11a95af2a4</_hid>
 				</IHandle>
 			</_inverse>
 			<_linkType type="a">Assoc</_linkType>
@@ -5003,7 +4913,7 @@
 				<_text type="a">This use case turns off the fog lamp.</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">4.18.2024::13:5:39</_modifiedTime>
+			<_modifiedTime type="a">4.23.2024::9:39:17</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
@@ -5017,7 +4927,6 @@
 			</_EntryPoints>
 			<AggregatesList type="e">
 				<value>GUID 46b835f3-56fb-4ed6-9215-c286838a3ad7</value>
-				<value>GUID 118a90c1-1c05-4564-be14-4db1705f8842</value>
 				<value>GUID 0980e1a8-b2df-462f-a5b4-309d5a64b317</value>
 				<value>GUID 48544bac-a376-4746-8ce2-a5f5cc93aa5a</value>
 			</AggregatesList>
@@ -5039,35 +4948,6 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hid type="a">GUID b3c8f0da-d29f-4b62-a3a2-8715527410ca</_hid>
-				</IHandle>
-			</_inverse>
-			<_linkType type="a">Assoc</_linkType>
-			<_navigability type="a">Navigable</_navigability>
-		</IAssociationEnd>
-		<IAssociationEnd type="e">
-			<_id type="a">GUID 118a90c1-1c05-4564-be14-4db1705f8842</_id>
-			<_myState type="a">10240</_myState>
-			<_name type="a">itsCentralProcessingUnit</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.16.2024::14:41:34</_modifiedTime>
-			<_multiplicity type="a">1</_multiplicity>
-			<_otherClass type="r">
-				<IClassifierHandle type="e">
-					<_hm2Class type="a">IClass</_hm2Class>
-					<_hfilename type="a">.\System_Context.sbsx</_hfilename>
-					<_hsubsystem type="a">System_Analysis::System_Context</_hsubsystem>
-					<_hname type="a">CentralProcessingUnit</_hname>
-					<_hid type="a">GUID a5238308-2897-464c-b4b8-7f7f18bd69aa</_hid>
-				</IClassifierHandle>
-			</_otherClass>
-			<_inverse type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hfilename type="a">.\System_Context.sbsx</_hfilename>
-					<_hsubsystem type="a">System_Analysis::System_Context</_hsubsystem>
-					<_hclass type="a">CentralProcessingUnit</_hclass>
-					<_hname type="a">itsTurn Off Fog Lamp</_hname>
-					<_hid type="a">GUID 97f1b20b-6578-4cc2-8dd2-ce6980a579e3</_hid>
 				</IHandle>
 			</_inverse>
 			<_linkType type="a">Assoc</_linkType>
@@ -5156,7 +5036,8 @@ Main Scenario:%0D
 3. Speed check. (fog mode is off)%0D
 4. Road condition check. (speed &lt; 90)%0D
 5. Speed check (no winding)%0D
-6. Activate normal mode (speed &gt; 70) [END]%0D
+6. Activate normal mode (speed &gt; 70)%0D
+7. Go to 2.%0D
 %0D
 Alternate Scenarios:%0D
 %0D
@@ -5173,15 +5054,17 @@ Fog Mode is already on.%0D
 %0D
 Speed more than 90 kmph.%0D
 3.1 Check speed%0D
-3.1.1 Activate track mode 1 (speed &lt;110) [END]%0D
-3.1.2 Activate track mode 2 (speed &gt;110) [END]%0D
+3.1.1 Activate track mode 1 (speed &lt;110)%0D
+3.1.2 Activate track mode 2 (speed &gt;110)%0D
+3.2 Go to 2.%0D
 %0D
 Road is winding.%0D
 4.1 Speed check.%0D
 4.1.1 Check fog lamp (speed &lt;70)%0D
-4.1.1.1 Activate fog mode (fog lamp on) [END]%0D
+4.1.1.1 Activate fog mode (fog lamp on) %0D
 4.1.1.2 Go to 4.1.2 (fog lamp off)%0D
-4.1.2 Activate winding mode. [END]%0D
+4.1.2 Activate winding mode.%0D
+4.2 Go to 2.%0D
 %0D
 Speed is less than 70 kmph.%0D
 5.1 Check fog lamp.%0D
@@ -5189,7 +5072,7 @@ Speed is less than 70 kmph.%0D
 5.1.2 Go to 6.</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">4.18.2024::13:2:12</_modifiedTime>
+			<_modifiedTime type="a">4.24.2024::7:23:4</_modifiedTime>
 			<_lastID type="a">2</_lastID>
 			<weakCGTime type="a">4.17.2024::12:45:53</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
@@ -5361,10 +5244,10 @@ This use case controls the headlights according to mode activated.</_text>
 			<_name type="a">DisplayOnMonitoringDevice</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
-				<_text type="a">The use case displays the captured images to monitoring device.</_text>
+				<_text type="a">The use case displays the captured images, speed of the car to monitoring device. Working together with leds indicating the lighting modes.</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">4.18.2024::13:5:46</_modifiedTime>
+			<_modifiedTime type="a">4.24.2024::7:20:47</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
